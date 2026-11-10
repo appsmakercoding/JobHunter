@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="bn"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Job Hunter — ডাউনলোড</title><meta name="theme-color" content="#00704f">
+<style>
+:root{--g:#00704f;--r:#f23a4d;--bg:#f2f6f4;--t:#15251f;--m:#5f726a}
+@media(prefers-color-scheme:dark){:root{--bg:#0d1512;--t:#e8f1ed;--m:#9db2a9}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--t);font:16px/1.65 'Noto Sans Bengali',system-ui,sans-serif}
+.w{max-width:560px;margin:auto;padding:24px 16px 60px}
+.hero{background:linear-gradient(140deg,#003d2c,#00704f 55%,#12a676);color:#fff;border-radius:24px;padding:28px 22px;text-align:center;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;right:-40px;top:-40px;width:140px;height:140px;border-radius:50%;background:var(--r);opacity:.9}
+.hero img{width:92px;height:92px;border-radius:24px;position:relative;z-index:1;box-shadow:0 10px 30px #0005}
+.hero h1{margin:12px 0 4px;font-size:28px;position:relative;z-index:1}.hero p{margin:0 0 18px;opacity:.92;position:relative;z-index:1}
+.btn{display:inline-block;background:#fff;color:#00704f;font-weight:800;text-decoration:none;padding:14px 26px;border-radius:16px;font-size:18px;position:relative;z-index:1}
+.btn.dis{opacity:.6;pointer-events:none}
+.card{background:color-mix(in srgb,var(--bg) 60%,#fff);border:1px solid #0001;border-radius:16px;padding:14px 16px;margin:12px 0}
+.card h3{margin:0 0 6px}.card li{margin:4px 0}ul,ol{padding-left:20px;margin:6px 0}
+.m{color:var(--m);font-size:14px}
+</style></head><body><div class="w">
+<div class="hero"><img src="logo.svg" alt=""><h1>Job Hunter</h1><p>সিভি বিল্ডার · লাইভ চাকরি · মডেল টেস্ট · ইন্টারভিউ প্রস্তুতি</p><a id="dl" class="btn dis" href="#">লোড হচ্ছে…</a><div id="meta" class="m" style="margin-top:10px;color:#fff;opacity:.85;position:relative;z-index:1"></div></div>
+<div class="card"><h3>ইনস্টল করার নিয়ম</h3><ol><li>উপরের বাটন চেপে APK ডাউনলোড করুন।</li><li>ফাইলটি খুলুন। "অজানা উৎস থেকে ইনস্টল" চাইলে <b>অনুমতি</b> দিন।</li><li>ইনস্টল শেষে Job Hunter খুলুন।</li></ol><div class="m">নতুন সংস্করণ পুরনোটির ওপরেই আপডেট হয়ে বসে, তথ্য হারায় না।</div></div>
+<div class="card"><h3>অ্যাপে যা আছে</h3><ul><li>৬টি আধুনিক টেমপ্লেটের পেশাদার সিভি (PDF ও Word)</li><li>সরকারি, বেসরকারি, রিমোট ও বিদেশি চাকরি + অ্যালার্ট</li><li>আবেদন ট্র্যাকার ও ডেডলাইন রিমাইন্ডার</li><li>মডেল টেস্ট, দৈনিক চ্যালেঞ্জ, মক ভাইভা</li><li>ছবি-স্বাক্ষর রিসাইজ, ছবি থেকে PDF, কভার লেটার, ভুয়া চাকরি চেকার</li></ul></div>
+<p class="m" style="text-align:center">Powered by <b>Hasan</b></p></div>
+<script>
+(async()=>{const dl=document.getElementById('dl'),meta=document.getElementById('meta');
+let o,r;const q=new URLSearchParams(location.search).get('repo');
+if(q){[o,r]=q.split('/')}else if(location.hostname.endsWith('github.io')){o=location.hostname.split('.')[0];r=location.pathname.split('/')[1]}
+if(!o||!r){dl.textContent='repo নির্ধারণ করা যায়নি';meta.textContent='GitHub Pages থেকে খুলুন, অথবা ?repo=ব্যবহারকারী/রিপো যোগ করুন';return}
+dl.href='https://github.com/'+o+'/'+r+'/releases/latest';
+try{const j=await (await fetch('https://api.github.com/repos/'+o+'/'+r+'/releases/latest')).json();const a=(j.assets||[]).find(x=>/\.apk$/i.test(x.name));
+if(a){dl.href=a.browser_download_url;dl.textContent='📥 APK ডাউনলোড ('+(a.size/1048576).toFixed(1)+' MB)';dl.classList.remove('dis');meta.textContent=(j.name||'')+' · '+new Date(j.published_at).toLocaleDateString('bn-BD')}
+else{dl.textContent='Releases পেজে যান';dl.classList.remove('dis')}}catch(e){dl.textContent='Releases পেজে যান';dl.classList.remove('dis')}})();
+</script></body></html>
