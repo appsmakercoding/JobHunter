@@ -1,14 +1,9 @@
 name: Build Job Hunter APK
 
-# অ্যাপের কোড বদলালে বা হাতে Run workflow চাপলে APK তৈরি হবে।
-# চাকরির ডেটা (data/**) বদলালে নতুন APK বানানো হয় না — অ্যাপ নিজেই ডেটা আপডেট করে নেয়।
+# মেইন বা মাস্টার ব্রাঞ্চে কোড পুশ করলেই অটোমেটিক APK তৈরি হবে
 on:
   push:
     branches: [main, master]
-    paths-ignore:
-      - 'data/**'
-      - '**.md'
-      - '.github/workflows/update-jobs.yml'
   workflow_dispatch:
 
 permissions:
@@ -55,7 +50,6 @@ jobs:
           npx cap sync android
           MF=android/app/src/main/AndroidManifest.xml
           sed -i 's#<application#<uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>\n    <application#' $MF
-          # প্রতিটি বিল্ডের versionCode বাড়ে, তাই নতুন APK পুরনোটির ওপর আপডেট হিসেবে বসে
           sed -i "s/versionCode [0-9]\+/versionCode ${{ github.run_number }}/" android/app/build.gradle
           sed -i "s/versionName \"[^\"]*\"/versionName \"3.0.${{ github.run_number }}\"/" android/app/build.gradle
           echo "org.gradle.jvmargs=-Xmx3g -Dfile.encoding=UTF-8" >> android/gradle.properties
@@ -106,7 +100,7 @@ jobs:
           name: JobHunter-Release-APK
           path: JobHunter-release.apk
 
-      - name: Publish APK to Releases (সরাসরি ফোন থেকে ডাউনলোড)
+      - name: Publish APK to Releases (সরাসরি রিলিজ থেকে ডাউনলোড)
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -115,3 +109,4 @@ jobs:
             --target "${{ github.sha }}" \
             --title "Job Hunter — Build #${{ github.run_number }}" \
             --notes "সর্বশেষ Job Hunter APK। নিচের Assets থেকে JobHunter-release.apk ডাউনলোড করে ইনস্টল করুন।"
+            
