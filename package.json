@@ -1,0 +1,21 @@
+{
+  "name": "job-hunter",
+  "version": "3.2.0",
+  "description": "Job Hunter - CV Builder, Job Search & Exam Prep for Bangladesh",
+  "private": true,
+  "scripts": {
+    "fetch-jobs": "node scripts/fetch-jobs.mjs"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.2",
+    "@capacitor/app": "^6.0.1",
+    "@capacitor/browser": "^6.0.2",
+    "@capacitor/cli": "^6.1.2",
+    "@capacitor/core": "^6.1.2",
+    "@capacitor/filesystem": "^6.0.1",
+    "@capacitor/local-notifications": "^6.1.0",
+    "@capacitor/share": "^6.0.2",
+    "html2pdf.js": "0.10.2",
+    "js-yaml": "4.1.0"
+  }
+}

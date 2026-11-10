@@ -1,0 +1,9 @@
+{
+  "appId": "com.hasan.jobhunter",
+  "appName": "Job Hunter",
+  "webDir": "www",
+  "backgroundColor": "#f3f7f5",
+  "android": {
+    "allowMixedContent": false
+  }
+}
