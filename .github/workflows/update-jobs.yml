@@ -1,0 +1,47 @@
+name: Update Jobs
+
+# প্রতি ৬ ঘণ্টায় নতুন চাকরি সংগ্রহ করে data/jobs.json আপডেট করে।
+# data/curated.json এডিট করে Commit করলেও সাথে সাথে চলে।
+on:
+  schedule:
+    - cron: '17 */6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main, master]
+    paths:
+      - 'data/curated.json'
+      - 'scripts/fetch-jobs.mjs'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-jobs
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch jobs
+        run: node scripts/fetch-jobs.mjs
+
+      - name: Commit updated data
+        run: |
+          git config user.name "job-hunter-bot"
+          git config user.email "job-hunter-bot@users.noreply.github.com"
+          git add data/jobs.json
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "chore: update jobs $(date -u +%Y-%m-%d_%H:%M)"
+            git pull --rebase origin ${{ github.ref_name }} || true
+            git push
+          fi
