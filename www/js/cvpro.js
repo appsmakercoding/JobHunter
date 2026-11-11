@@ -1,6 +1,15 @@
-/* ===== Job Hunter 3.3 — "Pro" CV template (t7) + BDJobs-style fields ===== */
+/* ===== Job Hunter 3.3.2 — "Pro" CV template (t7) + BDJobs-style fields & Fixed Pagination ===== */
 
-LBL.en.decl = LBL.en.decl || 'I hereby declare that the information given above is true and correct to the best of my knowledge.'; LBL.bn.decl = LBL.bn.decl || 'আমি এই মর্মে ঘোষণা করছি যে, উপরোক্ত তথ্যাদি আমার জানামতে সত্য ও নির্ভুল।';
+LBL.en.decl = LBL.en.decl || 'I hereby declare that the information given above is true and correct to the best of my knowledge.'; 
+LBL.bn.decl = LBL.bn.decl || 'আমি এই মর্মে ঘোষণা করছি যে, উপরোক্ত তথ্যাদি আমার জানামতে সত্য ও নির্ভুল।';
+
+/* ---- Helper to safely format images/signatures (Fixes base64 text leak) ---- */
+function fixImg(src) {
+  if (!src) return '';
+  if (src.startsWith('data:') || src.startsWith('http') || src.startsWith('blob:')) return src;
+  return 'data:image/png;base64,' + src;
+}
+
 /* ---- 1. extra data fields (BDJobs-compatible) ---- */
 Object.assign(EMPTY, { cobj: '', soft: '', hdist: '', village: '', po: '', ps: '', dist: '', country: 'Bangladesh', cs: [] });
 Object.keys(EMPTY).forEach(k => { if (cv[k] === undefined) cv[k] = clone(EMPTY[k]) });
@@ -32,7 +41,7 @@ cvForm = function () {
   return h;
 };
 
-/* ---- 2. adapt BDJobs fields for the older templates & Word ---- */
+/* ---- 2. adapt BDJobs fields for older templates & Word ---- */
 function adapt(d) {
   const x = clone(d);
   x.edu = (x.edu || []).map(e => ({ ...e, deg: [e.deg, e.major ? 'in ' + e.major : ''].filter(Boolean).join(' '), inst: [e.inst, e.board].filter(Boolean).join(', '), res: [e.res, e.ach].filter(Boolean).join(' • ') }));
@@ -45,11 +54,11 @@ function adapt(d) {
 }
 const _cvWord = cvWord; cvWord = function (d = cv, o = cvo) { return _cvWord(adapt(d), o) };
 
-/* ---- 3. colour helpers (no color-mix: PDF engine cannot read it) ---- */
+/* ---- 3. colour helpers ---- */
 function tint(c, p, to) { const h = c.replace('#', ''), f = h.length === 3 ? h.split('').map(z => z + z).join('') : h, n = [0, 2, 4].map(i => parseInt(f.substr(i, 2), 16)), t = to === 'k' ? 0 : 255; return '#' + n.map(v => Math.round(v * p + t * (1 - p)).toString(16).padStart(2, '0')).join('') }
 const tintVars = c => [10, 22, 25, 30, 35, 45, 65].map(p => `--ac${p}:${tint(c, p / 100)};`).join('') + `--acd:${tint(c, .72, 'k')};`;
 
-/* ---- 4. icons (explicit colours: html2canvas draws SVG standalone) ---- */
+/* ---- 4. icons ---- */
 const IC = { phone: '<path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/>', mail: '<rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/>', pin: '<path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>', link: '<path d="M10 13a5 5 0 0 0 7.5.5l3-3a5 5 0 0 0-7-7l-1.7 1.7"/><path d="M14 11a5 5 0 0 0-7.5-.5l-3 3a5 5 0 0 0 7 7l1.7-1.7"/>', user: '<path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>', award: '<circle cx="12" cy="8" r="7"/><path d="M8.2 13.9 7 23l5-3 5 3-1.2-9.1"/>', brief: '<rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>', cap: '<path d="M22 10 12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/>', book: '<path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>', star: '<path d="m12 2 3.1 6.3 6.9 1-5 4.8 1.2 6.9L12 17.8 5.8 21 7 14.1l-5-4.8 6.9-1z"/>', gear: '<circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/>', globe: '<circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20z"/>', edit: '<path d="M12 20h9"/><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z"/>', home: '<path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/>', check: '<circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/>', monitor: '<rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/>' };
 const ico = (n, s, col, w = 2) => `<svg viewBox="0 0 24 24" width="${s}" height="${s}" fill="none" stroke="${col}" stroke-width="${w}" stroke-linecap="round" stroke-linejoin="round" style="display:block">${IC[n]}</svg>`;
 const lvPct = s => { s = String(s || '').toLowerCase(); return /native|mother/.test(s) ? 100 : /fluent|excellent/.test(s) ? 92 : /advanced|very good/.test(s) ? 85 : /professional|proficient|good/.test(s) ? 80 : /intermediate|moderate|medium|working/.test(s) ? 70 : /basic|elementary|fair|average/.test(s) ? 50 : /beginner/.test(s) ? 40 : 75 };
@@ -59,7 +68,7 @@ const ring7 = (p, col) => `<svg viewBox="0 0 36 36" width="74" height="74" style
 document.head.insertAdjacentHTML('beforeend', `<style id="cvpro-css">
 .cv{--ac10:#e7f3ee;--ac22:#c9e4da;--ac25:#c3dfd5;--ac30:#b3d6c9;--ac35:#a6cfc1;--ac45:#8cc0ae;--ac65:#5ca88e}
 .cv.t7{--o:#f5a524;width:794px;min-height:0;font-family:'Roboto Condensed','Arial Narrow','Noto Sans Bengali',Arial,sans-serif;font-size:var(--fs);line-height:1.45;color:#1b2340;background:#fff}
-.t7 .pg{position:relative;min-height:1120px;page-break-after:always;break-after:page;overflow:hidden}
+.t7 .pg{position:relative;min-height:1120px;page-break-after:always;break-after:page;overflow:hidden;box-sizing:border-box}
 .t7 .pg:last-child{page-break-after:auto;break-after:auto}
 .t7 .p1{display:flex}
 .t7 aside{width:306px;flex:none;background:linear-gradient(180deg,var(--ac),var(--acd));color:#fff;padding:34px 24px 100px}
@@ -112,6 +121,7 @@ const H7 = {
   en: { sum: 'Profile Summary', comp: 'Core Competencies', obj: 'Career Objective', edu: 'Education', ach: 'Academic Achievements', exp: 'Work Experience', proj: 'Projects', vol: 'Extracurricular Activities', skills: 'Skills', cs: 'Computer Skills', soft: 'Soft Skills', train: 'Training & Certifications', lang: 'Language Proficiency', pinfo: 'Personal Information', addr: 'Permanent & Present Address', decl: 'Declaration', contact: 'Contact', pd: 'Personal Details', langs: 'Languages', ref: 'References', page: 'Page', avail: 'Available on request.', area: 'Training Areas', dur: 'Duration', res: 'Result', year: 'Passing Year', ach2: 'Achievement', village: 'Village', po: 'Post Office', ps: 'Police Station', dist: 'District', country: 'Country', pres: 'Present Address', hd: 'Home District', date: 'Date', sig: 'Signature' },
   bn: { sum: 'প্রোফাইল সারসংক্ষেপ', comp: 'মূল দক্ষতা', obj: 'ক্যারিয়ার উদ্দেশ্য', edu: 'শিক্ষাগত যোগ্যতা', ach: 'একাডেমিক অর্জন', exp: 'কর্ম অভিজ্ঞতা', proj: 'প্রজেক্ট', vol: 'সহ-শিক্ষা কার্যক্রম', skills: 'দক্ষতা', cs: 'কম্পিউটার দক্ষতা', soft: 'সফট স্কিল', train: 'প্রশিক্ষণ ও সনদ', lang: 'ভাষা দক্ষতা', pinfo: 'ব্যক্তিগত তথ্য', addr: 'স্থায়ী ও বর্তমান ঠিকানা', decl: 'ঘোষণা', contact: 'যোগাযোগ', pd: 'ব্যক্তিগত বিবরণ', langs: 'ভাষা', ref: 'রেফারেন্স', page: 'পৃষ্ঠা', avail: 'চাইলে সরবরাহ করা হবে।', area: 'প্রশিক্ষণের বিষয়', dur: 'মেয়াদ', res: 'ফলাফল', year: 'পাসের সন', ach2: 'অর্জন', village: 'গ্রাম', po: 'ডাকঘর', ps: 'থানা', dist: 'জেলা', country: 'দেশ', pres: 'বর্তমান ঠিকানা', hd: 'নিজ জেলা', date: 'তারিখ', sig: 'স্বাক্ষর' },
 };
+
 function cvPro(d, o, color) {
   const T = H7[o.lang] || H7.en, L = LBL[o.lang] || LBL.en, col = color || TPLC.t7, bl = col;
   const sz = { s: 12.5, m: 13.5, l: 14.5 }[o.size] || 13.5, gap = o.dense === 'c' ? .72 : 1, mode = o.pg || 'two';
@@ -121,8 +131,10 @@ function cvPro(d, o, color) {
   const badge = n => `<span class="bi">${ico(n, mode === 'one' ? 16 : 19, '#fff')}</span>`;
   const sh = (n, t) => `<div class="sh">${badge(n)}<span>${e(t)}</span></div>`;
   const band = (n, t) => `<div class="bd7"><span class="bi">${ico(n, 19, bl)}</span><span>${e(t)}</span></div>`;
+  
   const showPh = o.photo, ini = String(d.name || 'U').trim().split(/\s+/).slice(0, 2).map(w => w[0] || '').join('').toUpperCase();
-  const avatar = !showPh ? '' : d.photo ? `<img class="av" src="${d.photo}">` : `<div class="av avi">${e(ini)}</div>`;
+  const avatar = !showPh ? '' : d.photo ? `<img class="av" src="${fixImg(d.photo)}">` : `<div class="av avi">${e(ini)}</div>`;
+  
   const cinfo = [['phone', d.phone], ['mail', d.email], ['pin', d.address], ['link', d.link]].filter(x => x[1] && String(x[1]).trim());
   const contact = cinfo.map(x => `<div class="ci"><span class="cb">${ico(x[0], 16, bl)}</span><span>${e(x[1])}</span></div>`).join('');
   const kv = (a, b) => b && String(b).trim() ? `<div class="kv"><i>•</i><b>${a}</b><span>: ${e(b)}</span></div>` : '';
@@ -140,6 +152,7 @@ function cvPro(d, o, color) {
   const objB = d.cobj && d.cobj.trim() ? `<div class="sm">${esc(d.cobj).replace(/\n/g, '<br>')}</div>` : '';
   const head = `<h1 class="nm">${e(d.name || 'Your Name')}</h1>${d.title ? `<div class="tt7">${e(d.title)}</div>` : ''}`;
   const pgBar = (n, tot) => tot > 1 ? `<div class="pb">${T.page} ${n}</div>` : '';
+
   /* items */
   const eduI = has(d.edu).map(x => `<div class="ti"><div class="tb"><span class="bi">${ico(/ssc|hsc|secondary|school|ক্লাস/i.test(x.deg) ? 'book' : 'cap', 19, '#fff')}</span></div><div class="tc"><b class="h">${e(x.deg)}${x.major ? ' in ' + e(x.major) : ''}</b>${x.inst ? `<div>${e(x.inst)}</div>` : ''}${x.board ? `<div>${e(x.board)}</div>` : ''}${x.res ? `<div>${T.res}: <b>${e(x.res)}</b></div>` : ''}${x.year ? `<div>${T.year}: <b>${e(x.year)}</b>${x.dur ? ` &nbsp;|&nbsp; ${T.dur}: ${e(x.dur)}` : ''}</div>` : x.dur ? `<div>${T.dur}: ${e(x.dur)}</div>` : ''}${x.ach ? `<div>${T.ach2}: ${e(x.ach)}</div>` : ''}</div></div>`);
   const eduC = has(d.edu).map(x => `<div style="margin:5px 0;line-height:1.35"><b>${e(x.deg)}${x.major ? ' in ' + e(x.major) : ''}</b> <span style="float:right">${e(x.year)}</span><br><span style="font-size:.95em">${[x.inst, x.board].filter(Boolean).map(e).join(', ')}${x.res ? ' — <b>' + e(x.res) + '</b>' : ''}${x.ach ? ' • ' + e(x.ach) : ''}</span></div>`);
@@ -155,19 +168,27 @@ function cvPro(d, o, color) {
   const addrB = (d.address ? `<div class="pr"><b>${T.pres}</b><span>: ${e(d.address)}</span></div>` : '') + (addrT.length ? addrT.map(x => `<div class="pr"><b>${x[0]}</b><span>: ${e(x[1])}</span></div>`).join('') : d.paddr ? `<div class="pr"><b>${L.paddr.split(' ')[0] === 'Permanent' ? 'Permanent' : 'স্থায়ী'}</b><span>: ${e(d.paddr)}</span></div>` : '');
   const pinfo = [[L.father, d.father], [L.mother, d.mother], [L.dob, d.dob], [L.nat, d.nat], [L.rel, d.rel], [L.mar, d.mar], [L.nid.split(' /')[0], d.nid], [T.hd, d.hdist], [L.gender, d.gender], [L.blood, d.blood]].filter(x => x[1] && String(x[1]).trim()).map(x => `<div class="pr"><b>${x[0]}</b><span>: ${e(x[1])}</span></div>`).join('');
   const piB = o.personal && (pinfo || addrB) ? `<div class="sh">${badge('user')}<span>${T.pinfo}</span></div><div class="pi"><div>${pinfo}</div><div><div class="sub">${ico('home', 20, bl)}<span>${T.addr}</span></div>${addrB}</div></div>` : '';
-  const sgn = (compact) => !(o.decl !== false) && !(o.sign && d.sign) ? '' : `${o.decl !== false ? `<div class="sh">${badge('edit')}<span>${T.decl}</span></div><div class="sm">${e(L.decl || '')}</div>` : ''}<div class="sgn" style="${compact ? 'margin-top:16px' : ''}"><div class="l">${o.sign && d.sign ? `<img src="${d.sign}">` : `<div style="height:${compact ? 22 : 40}px"></div>`}<div class="ln">${T.sig}</div></div><div class="dl">${T.date}: <i></i></div></div>`;
+  
+  const sgn = (compact) => !(o.decl !== false) && !(o.sign && d.sign) ? '' : `${o.decl !== false ? `<div class="sh">${badge('edit')}<span>${T.decl}</span></div><div class="sm">${e(L.decl || '')}</div>` : ''}<div class="sgn" style="${compact ? 'margin-top:16px' : ''}"><div class="l">${o.sign && d.sign ? `<img src="${fixImg(d.sign)}">` : `<div style="height:${compact ? 22 : 40}px"></div>`}<div class="ln">${T.sig}</div></div><div class="dl">${T.date}: <i></i></div></div>`;
 
   const side = (full, ext) => `<aside>${avatar}<h4>${T.contact}</h4>${contact}${(ext ? pdet2 : pdet) ? `<h4>${T.pd}</h4>${ext ? pdet2 : pdet}` : ''}${langKV ? `<h4>${T.langs}</h4>${langKV}` : ''}${full ? `<h4>${T.ref}</h4>${refs}` : ''}${mode === 'one' ? (cs.length ? `<h4>${T.cs}</h4>${cs.map(c => `<div style="font-size:.95em;display:flex;justify-content:space-between"><span>${e(c.n)}</span><span>${c.p}%</span></div><div class="bar7"><i style="width:${c.p}%"></i></div>`).join('')}` : '') + (soft.length ? `<h4>${T.soft}</h4>${soft.map(s => `<div class="kv"><i>•</i><span>${e(s)}</span></div>`).join('')}` : '') + `<h4>${T.ref}</h4>${refs}` : ''}</aside>`;
-  const secE = (arr, n, t, cls) => arr.length ? sh(n, t) + `<div class="${cls || ''}">${arr.join('')}</div>` : '';
+  
   const P = [];
   if (mode === 'one') {
     P.push(`<div class="pg p1 one">${side(false, true)}<div class="mn">${head}${d.obj && d.obj.trim() ? sh('user', T.sum) + sumB : ''}${comp.length ? sh('award', T.comp) + compHTML : ''}${eduC.length ? sh('cap', T.edu) + eduC.join('') : ''}${has(d.exp).length ? sh('brief', T.exp) + expC(d.exp).join('') : ''}${has(d.proj).length ? sh('gear', T.proj) + has(d.proj).map(x => `<div style="margin:5px 0"><b>${e(x.name)}</b>${bul(x.desc)}</div>`).join('') : ''}${has(d.train).length ? sh('award', T.train) + has(d.train).map(x => `<div style="margin:4px 0"><b>${e(x.name)}</b>${x.inst ? ' — ' + e(x.inst) : ''}${x.dur ? ' (' + e(x.dur) + ')' : ''}${x.year ? ' <span style="float:right">' + e(x.year) + '</span>' : ''}</div>`).join('') : ''}${has(d.ach).length ? sh('star', T.ach) + achL : ''}${objB ? sh('brief', T.obj) + objB : ''}${sgn(true)}</div></div>`);
   } else if (mode === 'full') {
+    // Page 1: Sidebar + Profile Summary & Core Competencies & Career Objective
     P.push(`<div class="pg p1">${side(true)}<div class="mn">${head}${d.obj && d.obj.trim() ? sh('user', T.sum) + sumB : ''}${comp.length ? sh('award', T.comp) + compHTML : ''}${objB ? sh('brief', T.obj) + objB : ''}</div>PB</div>`);
+    
+    // Page 2: Education, Academic Achievements, Work Experience
     const p2 = (eduI.length ? band('cap', T.edu) + `<div class="tl">${eduI.join('')}</div>` : '') + (achL ? band('star', T.ach) + achL : '') + (has(d.exp).length ? band('brief', T.exp) + `<div class="tl">${expI(d.exp, 'brief').join('')}</div>` : '') + (pjI.length ? band('gear', T.proj) + `<div class="tl">${pjI.join('')}</div>` : '') + (has(d.vol).length ? band('user', T.vol) + `<div class="tl">${expI(d.vol, 'user').join('')}</div>` : '');
     if (p2) P.push(`<div class="pg"><div class="cnt">${p2}</div>PB</div>`);
+    
+    // Page 3: Skills (Computer & Soft Skills), Training & Certifications, Language Proficiency
     const p3 = ((cs.length || soft.length) ? sh('gear', T.skills) + `<div class="${cs.length && soft.length ? 'cols' : ''}">${cs.length ? `<div><div class="sub">${ico('monitor', 22, bl)}<span>${T.cs}</span></div>${bars}</div>` : ''}${soft.length ? `<div><div class="sub">${ico('user', 22, bl)}<span>${T.soft}</span></div>${softL}</div>` : ''}</div>` : '') + (trI.length ? sh('award', T.train) + trI.join('') : '') + (langR ? sh('globe', T.lang) + langR : '');
     if (p3) P.push(`<div class="pg"><div class="cnt">${p3}</div>PB</div>`);
+    
+    // Page 4: Personal Information, Address, Declaration & Signature
     const p4 = piB + sgn(false);
     if (p4.trim()) P.push(`<div class="pg"><div class="cnt">${p4}</div>PB</div>`);
   } else { /* two pages */
@@ -179,43 +200,84 @@ function cvPro(d, o, color) {
   return `<div class="cv t7" data-mode="${mode}" style="${sty}">${P.map((p, i) => p.replace('PB', pgBar(i + 1, tot))).join('')}</div>`;
 }
 
-/* ---- 7. wire into the existing builder ---- */
-TPLS.unshift(['t7', '💎 প্রো (BD প্রফেশনাল)', 'ছবিসহ নীল সাইডবার, আইকন, স্কিল বার, শিক্ষার টাইমলাইন, ঘোষণা ও স্বাক্ষর — ১ / ২ / ৪ পাতা', '#0b2a8a']); TPLC.t7 = '#0b2a8a';
+/* ---- 7. wire into builder & Enhanced Pagination & PDF Export ---- */
+TPLS.unshift(['t7', '💎 প্রো (BD প্রফেশনাল)', 'ছবিসহ নীল সাইডবার, আইকন, স্কিল বার, শিক্ষার টাইমলাইন, ঘোষণা ও স্বাক্ষর — ১ / ২ / ৪ পাতা', '#0b2a8a']); 
+TPLC.t7 = '#0b2a8a';
 if (!LS.get('tpl', null)) tpl = 't7';
-cvo.pg = cvo.pg || 'two'; if (!LS.get('decl_init', 0)) { cvo.decl = true; saveO(); LS.set('decl_init', 1) }
+cvo.pg = cvo.pg || 'two'; 
+if (!LS.get('decl_init', 0)) { cvo.decl = true; saveO(); LS.set('decl_init', 1) }
+
 const _cvHTML = cvHTML;
 cvHTML = function (d, t, o = cvo, color = ac) {
   if (t === 't7') return cvPro(d, o, color);
   const c = color || TPLC[t] || '#006a4e';
   return _cvHTML(adapt(d), t, o, color).replace(/style="--ac:(#[0-9a-fA-F]{3,6});/, (m, x) => m + tintVars(x));
 };
+
 function fitPages(root) {
-  if (!root.dataset.fs0) { root.dataset.fs0 = parseFloat(getComputedStyle(root).getPropertyValue('--fs')) || 13.5; root.dataset.g0 = parseFloat(getComputedStyle(root).getPropertyValue('--gap')) || 1 }
-  const fs0 = +root.dataset.fs0, g0 = +root.dataset.g0, pgs = [...root.querySelectorAll('.pg')], steps = root.dataset.mode === 'one' ? [1, .95, .9, .86, .82, .78, .74, .7] : [1, .96, .92, .88, .84, .8, .76];
-  for (const k of steps) { root.style.setProperty('--fs', (fs0 * k).toFixed(2) + 'px'); root.style.setProperty('--gap', (g0 * k).toFixed(2)); if (pgs.every(p => p.offsetHeight <= 1121)) break }
+  if (!root.dataset.fs0) { 
+    root.dataset.fs0 = parseFloat(getComputedStyle(root).getPropertyValue('--fs')) || 13.5; 
+    root.dataset.g0 = parseFloat(getComputedStyle(root).getPropertyValue('--gap')) || 1; 
+  }
+  const fs0 = +root.dataset.fs0, g0 = +root.dataset.g0, pgs = [...root.querySelectorAll('.pg')], steps = root.dataset.mode === 'one' ? [1, .95, .9, .86, .82, .78, .74, .7] : [1, .96, .92, .88, .84, .8, .76, .7];
+  for (const k of steps) { 
+    root.style.setProperty('--fs', (fs0 * k).toFixed(2) + 'px'); 
+    root.style.setProperty('--gap', (g0 * k).toFixed(2)); 
+    if (pgs.every(p => p.scrollHeight <= 1130)) break; 
+  }
   return pgs.length;
 }
+
 const _fitCV = fitCV;
 fitCV = function (el) { const r = el.classList && el.classList.contains('cv') ? el : el.querySelector('.cv'); return r && r.classList.contains('t7') ? fitPages(r) : _fitCV(el) };
+
 const _fitPreview = fitPreview;
 fitPreview = function () {
   const i = $('#pwi'); const r = i && i.querySelector('.cv.t7'); if (r) { r.dataset.fs0 = ''; fitPages(r) }
   _fitPreview();
   if (r) {
-    i.querySelectorAll('.pgmark').forEach(x => x.remove()); const n = r.querySelectorAll('.pg').length, pn = $('#pgn');
+    i.querySelectorAll('.pgmark').forEach(x => x.remove()); 
+    const n = r.querySelectorAll('.pg').length, pn = $('#pgn');
     if (pn) pn.textContent = `📄 মোট পেজ: ${bn(n)} — ${cvo.pg === 'one' ? 'এক পাতার সিভি ✅' : cvo.pg === 'full' ? 'বিস্তারিত ৪ পাতার সিভি (প্রতি পাতায় নির্দিষ্ট বিভাগ)' : 'দুই পাতার সিভি ✅'}`;
   }
 };
+
 const _exportPDF = exportPDF;
 exportPDF = async function () {
   if (tpl !== 't7') return _exportPDF();
-  if (!cv.name.trim()) { toast('আগে নাম লিখুন'); return } if (!window.html2pdf) { toast('PDF লাইব্রেরি পাওয়া যায়নি'); return }
+  if (!cv.name.trim()) { toast('আগে নাম লিখুন'); return } 
+  if (!window.html2pdf) { toast('PDF লাইব্রেরি পাওয়া যায়নি'); return }
+  
   toast('PDF তৈরি হচ্ছে... একটু অপেক্ষা করুন');
-  const wrap = document.createElement('div'); wrap.style.cssText = 'position:fixed;left:-10000px;top:0;width:794px;background:#fff'; wrap.innerHTML = cvHTML(cv, 't7'); document.body.appendChild(wrap);
+  const wrap = document.createElement('div'); 
+  wrap.style.cssText = 'position:fixed;left:-10000px;top:0;width:794px;background:#fff;z-index:99999;'; 
+  wrap.innerHTML = cvHTML(cv, 't7'); 
+  document.body.appendChild(wrap);
+
+  const r = wrap.firstElementChild;
+  fitPages(r);
+
   const name = (cv.name.trim().replace(/[^\w\u0980-\u09FF]+/g, '_') || 'My') + '_CV.pdf';
-  try { const n = fitPages(wrap.firstElementChild); await elementToPDF(wrap.firstElementChild, name, { margin: [0, 0, 0, 0], scale: n > 2 ? 2 : 2.5 }); toast('✅ PDF তৈরি হয়েছে') } catch (e) { toast('PDF তৈরি করা যায়নি — আবার চেষ্টা করুন') }
-  wrap.remove();
+  
+  const opt = {
+    margin: 0,
+    filename: name,
+    image: { type: 'jpeg', quality: 0.98 },
+    html2canvas: { scale: 2, useCORS: true, letterRendering: true, scrollX: 0, scrollY: 0 },
+    jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+  };
+
+  try { 
+    await html2pdf().set(opt).from(r).save(); 
+    toast('✅ PDF সফলভাবে তৈরি হয়েছে'); 
+  } catch (e) { 
+    console.error(e);
+    toast('PDF তৈরি করা যায়নি — আবার চেষ্টা করুন'); 
+  } finally {
+    wrap.remove();
+  }
 };
+
 const _cvTpl = cvTpl;
 cvTpl = function () {
   let h = _cvTpl();
