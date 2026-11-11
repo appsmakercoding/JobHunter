@@ -1,13 +1,15 @@
-/* ===== Job Hunter 3.3.2 — "Pro" CV template (t7) + BDJobs-style fields & Fixed Pagination ===== */
+/* ===== Job Hunter 3.4.0 — Ultimate Final "Pro" CV template (t7) + Fixed Image, Signature & Pagination ===== */
 
 LBL.en.decl = LBL.en.decl || 'I hereby declare that the information given above is true and correct to the best of my knowledge.'; 
 LBL.bn.decl = LBL.bn.decl || 'আমি এই মর্মে ঘোষণা করছি যে, উপরোক্ত তথ্যাদি আমার জানামতে সত্য ও নির্ভুল।';
 
-/* ---- Helper to safely format images/signatures (Fixes base64 text leak) ---- */
+/* ---- Robust Image/Signature Fixer (Prevents blank space & base64 text leak) ---- */
 function fixImg(src) {
-  if (!src) return '';
-  if (src.startsWith('data:') || src.startsWith('http') || src.startsWith('blob:')) return src;
-  return 'data:image/png;base64,' + src;
+  if (!src || typeof src !== 'string') return '';
+  const s = src.trim();
+  if (!s || s === 'null' || s === 'undefined' || s === 'none' || s === 'NaN') return '';
+  if (s.startsWith('data:') || s.startsWith('http') || s.startsWith('blob:')) return s;
+  return 'data:image/png;base64,' + s;
 }
 
 /* ---- 1. extra data fields (BDJobs-compatible) ---- */
@@ -64,14 +66,14 @@ const ico = (n, s, col, w = 2) => `<svg viewBox="0 0 24 24" width="${s}" height=
 const lvPct = s => { s = String(s || '').toLowerCase(); return /native|mother/.test(s) ? 100 : /fluent|excellent/.test(s) ? 92 : /advanced|very good/.test(s) ? 85 : /professional|proficient|good/.test(s) ? 80 : /intermediate|moderate|medium|working/.test(s) ? 70 : /basic|elementary|fair|average/.test(s) ? 50 : /beginner/.test(s) ? 40 : 75 };
 const ring7 = (p, col) => `<svg viewBox="0 0 36 36" width="74" height="74" style="display:block"><circle cx="18" cy="18" r="15.9155" fill="none" stroke="#e3e6ee" stroke-width="3.6"/><circle cx="18" cy="18" r="15.9155" fill="none" stroke="${col}" stroke-width="3.6" stroke-linecap="round" stroke-dasharray="${p} ${100 - p}" transform="rotate(-90 18 18)"/></svg>`;
 
-/* ---- 5. styles ---- */
+/* ---- 5. styles with strict page break protections ---- */
 document.head.insertAdjacentHTML('beforeend', `<style id="cvpro-css">
 .cv{--ac10:#e7f3ee;--ac22:#c9e4da;--ac25:#c3dfd5;--ac30:#b3d6c9;--ac35:#a6cfc1;--ac45:#8cc0ae;--ac65:#5ca88e}
 .cv.t7{--o:#f5a524;width:794px;min-height:0;font-family:'Roboto Condensed','Arial Narrow','Noto Sans Bengali',Arial,sans-serif;font-size:var(--fs);line-height:1.45;color:#1b2340;background:#fff}
-.t7 .pg{position:relative;min-height:1120px;page-break-after:always;break-after:page;overflow:hidden;box-sizing:border-box}
+.t7 .pg{position:relative;min-height:1120px;max-height:1120px;page-break-after:always;break-after:page;overflow:hidden;box-sizing:border-box}
 .t7 .pg:last-child{page-break-after:auto;break-after:auto}
 .t7 .p1{display:flex}
-.t7 aside{width:306px;flex:none;background:linear-gradient(180deg,var(--ac),var(--acd));color:#fff;padding:34px 24px 100px}
+.t7 aside{width:306px;flex:none;background:linear-gradient(180deg,var(--ac),var(--acd));color:#fff;padding:34px 24px 100px;box-sizing:border-box}
 .t7 .av{width:190px;height:190px;border-radius:50%;border:5px solid #fff;margin:0 auto 22px;display:block;object-fit:cover;background:#fff}
 .t7 .avi{display:flex;align-items:center;justify-content:center;font-size:4.6em;font-weight:800;color:var(--ac)}
 .t7 aside h4{margin:calc(20px*var(--gap)) 0 10px;color:var(--o);font-size:1.28em;font-weight:800;text-transform:uppercase;display:flex;align-items:center;gap:10px;letter-spacing:.3px}
@@ -79,36 +81,36 @@ document.head.insertAdjacentHTML('beforeend', `<style id="cvpro-css">
 .t7 .ci{display:flex;gap:10px;align-items:center;margin:8px 0;word-break:break-word;font-size:.98em}
 .t7 .cb{width:30px;height:30px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;flex:none}
 .t7 .kv{display:flex;gap:6px;margin:4px 0;font-size:.95em;line-height:1.35}.t7 .kv i{font-style:normal;flex:none}.t7 .kv b{font-weight:400;width:104px;flex:none}.t7 .kv span{word-break:break-word}
-.t7 .mn{flex:1;min-width:0;padding:42px 34px 100px 34px}
+.t7 .mn{flex:1;min-width:0;padding:42px 34px 100px 34px;box-sizing:border-box}
 .t7 .nm{margin:0;font-size:calc(var(--fs)*3.9);line-height:1.02;font-weight:800;text-transform:uppercase;color:var(--ac);letter-spacing:-.5px;word-break:break-word}
 .t7 .tt7{margin-top:14px;padding-bottom:12px;border-bottom:3px solid var(--o);font-size:1.4em;text-transform:uppercase;color:#1b2340}
-.t7 .sh{display:flex;align-items:center;gap:12px;margin:calc(24px*var(--gap)) 0 12px;font-weight:800;font-size:1.32em;text-transform:uppercase;color:#10183a}
+.t7 .sh{display:flex;align-items:center;gap:12px;margin:calc(18px*var(--gap)) 0 10px;font-weight:800;font-size:1.32em;text-transform:uppercase;color:#10183a;break-inside:avoid;page-break-inside:avoid}
 .t7 .sh::after{content:"";flex:1;height:2px;background:var(--o);max-width:150px}
 .t7 .bi{width:38px;height:38px;border-radius:50%;background:var(--ac);display:flex;align-items:center;justify-content:center;flex:none}
 .t7 .sm{font-size:1.02em;line-height:1.6;text-align:left}
 .t7 .cg{display:grid;grid-template-columns:1fr 1fr;gap:9px 14px}.t7 .cg div{display:flex;gap:8px;align-items:center;font-size:1em}
-.t7 .bd7{background:var(--ac);color:#fff;display:flex;align-items:center;gap:14px;padding:11px 22px;font-weight:800;font-size:1.5em;text-transform:uppercase;margin:calc(8px*var(--gap)) 0 14px;border-bottom:3px solid var(--o)}
+.t7 .bd7{background:var(--ac);color:#fff;display:flex;align-items:center;gap:14px;padding:11px 22px;font-weight:800;font-size:1.5em;text-transform:uppercase;margin:calc(8px*var(--gap)) 0 14px;border-bottom:3px solid var(--o);break-inside:avoid;page-break-inside:avoid}
 .t7 .bd7::after{content:"";flex:1;height:2px;background:var(--o)}
 .t7 .bd7 .bi{background:#fff;width:34px;height:34px}
-.t7 .cnt{padding:0 40px 96px}
+.t7 .cnt{padding:0 40px 96px;box-sizing:border-box}
 .t7 .pg>.cnt:first-child{padding-top:34px}
-.t7 .tl .ti{display:flex;gap:16px;position:relative;padding-bottom:calc(14px*var(--gap));break-inside:avoid}
+.t7 .tl .ti{display:flex;gap:16px;position:relative;padding-bottom:calc(12px*var(--gap));break-inside:avoid;page-break-inside:avoid}
 .t7 .tl .ti::before{content:"";position:absolute;left:19px;top:42px;bottom:2px;width:2px;background:var(--o)}
 .t7 .tl .ti:last-child::before{display:none}
 .t7 .tb{flex:none}.t7 .tc{flex:1;min-width:0;line-height:1.4}.t7 .tc .h{font-size:1.14em;font-weight:800;color:#10183a;display:block;margin-bottom:1px}
 .t7 .tc .m{font-size:.92em;color:#333;margin-top:3px;display:flex;gap:6px 14px;flex-wrap:wrap;align-items:center}.t7 .tc .m span{display:inline-flex;gap:4px;align-items:center}
 .t7 .tc ul{margin:4px 0 0;padding-left:18px}.t7 .tc li{font-size:.94em;margin:1px 0}
-.t7 .st li{list-style:none;display:flex;gap:10px;margin:4px 0}.t7 ul.st{padding:0;margin:0}
+.t7 .st li{list-style:none;display:flex;gap:10px;margin:4px 0;break-inside:avoid;page-break-inside:avoid}.t7 ul.st{padding:0;margin:0}
 .t7 .cols{display:grid;grid-template-columns:1.25fr 1fr;gap:0 26px}.t7 .cols>div+div{border-left:2px solid var(--o);padding-left:22px}
-.t7 .sb7{display:flex;align-items:center;gap:10px;margin:10px 0;font-size:.98em}.t7 .sb7 .n{width:150px;flex:none}.t7 .sb7 .p{width:52px;flex:none;text-align:right;font-weight:700}
+.t7 .sb7{display:flex;align-items:center;gap:10px;margin:8px 0;font-size:.98em;break-inside:avoid;page-break-inside:avoid}.t7 .sb7 .n{width:150px;flex:none}.t7 .sb7 .p{width:52px;flex:none;text-align:right;font-weight:700}
 .t7 .br{flex:1;height:8px;border-radius:5px;background:#e9ebf3;overflow:hidden}.t7 .br i{display:block;height:100%;border-radius:5px;background:linear-gradient(90deg,var(--ac) 88%,var(--o) 88%)}
-.t7 .sub{display:flex;align-items:center;gap:10px;font-weight:800;font-size:1.2em;text-transform:uppercase;margin:6px 0 10px}
-.t7 .lg{display:flex;gap:34px;flex-wrap:wrap}.t7 .lg>div{display:flex;align-items:center;gap:12px}.t7 .lgp{position:relative;width:74px;height:74px}.t7 .lgp b{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:1.05em}
-.t7 .pi{display:grid;grid-template-columns:1fr 1fr;gap:0 28px}.t7 .pi>div+div{border-left:2px solid var(--o);padding-left:24px}
-.t7 .pr{display:flex;gap:6px;margin:11px 0}.t7 .pr b{width:112px;flex:none}.t7 .pr span{word-break:break-word}
-.t7 .sgn{display:flex;justify-content:space-between;align-items:flex-end;margin-top:34px}.t7 .sgn .l{min-width:210px;text-align:center}.t7 .sgn img{height:50px;max-width:200px;object-fit:contain;display:block;margin:0 auto 2px}.t7 .sgn .ln{border-top:1.5px solid #111;padding-top:4px}
+.t7 .sub{display:flex;align-items:center;gap:10px;font-weight:800;font-size:1.2em;text-transform:uppercase;margin:6px 0 10px;break-inside:avoid;page-break-inside:avoid}
+.t7 .lg{display:flex;gap:34px;flex-wrap:wrap}.t7 .lg>div{display:flex;align-items:center;gap:12px;break-inside:avoid;page-break-inside:avoid}.t7 .lgp{position:relative;width:74px;height:74px}.t7 .lgp b{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:1.05em}
+.t7 .pi{display:grid;grid-template-columns:1fr 1fr;gap:0 28px;break-inside:avoid;page-break-inside:avoid}.t7 .pi>div+div{border-left:2px solid var(--o);padding-left:24px}
+.t7 .pr{display:flex;gap:6px;margin:9px 0}.t7 .pr b{width:112px;flex:none}.t7 .pr span{word-break:break-word}
+.t7 .sgn{display:flex;justify-content:space-between;align-items:flex-end;margin-top:28px;break-inside:avoid;page-break-inside:avoid}.t7 .sgn .l{min-width:210px;text-align:center}.t7 .sgn img{height:45px;max-width:180px;object-fit:contain;display:block;margin:0 auto 2px}.t7 .sgn .ln{border-top:1.5px solid #111;padding-top:4px}
 .t7 .dl{display:flex;gap:6px;align-items:flex-end}.t7 .dl i{display:inline-block;width:150px;border-bottom:1.5px solid #111;height:1px}
-.t7 .pb{position:absolute;left:40px;right:40px;bottom:30px;height:46px;background:var(--ac);color:var(--o);font-weight:800;font-size:1.25em;display:flex;align-items:center;justify-content:flex-end;padding-right:36px;text-transform:uppercase}
+.t7 .pb{position:absolute;left:40px;right:40px;bottom:20px;height:40px;background:var(--ac);color:var(--o);font-weight:800;font-size:1.2em;display:flex;align-items:center;justify-content:flex-end;padding-right:36px;text-transform:uppercase}
 .t7 .p1 .pb{left:auto;right:0;width:240px;color:#fff;justify-content:center;padding:0}
 .t7 .one .mn{padding:36px 30px 36px 30px}.t7 .one aside{padding:30px 20px 36px;width:268px}.t7 .one .av{width:150px;height:150px}.t7 .one .nm{font-size:calc(var(--fs)*3.2)}
 .t7 .one .sh{margin:calc(16px*var(--gap)) 0 8px;font-size:1.18em}.t7 .one .bi{width:30px;height:30px}.t7 .one .kv b{width:84px}
@@ -132,9 +134,15 @@ function cvPro(d, o, color) {
   const sh = (n, t) => `<div class="sh">${badge(n)}<span>${e(t)}</span></div>`;
   const band = (n, t) => `<div class="bd7"><span class="bi">${ico(n, 19, bl)}</span><span>${e(t)}</span></div>`;
   
-  const showPh = o.photo, ini = String(d.name || 'U').trim().split(/\s+/).slice(0, 2).map(w => w[0] || '').join('').toUpperCase();
-  const avatar = !showPh ? '' : d.photo ? `<img class="av" src="${fixImg(d.photo)}">` : `<div class="av avi">${e(ini)}</div>`;
+  /* Safe Image & Signature Validation with crossOrigin */
+  const showPh = o.photo;
+  const ini = String(d.name || 'U').trim().split(/\s+/).slice(0, 2).map(w => w[0] || '').join('').toUpperCase();
+  const validPhoto = fixImg(d.photo);
+  const avatar = !showPh ? '' : validPhoto ? `<img class="av" src="${validPhoto}" crossorigin="anonymous">` : `<div class="av avi">${e(ini)}</div>`;
   
+  const validSign = fixImg(d.sign);
+  const signImg = o.sign && validSign ? `<img src="${validSign}" crossorigin="anonymous">` : '';
+
   const cinfo = [['phone', d.phone], ['mail', d.email], ['pin', d.address], ['link', d.link]].filter(x => x[1] && String(x[1]).trim());
   const contact = cinfo.map(x => `<div class="ci"><span class="cb">${ico(x[0], 16, bl)}</span><span>${e(x[1])}</span></div>`).join('');
   const kv = (a, b) => b && String(b).trim() ? `<div class="kv"><i>•</i><b>${a}</b><span>: ${e(b)}</span></div>` : '';
@@ -169,7 +177,7 @@ function cvPro(d, o, color) {
   const pinfo = [[L.father, d.father], [L.mother, d.mother], [L.dob, d.dob], [L.nat, d.nat], [L.rel, d.rel], [L.mar, d.mar], [L.nid.split(' /')[0], d.nid], [T.hd, d.hdist], [L.gender, d.gender], [L.blood, d.blood]].filter(x => x[1] && String(x[1]).trim()).map(x => `<div class="pr"><b>${x[0]}</b><span>: ${e(x[1])}</span></div>`).join('');
   const piB = o.personal && (pinfo || addrB) ? `<div class="sh">${badge('user')}<span>${T.pinfo}</span></div><div class="pi"><div>${pinfo}</div><div><div class="sub">${ico('home', 20, bl)}<span>${T.addr}</span></div>${addrB}</div></div>` : '';
   
-  const sgn = (compact) => !(o.decl !== false) && !(o.sign && d.sign) ? '' : `${o.decl !== false ? `<div class="sh">${badge('edit')}<span>${T.decl}</span></div><div class="sm">${e(L.decl || '')}</div>` : ''}<div class="sgn" style="${compact ? 'margin-top:16px' : ''}"><div class="l">${o.sign && d.sign ? `<img src="${fixImg(d.sign)}">` : `<div style="height:${compact ? 22 : 40}px"></div>`}<div class="ln">${T.sig}</div></div><div class="dl">${T.date}: <i></i></div></div>`;
+  const sgn = (compact) => !(o.decl !== false) && !(o.sign && d.sign) ? '' : `${o.decl !== false ? `<div class="sh">${badge('edit')}<span>${T.decl}</span></div><div class="sm">${e(L.decl || '')}</div>` : ''}<div class="sgn" style="${compact ? 'margin-top:16px' : ''}"><div class="l">${signImg ? signImg : `<div style="height:${compact ? 22 : 40}px"></div>`}<div class="ln">${T.sig}</div></div><div class="dl">${T.date}: <i></i></div></div>`;
 
   const side = (full, ext) => `<aside>${avatar}<h4>${T.contact}</h4>${contact}${(ext ? pdet2 : pdet) ? `<h4>${T.pd}</h4>${ext ? pdet2 : pdet}` : ''}${langKV ? `<h4>${T.langs}</h4>${langKV}` : ''}${full ? `<h4>${T.ref}</h4>${refs}` : ''}${mode === 'one' ? (cs.length ? `<h4>${T.cs}</h4>${cs.map(c => `<div style="font-size:.95em;display:flex;justify-content:space-between"><span>${e(c.n)}</span><span>${c.p}%</span></div><div class="bar7"><i style="width:${c.p}%"></i></div>`).join('')}` : '') + (soft.length ? `<h4>${T.soft}</h4>${soft.map(s => `<div class="kv"><i>•</i><span>${e(s)}</span></div>`).join('')}` : '') + `<h4>${T.ref}</h4>${refs}` : ''}</aside>`;
   
@@ -177,18 +185,11 @@ function cvPro(d, o, color) {
   if (mode === 'one') {
     P.push(`<div class="pg p1 one">${side(false, true)}<div class="mn">${head}${d.obj && d.obj.trim() ? sh('user', T.sum) + sumB : ''}${comp.length ? sh('award', T.comp) + compHTML : ''}${eduC.length ? sh('cap', T.edu) + eduC.join('') : ''}${has(d.exp).length ? sh('brief', T.exp) + expC(d.exp).join('') : ''}${has(d.proj).length ? sh('gear', T.proj) + has(d.proj).map(x => `<div style="margin:5px 0"><b>${e(x.name)}</b>${bul(x.desc)}</div>`).join('') : ''}${has(d.train).length ? sh('award', T.train) + has(d.train).map(x => `<div style="margin:4px 0"><b>${e(x.name)}</b>${x.inst ? ' — ' + e(x.inst) : ''}${x.dur ? ' (' + e(x.dur) + ')' : ''}${x.year ? ' <span style="float:right">' + e(x.year) + '</span>' : ''}</div>`).join('') : ''}${has(d.ach).length ? sh('star', T.ach) + achL : ''}${objB ? sh('brief', T.obj) + objB : ''}${sgn(true)}</div></div>`);
   } else if (mode === 'full') {
-    // Page 1: Sidebar + Profile Summary & Core Competencies & Career Objective
     P.push(`<div class="pg p1">${side(true)}<div class="mn">${head}${d.obj && d.obj.trim() ? sh('user', T.sum) + sumB : ''}${comp.length ? sh('award', T.comp) + compHTML : ''}${objB ? sh('brief', T.obj) + objB : ''}</div>PB</div>`);
-    
-    // Page 2: Education, Academic Achievements, Work Experience
     const p2 = (eduI.length ? band('cap', T.edu) + `<div class="tl">${eduI.join('')}</div>` : '') + (achL ? band('star', T.ach) + achL : '') + (has(d.exp).length ? band('brief', T.exp) + `<div class="tl">${expI(d.exp, 'brief').join('')}</div>` : '') + (pjI.length ? band('gear', T.proj) + `<div class="tl">${pjI.join('')}</div>` : '') + (has(d.vol).length ? band('user', T.vol) + `<div class="tl">${expI(d.vol, 'user').join('')}</div>` : '');
     if (p2) P.push(`<div class="pg"><div class="cnt">${p2}</div>PB</div>`);
-    
-    // Page 3: Skills (Computer & Soft Skills), Training & Certifications, Language Proficiency
     const p3 = ((cs.length || soft.length) ? sh('gear', T.skills) + `<div class="${cs.length && soft.length ? 'cols' : ''}">${cs.length ? `<div><div class="sub">${ico('monitor', 22, bl)}<span>${T.cs}</span></div>${bars}</div>` : ''}${soft.length ? `<div><div class="sub">${ico('user', 22, bl)}<span>${T.soft}</span></div>${softL}</div>` : ''}</div>` : '') + (trI.length ? sh('award', T.train) + trI.join('') : '') + (langR ? sh('globe', T.lang) + langR : '');
     if (p3) P.push(`<div class="pg"><div class="cnt">${p3}</div>PB</div>`);
-    
-    // Page 4: Personal Information, Address, Declaration & Signature
     const p4 = piB + sgn(false);
     if (p4.trim()) P.push(`<div class="pg"><div class="cnt">${p4}</div>PB</div>`);
   } else { /* two pages */
@@ -263,7 +264,7 @@ exportPDF = async function () {
     margin: 0,
     filename: name,
     image: { type: 'jpeg', quality: 0.98 },
-    html2canvas: { scale: 2, useCORS: true, letterRendering: true, scrollX: 0, scrollY: 0 },
+    html2canvas: { scale: 2, useCORS: true, allowTaint: true, letterRendering: true, scrollX: 0, scrollY: 0 },
     jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
   };
 
