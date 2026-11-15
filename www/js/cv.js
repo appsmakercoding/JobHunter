@@ -1,5 +1,5 @@
 /* ===== Job Hunter 3.0 — CV Builder ===== */
-const EMPTY = { name: '', title: '', phone: '', email: '', address: '', paddr: '', link: '', photo: '', sign: '', father: '', mother: '', dob: '', nat: 'Bangladeshi', rel: '', mar: '', gender: '', nid: '', blood: '', obj: '', skills: '', langs: '', hobby: '', edu: [{ deg: '', inst: '', year: '', res: '' }], exp: [], train: [], proj: [], ach: [], vol: [], refs: [] };
+const EMPTY = { name: '', title: '', phone: '', email: '', address: '', paddr: '', link: '', photo: '', sign: '', father: '', mother: '', dob: '', nat: 'Bangladeshi', rel: '', mar: '', gender: '', nid: '', blood: '', obj: '', goal: '', comp: '', skills: '', langs: '', hobby: '', pvil: '', ppo: '', pps: '', pdist: '', hdist: '', sk2: [], lang2: [], edu: [{ deg: '', major: '', inst: '', board: '', year: '', res: '', dur: '', ach: '' }], exp: [], train: [], proj: [], ach: [], vol: [], refs: [] };
 const SAMPLE = {
   name: 'Rahim Uddin', title: 'Junior Software Engineer', phone: '+880 1700-000000', email: 'rahim.uddin@gmail.com', address: 'Mirpur-10, Dhaka-1216', paddr: 'Village: Char Kukri, Bhola', link: 'linkedin.com/in/rahimuddin', photo: '',
   father: 'Abdul Karim', mother: 'Rahima Begum', dob: '12 March 2000', nat: 'Bangladeshi', rel: 'Islam', mar: 'Single', gender: 'Male', nid: '', blood: 'B+',
@@ -16,21 +16,28 @@ const SAMPLE = {
 };
 let cv = Object.assign(clone(EMPTY), LS.get('cv', {}));
 let tpl = LS.get('tpl', 't1'), ac = LS.get('ac', ''), profiles = LS.get('profiles', {});
-let cvo = Object.assign({ photo: true, sign: true, personal: true, size: 'm', dense: 'n', fit: true, lang: 'en' }, LS.get('cvo', {}));
+let cvo = Object.assign({ photo: true, sign: true, personal: true, size: 'm', dense: 'n', fit: true, lang: 'en', pg: 0, decl: false }, LS.get('cvo', {}));
 let cvTab = 'info', cvOpen = LS.get('cvopen', { basic: true, edu: true });
 const save = () => LS.set('cv', cv);
 const saveO = () => LS.set('cvo', cvo);
 
+Object.assign(SAMPLE, { goal: 'To secure an entry-level position in a reputable organization where I can utilize my knowledge and skills while growing professionally.', comp: 'Microsoft Office, Data Entry, Customer Service, File Management, Time Management, Teamwork', hdist: 'Bhola', pvil: 'Char Kukri', ppo: 'Char Kukri', pps: 'Bhola Sadar', pdist: 'Bhola', sk2: [{ n: 'Microsoft Word', p: '90' }, { n: 'Microsoft Excel', p: '85' }, { n: 'Internet Browsing', p: '90' }, { n: 'PowerPoint (Basic)', p: '70' }], lang2: [{ n: 'Bangla', lv: 'Native', p: '100' }, { n: 'English', lv: 'Intermediate', p: '70' }] });
+SAMPLE.edu.forEach((e, i) => Object.assign(e, [{ major: 'Computer Science & Engineering', board: '', dur: '4 Years', ach: 'First Class' }, { major: 'Science', board: 'Dhaka Board', dur: '', ach: '' }, { major: 'Science', board: 'Barishal Board', dur: '', ach: '' }][i] || {}));
+SAMPLE.exp[0].loc = 'Dhaka, Bangladesh';
 const LISTS = {
-  edu: ['🎓 শিক্ষাগত যোগ্যতা', [['deg', 'Degree / Exam (যেমন: B.Sc. in CSE)'], ['inst', 'Institution'], ['year', 'Passing Year'], ['res', 'Result (CGPA 3.50/4.00)']]],
-  exp: ['💼 কর্ম অভিজ্ঞতা / ইন্টার্নশিপ', [['role', 'Position'], ['org', 'Organization, Location'], ['period', 'Period (Jan 2023 – Jun 2023)'], ['desc', 'দায়িত্ব ও অর্জন — প্রতি লাইনে একটি পয়েন্ট']]],
+  edu: ['🎓 শিক্ষাগত যোগ্যতা', [['deg', 'Exam Title (যেমন: Bachelor of Social Science (BSS))'], ['major', 'Concentration / Major (যেমন: Political Science)'], ['inst', 'Institute (কলেজ/স্কুল)'], ['board', 'Board / University (যেমন: National University)'], ['year', 'Passing Year'], ['res', 'Result (CGPA 3.17 out of 4.00)'], ['dur', 'Duration (যেমন: 4 Years)'], ['ach', 'Achievement (যেমন: First Class)']]],
+  exp: ['💼 কর্ম অভিজ্ঞতা / ইন্টার্নশিপ', [['role', 'Position'], ['org', 'Organization'], ['loc', 'Location (যেমন: Rangpur, Bangladesh)'], ['period', 'Period (Jan 2023 – Jun 2023)'], ['desc', 'দায়িত্ব ও অর্জন — প্রতি লাইনে একটি পয়েন্ট']]],
   proj: ['🚀 প্রজেক্ট', [['name', 'Project name'], ['link', 'Link (ঐচ্ছিক)'], ['desc', 'কী বানিয়েছেন, কোন টুল, ফলাফল কী']]],
   train: ['📜 প্রশিক্ষণ / সার্টিফিকেট', [['name', 'Course / Certificate'], ['inst', 'Institute'], ['year', 'Year']]],
   ach: ['🏆 অর্জন ও পুরস্কার', [['name', 'Award / Achievement'], ['desc', 'সংক্ষিপ্ত বিবরণ (ঐচ্ছিক)']]],
   vol: ['🤝 সহ-শিক্ষা / স্বেচ্ছাসেবা', [['role', 'Role'], ['org', 'Club / Organization'], ['period', 'Period'], ['desc', 'কাজ (প্রতি লাইনে একটি)']]],
+  sk2: ['📊 কম্পিউটার/প্রফেশনাল স্কিল লেভেল (বার চার্টে দেখাবে)', [['n', 'Skill (যেমন: Microsoft Word)'], ['p', 'দক্ষতা % (যেমন: 85)']]],
+  lang2: ['🌐 ভাষা দক্ষতা (গোল চার্টে দেখাবে)', [['n', 'Language (যেমন: English)'], ['lv', 'Level (Native / Fluent / Intermediate)'], ['p', 'দক্ষতা % (যেমন: 70)']]],
   refs: ['👥 রেফারেন্স', [['name', 'Name'], ['info', 'Designation, Organization, Contact']]],
 };
 const TPLS = [
+  ['t7', '🔷 নেভি–অরেঞ্জ সাইডবার', '১–২ পাতা · গোল ছবি, কোর কম্পিটেন্সি, টাইমলাইন ও স্কিল বার (BDJobs স্টাইল)', '#0b2a8a'],
+  ['t8', '📘 ডিটেইলড প্রফেশনাল (২–৪ পাতা)', 'কভার পেজ + টাইমলাইন, স্কিল বার, ভাষার গোল চার্ট, ব্যক্তিগত তথ্য ও ঘোষণা', '#0b2a8a'],
   ['t1', '🇧🇩 ক্লাসিক বাংলাদেশ', 'ছবি ও ব্যক্তিগত তথ্যসহ — সরকারি, ব্যাংক ও সাধারণ বেসরকারি চাকরি', '#006a4e'],
   ['t2', '✨ মডার্ন সাইডবার', 'দুই কলাম — করপোরেট, মার্কেটিং ও আইটি', '#0b3d33'],
   ['t3', '🌐 আন্তর্জাতিক ATS', 'ছবি ছাড়া, সিম্পল — বিদেশি কোম্পানি ও ATS সফটওয়্যার', '#000000'],
@@ -65,11 +72,12 @@ function cvForm() {
 <div class="card"><label>📁 সংরক্ষিত সিভি (সরকারি / কর্পোরেট — আলাদা আলাদা রাখুন)</label><select onchange="loadProfile(this.value)"><option value="">— বাছুন —</option>${prof.map(n => `<option>${esc(n)}</option>`).join('')}</select><div class="row"><button class="btn o s" onclick="saveProfile()">💾 নতুন নামে সেভ</button><button class="btn r s" onclick="delProfile()">নির্বাচিতটি মুছুন</button></div></div>
 <div class="row" style="margin-bottom:6px"><button class="btn gh s" onclick="loadSample()">নমুনা তথ্য দেখুন</button><button class="btn gh s" onclick="resetCV()">সব মুছুন</button></div>
 <details ${secOpen('basic')} ${tg('basic')}><summary>👤 মূল তথ্য</summary>${F('name', 'পূর্ণ নাম (Full Name) *', 'text', 'Md. Rahim Uddin')}${F('title', 'পদবি / Job Title *', 'text', 'যেমন: Junior Software Engineer, Fresh Graduate')}${F('phone', 'মোবাইল *', 'tel', '+8801XXXXXXXXX')}${F('email', 'ইমেইল * (পেশাদার — নাম দিয়ে বানান)', 'email', 'yourname@gmail.com')}${F('address', 'বর্তমান ঠিকানা', 'text', 'এলাকা, জেলা')}${F('link', 'LinkedIn / GitHub / Portfolio', 'text', 'linkedin.com/in/yourname')}<label>ছবি (পাসপোর্ট সাইজ, পরিষ্কার আলোয় তোলা)</label><input type="file" accept="image/*" onchange="pickPhoto(this)">${cv.photo ? `<div class="row"><img src="${cv.photo}" width="64" style="border-radius:8px"><button class="btn gh s" onclick="recrop()">✂️ আবার ক্রপ</button><button class="btn r s" onclick="cv.photo='';save();render()">ছবি সরান</button></div>` : ''}<label style="margin-top:8px">✍️ স্বাক্ষর (সরকারি/ব্যাংক সিভির জন্য)</label><div class="row"><button class="btn gh s" onclick="signSheet()">✍️ আঙুলে আঁকুন</button><label class="btn gh s" style="margin:0;color:var(--g)">📷 কাগজের ছবি থেকে<input type="file" accept="image/*" hidden onchange="signUpload(this)"></label></div>${cv.sign ? `<div class="row" style="margin-top:6px"><img src="${cv.sign}" style="height:44px;background:#fff;border:1px solid var(--b);border-radius:8px;padding:2px"><button class="btn r s" onclick="signDel()">স্বাক্ষর সরান</button></div>` : ''}</details>
-<details ${secOpen('obj')} ${tg('obj')}><summary>🎯 ক্যারিয়ার সারসংক্ষেপ (Summary)</summary>${F('obj', 'আপনার সম্পর্কে ২–৪ লাইন', 'area', 'আমি কী পারি, কী খুঁজছি')}<button class="btn gh s" onclick="summarySheet()">✨ রেডি সামারি বেছে নিন</button><div style="height:10px"></div></details>
+<details ${secOpen('obj')} ${tg('obj')}><summary>🎯 ক্যারিয়ার উদ্দেশ্য ও সারসংক্ষেপ</summary>${F('goal', 'Career Objective — আপনি কী চান (১–২ লাইন)', 'area', 'To secure an entry-level position in a reputable organization where I can ...')}${F('obj', 'Profile Summary — আপনার সম্পর্কে ২–৪ লাইন', 'area', 'আমি কী পারি, কী খুঁজছি')}<button class="btn gh s" onclick="summarySheet()">✨ রেডি সামারি বেছে নিন</button><div style="height:10px"></div></details>
 ${listEd('edu')}${listEd('exp')}${listEd('proj')}
-<details ${secOpen('skills')} ${tg('skills')}><summary>🛠️ স্কিল, ভাষা, আগ্রহ</summary>${F('skills', 'Skills (কমা দিয়ে)', 'area', 'Communication, MS Excel, ...')}<button class="btn gh s" onclick="skillSheet()">✨ স্কিল সাজেশন</button>${F('langs', 'Languages (কমা দিয়ে)', 'area', 'Bangla (Native), English (Fluent)')}${F('hobby', 'Interests (কমা দিয়ে)', 'area')}</details>
+<details ${secOpen('skills')} ${tg('skills')}><summary>🛠️ স্কিল, ভাষা, আগ্রহ</summary>${F('comp', 'Core Competencies / Special Qualification (কমা দিয়ে — ✓ ছকে দেখাবে)', 'area', 'Microsoft Office, Data Entry, Customer Service, Time Management')}${F('skills', 'Soft Skills / অন্যান্য স্কিল (কমা দিয়ে)', 'area', 'Communication, Teamwork, ...')}<button class="btn gh s" onclick="skillSheet()">✨ স্কিল সাজেশন</button>${F('langs', 'Languages (কমা দিয়ে)', 'area', 'Bangla (Native), English (Fluent)')}${F('hobby', 'Interests (কমা দিয়ে)', 'area')}</details>
+${listEd('sk2')}${listEd('lang2')}
 ${listEd('train')}${listEd('ach')}${listEd('vol')}
-<details ${secOpen('pers')} ${tg('pers')}><summary>🪪 ব্যক্তিগত তথ্য (সরকারি/ব্যাংক জবের জন্য)</summary>${F('father', "Father's Name")}${F('mother', "Mother's Name")}${F('dob', 'Date of Birth', 'text', '12 March 2000')}${F('gender', 'Gender')}${F('nat', 'Nationality')}${F('rel', 'Religion')}${F('mar', 'Marital Status')}${F('nid', 'NID / Birth Reg. No.')}${F('blood', 'Blood Group')}${F('paddr', 'Permanent Address (স্থায়ী ঠিকানা)')}</details>
+<details ${secOpen('pers')} ${tg('pers')}><summary>🪪 ব্যক্তিগত তথ্য (সরকারি/ব্যাংক জবের জন্য)</summary>${F('father', "Father's Name")}${F('mother', "Mother's Name")}${F('dob', 'Date of Birth', 'text', '12 March 2000')}${F('gender', 'Gender')}${F('nat', 'Nationality')}${F('rel', 'Religion')}${F('mar', 'Marital Status')}${F('nid', 'NID / Birth Reg. No.')}${F('blood', 'Blood Group')}${F('paddr', 'Permanent Address (এক লাইনে — নিচের ঘর পূরণ করলে লাগবে না)')}${F('pvil', 'গ্রাম/মহল্লা (Village)')}${F('ppo', 'ডাকঘর (Post Office)')}${F('pps', 'থানা/উপজেলা (Police Station)')}${F('pdist', 'জেলা (District)')}${F('hdist', 'নিজ জেলা (Home District)')}</details>
 ${listEd('refs')}<button class="btn w" onclick="cvTab='tpl';render();scrollTo(0,0)">পরের ধাপ: টেমপ্লেট বাছুন →</button>`;
 }
 function loadSample() { if (!confirm('বর্তমান তথ্য মুছে নমুনা তথ্য বসবে। এগোবেন?')) return; cv = clone(SAMPLE); save(); render(); toast('নমুনা তথ্য লোড হয়েছে') }
@@ -133,11 +141,11 @@ function scoreSheet() { const r = cvScore(); sheet(`<h3>💡 সিভি উন
 /* ---------- builder (HTML for the 6 templates) ---------- */
 const br = s => esc(s).replace(/\n/g, '<br>');
 const bul = s => { const L = String(s || '').split(/\n/).map(x => x.replace(/^\s*[-•*·▪●‣]+\s*/, '').trim()).filter(Boolean); return L.length > 1 ? `<ul>${L.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : L.length ? `<p class="is">${esc(L[0])}</p>` : '' };
-const chips = s => { const a = String(s || '').split(/[,\n]/).map(x => x.trim()).filter(Boolean); return a.length ? `<div class="ch">${a.map(x => `<span>${esc(x)}</span>`).join('')}</div>` : '' };
+const chips = s => { const a = splitList(s); return a.length ? `<div class="ch">${a.map(x => `<span>${esc(x)}</span>`).join('')}</div>` : '' };
 const itm = (title, sub, date, body) => `<div class="it"><div class="ih"><b>${title}</b>${date ? `<span class="dt">${esc(date)}</span>` : ''}</div>${sub ? `<div class="is">${sub}</div>` : ''}${body || ''}</div>`;
 function cvHTML(d, t, o = cvo, color = ac) {
   const L = LBL[o.lang] || LBL.en;
-  const eduA = has(d.edu).map(e => itm(esc(e.deg), esc(e.inst) + (e.res ? ` — <span class="gpa">${esc(e.res)}</span>` : ''), e.year));
+  const eduA = has(d.edu).map(e => itm(esc(e.deg), esc(e.inst) + (e.res ? `<br><span class="gpa">${esc(e.res)}</span>` : ''), e.year));
   const expA = has(d.exp).map(e => itm(esc(e.role), esc(e.org), e.period, bul(e.desc)));
   const trA = has(d.train).map(e => itm(esc(e.name), esc(e.inst), e.year));
   const pjA = has(d.proj).map(e => itm(esc(e.name) + (e.link ? ` <small style="font-weight:400;color:#555">(${esc(e.link)})</small>` : ''), '', '', bul(e.desc)));
@@ -155,19 +163,20 @@ function cvHTML(d, t, o = cvo, color = ac) {
   const S = t === 't6' ? sc6 : sec;
   const objB = d.obj && d.obj.trim() ? `<p>${br(d.obj)}</p>` : '';
   const sk = S(L.sk, chips(d.skills)), lg = S(L.lg, chips(d.langs)), hb = S(L.hb, chips(d.hobby));
-  const blocks = { obj: S(L.obj, objB), edu: S(L.edu, eduA), exp: S(L.exp, expA), tr: S(L.tr, trA), pj: S(L.pj, pjA), ach: S(L.ach, achA), vol: S(L.vol, volA), sk, lg, hb, pt: S(L.pt, pt), rf: S(L.rf, rfA) };
+  const sum2B = d.sum2 && d.sum2.trim() ? `<p>${br(d.sum2)}</p>` : '';
+  const blocks = { obj: S(L.obj, objB), sum2: S(L.sum || 'Career Summary', sum2B), edu: S(L.edu, eduA), exp: S(L.exp, expA), tr: S(L.tr, trA), pj: S(L.pj, pjA), ach: S(L.ach, achA), vol: S(L.vol, volA), sk, lg, hb, pt: S(L.pt, pt), rf: S(L.rf, rfA) };
   const head = `<h1>${esc(d.name || 'Your Name')}</h1>${d.title ? `<div class="tt">${esc(d.title)}</div>` : ''}`;
   const sz = { s: 12.5, m: 13.5, l: 14.5 }[o.size] || 13.5, gap = o.dense === 'c' ? .72 : 1;
   const sty = `--ac:${color || TPLC[t] || '#006a4e'};--fs:${sz}px;--gap:${gap}`;
   let h;
   if (t === 't2') {
     const side = (title, b) => b ? `<h3>${title}</h3>${b}` : '';
-    h = `<div class="cv t2" style="${sty}"><aside>${ph}${side(L.ct, contact.map(c => `<div>${c}</div>`).join(''))}${side(L.sk, chips(d.skills))}${side(L.lg, chips(d.langs))}${side(L.hb, chips(d.hobby))}${side(L.pt, pt)}</aside><main>${head}${blocks.obj + blocks.exp + blocks.edu + blocks.pj + blocks.tr + blocks.ach + blocks.vol + blocks.rf}</main></div>`;
-  } else if (t === 't3') h = `<div class="cv t3" style="${sty}"><div class="hd">${head}<div class="ct">${contact.join(' &nbsp;|&nbsp; ')}</div></div>${blocks.obj + blocks.sk + blocks.exp + blocks.pj + blocks.edu + blocks.tr + blocks.ach + blocks.vol + blocks.lg + blocks.rf}</div>`;
-  else if (t === 't5') h = `<div class="cv t5" style="${sty}"><div class="hd">${head}<div class="ct">${contact.join(' &nbsp;|&nbsp; ')}</div></div>${blocks.obj + blocks.exp + blocks.edu + blocks.tr + blocks.pj + blocks.ach + blocks.vol + blocks.sk + blocks.lg + blocks.pt + blocks.rf}</div>`;
-  else if (t === 't4') h = `<div class="cv t4" style="${sty}"><div class="band">${ph}<div>${head}<div class="ct">${contact.join(' &nbsp;•&nbsp; ')}</div></div></div><div class="bd">${blocks.obj + blocks.edu + blocks.pj + blocks.exp + blocks.tr + blocks.ach + blocks.vol + blocks.sk + blocks.lg + blocks.pt + blocks.hb + blocks.rf}</div></div>`;
-  else if (t === 't6') h = `<div class="cv t6" style="${sty}"><div class="hd"><div>${head}<div class="ct">${contact.map(c => `<span>${c}</span>`).join('')}</div></div>${ph}</div>${blocks.obj + blocks.exp + blocks.edu + blocks.pj + blocks.tr + blocks.ach + blocks.vol + blocks.sk + blocks.lg + blocks.pt + blocks.hb + blocks.rf}</div>`;
-  else h = `<div class="cv t1" style="${sty}"><div class="hd"><div>${head}<div class="ct" style="margin-top:6px">${contact.join('<br>')}</div></div>${ph}</div>${blocks.obj + blocks.edu + blocks.exp + blocks.tr + blocks.pj + blocks.ach + blocks.vol + blocks.sk + blocks.lg + blocks.pt + blocks.hb + blocks.rf}</div>`;
+    h = `<div class="cv t2" style="${sty}"><aside>${ph}${side(L.ct, contact.map(c => `<div>${c}</div>`).join(''))}${side(L.sk, chips(d.skills))}${side(L.lg, chips(d.langs))}${side(L.hb, chips(d.hobby))}</aside><main>${head}${blocks.obj + blocks.sum2 + blocks.exp + blocks.edu + blocks.pj + blocks.tr + blocks.ach + blocks.vol + blocks.pt + blocks.rf}</main></div>`;
+  } else if (t === 't3') h = `<div class="cv t3" style="${sty}"><div class="hd">${head}<div class="ct">${contact.join(' &nbsp;|&nbsp; ')}</div></div>${blocks.obj + blocks.sum2 + blocks.sk + blocks.exp + blocks.pj + blocks.edu + blocks.tr + blocks.ach + blocks.vol + blocks.lg + blocks.rf}</div>`;
+  else if (t === 't5') h = `<div class="cv t5" style="${sty}"><div class="hd">${head}<div class="ct">${contact.join(' &nbsp;|&nbsp; ')}</div></div>${blocks.obj + blocks.sum2 + blocks.exp + blocks.edu + blocks.tr + blocks.pj + blocks.ach + blocks.vol + blocks.sk + blocks.lg + blocks.pt + blocks.rf}</div>`;
+  else if (t === 't4') h = `<div class="cv t4" style="${sty}"><div class="band">${ph}<div>${head}<div class="ct">${contact.join(' &nbsp;•&nbsp; ')}</div></div></div><div class="bd">${blocks.obj + blocks.sum2 + blocks.edu + blocks.pj + blocks.exp + blocks.tr + blocks.ach + blocks.vol + blocks.sk + blocks.lg + blocks.pt + blocks.hb + blocks.rf}</div></div>`;
+  else if (t === 't6') h = `<div class="cv t6" style="${sty}"><div class="hd"><div>${head}<div class="ct">${contact.map(c => `<span>${c}</span>`).join('')}</div></div>${ph}</div>${blocks.obj + blocks.sum2 + blocks.exp + blocks.edu + blocks.pj + blocks.tr + blocks.ach + blocks.vol + blocks.sk + blocks.lg + blocks.pt + blocks.hb + blocks.rf}</div>`;
+  else h = `<div class="cv t1" style="${sty}"><div class="hd"><div>${head}<div class="ct" style="margin-top:6px">${contact.join('<br>')}</div></div>${ph}</div>${blocks.obj + blocks.sum2 + blocks.edu + blocks.exp + blocks.tr + blocks.pj + blocks.ach + blocks.vol + blocks.sk + blocks.lg + blocks.pt + blocks.hb + blocks.rf}</div>`;
   if (sg) { if (t === 't2') h = h.replace(/<\/main><\/div>$/, sg + '</main></div>'); else if (t === 't4') h = h.replace(/<\/div><\/div>$/, sg + '</div></div>'); else if (t !== 't3') h = h.replace(/<\/div>$/, sg + '</div>') }
   return h;
 }

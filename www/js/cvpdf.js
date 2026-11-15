@@ -40,12 +40,13 @@ function computeCuts(root) {
         if (/\b(sh|bd7)\b/.test(e.className) && e.nextElementSibling) { const n = e.nextElementSibling, f = n.firstElementChild || n; b = Math.max(b, rel(f)[1]) }
         return [r[0], b]
       }).filter(x => x[1] - x[0] > 1);
-      out.push(...cutRegion(top, top + H, top + H, at, 0, 34, 30));
+      const endA = at.reduce((m, a) => Math.max(m, a[1]), top);
+      out.push(...cutRegion(top, endA, top + H, at, 0, 34, 30));
     });
     return out;
   }
   const total = root.offsetHeight;
-  const atoms = [...root.querySelectorAll('.it,.kp,li,p,.ch,.pt tr,.hd,.sg')].filter(e => !e.closest('aside')).map(rel).filter(a => a[1] - a[0] > 1);
+  const atoms = [...root.querySelectorAll('.it,.kp,li,p,.ch,.pt,.hd,.sg')].filter(e => !e.closest('aside')).map(rel).filter(a => a[1] - a[0] > 1);
   /* sidebar: every block (heading + its list) stays together */
   root.querySelectorAll('aside').forEach(a => { let g = null; [...a.children].forEach(c => { const r = rel(c); if (c.tagName === 'H3') { g = [r[0], r[1]]; atoms.push(g) } else if (g) g[1] = Math.max(g[1], r[1]); else atoms.push(r) }) });
   const lastB = atoms.reduce((m, a) => Math.max(m, a[1]), 0);
@@ -123,4 +124,16 @@ fitPreview = function () {
   const m = cvMount(); let cuts = []; try { cuts = computeCuts(m.root) } catch (e) { } m.wrap.remove();
   cuts.slice(1).forEach((c, k) => { const d = document.createElement('div'); d.className = 'pgmark'; d.style.top = c.y0 + 'px'; d.innerHTML = `<span>পেজ ${bn(k + 2)} শুরু</span>`; i.appendChild(d) });
   const pn = $('#pgn'); if (pn) pn.textContent = `📄 মোট পেজ: ${bn(Math.max(1, cuts.length))}${cuts.length > 2 ? ' — সিভি ২ পেজের মধ্যে রাখা ভালো। কম্প্যাক্ট/ছোট সাইজ বা "প্রো" টেমপ্লেটের ১ পাতা বেছে দেখুন।' : cuts.length === 2 ? ' — অভিজ্ঞদের জন্য ঠিক আছে; ফ্রেশার হলে ১ পেজে আনার চেষ্টা করুন।' : ' — আদর্শ ✅'}`;
+};
+
+/* fit a slightly-too-long CV onto ONE page, measured by the real content bottom (not the padded box) */
+const _fitCV3 = fitCV;
+fitCV = function (el) {
+  const r = el.classList && el.classList.contains('cv') ? el : el.querySelector('.cv');
+  if (!r || r.classList.contains('t7')) return _fitCV3(el);
+  const cs = getComputedStyle(r), fs0 = parseFloat(cs.getPropertyValue('--fs')) || 13.5, g0 = parseFloat(cs.getPropertyValue('--gap')) || 1, LIM = 1088;
+  const bottom = () => { const rb = r.getBoundingClientRect(); let m = 0; r.querySelectorAll('.it,.kp,li,p,.ch,.pt,.hd,.sg,aside>*').forEach(e => { m = Math.max(m, e.getBoundingClientRect().bottom - rb.top) }); return m || r.offsetHeight };
+  r.style.minHeight = '0'; let b = bottom();
+  if (b > LIM && b < LIM * 1.28) for (const k of [.97, .94, .91, .88, .85, .82, .79]) { r.style.setProperty('--fs', (fs0 * k).toFixed(2) + 'px'); r.style.setProperty('--gap', (g0 * k * .9).toFixed(2)); b = bottom(); if (b <= LIM) break }
+  r.style.minHeight = ''; return Math.max(1, Math.ceil(b / 1050));
 };

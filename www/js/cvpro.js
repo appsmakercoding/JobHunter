@@ -1,6 +1,7 @@
 /* ===== Job Hunter 3.3 — "Pro" CV template (t7) + BDJobs-style fields ===== */
 
 LBL.en.decl = LBL.en.decl || 'I hereby declare that the information given above is true and correct to the best of my knowledge.'; LBL.bn.decl = LBL.bn.decl || 'আমি এই মর্মে ঘোষণা করছি যে, উপরোক্ত তথ্যাদি আমার জানামতে সত্য ও নির্ভুল।';
+LBL.en.sum = LBL.en.sum || 'Career Summary'; LBL.bn.sum = LBL.bn.sum || 'ক্যারিয়ার সারসংক্ষেপ';
 /* ---- 1. extra data fields (BDJobs-compatible) ---- */
 Object.assign(EMPTY, { cobj: '', soft: '', hdist: '', village: '', po: '', ps: '', dist: '', country: 'Bangladesh', cs: [] });
 Object.keys(EMPTY).forEach(k => { if (cv[k] === undefined) cv[k] = clone(EMPTY[k]) });
@@ -14,7 +15,7 @@ SAMPLE.exp[0].loc = 'Dhaka, Bangladesh';
 SAMPLE.train = [{ name: 'Full-Stack Web Development', inst: 'BITM (ICT Division)', year: '2022', dur: '6 Months', desc: 'HTML & CSS\nJavaScript & React\nNode.js & SQL' }];
 SAMPLE.langs = 'Bangla (Native), English (Intermediate)';
 
-LISTS.edu = ['🎓 শিক্ষাগত যোগ্যতা', [['deg', 'Exam Title (যেমন: Master of Social Science (MSS))'], ['major', 'Concentration / Major (Political Science)'], ['inst', 'Institute (Rangpur Government College)'], ['board', 'University / Board (National University)'], ['res', 'Result (CGPA 3.17 out of 4.00)'], ['year', 'Passing Year'], ['dur', 'Duration (4 Years) — ঐচ্ছিক'], ['ach', 'Achievement (First Class) — ঐচ্ছিক']]];
+LISTS.edu = ['🎓 শিক্ষাগত যোগ্যতা', [['deg', 'Exam Title (যেমন: Master of Social Science (MSS))'], ['major', 'Concentration / Major (Political Science)'], ['inst', 'Institute (Rangpur Government College)'], ['board', 'University / Board (National University)'], ['res', 'Result — শুধু সংখ্যা লিখলেই হবে (যেমন: 3.17)'], ['scale', 'Out of (4 বা 5) — ঐচ্ছিক'], ['year', 'Passing Year'], ['dur', 'Duration (4 Years) — ঐচ্ছিক'], ['ach', 'Achievement (First Class) — ঐচ্ছিক']]];
 LISTS.exp = ['💼 কর্ম অভিজ্ঞতা / ইন্টার্নশিপ', [['role', 'Position'], ['org', 'Organization'], ['loc', 'Location (Narsingdi, Bangladesh)'], ['period', 'Duration (Jan 2023 – Jun 2023)'], ['desc', 'দায়িত্ব ও অর্জন — প্রতি লাইনে একটি পয়েন্ট']]];
 LISTS.train = ['📜 প্রশিক্ষণ / সার্টিফিকেট', [['name', 'Course / Certificate'], ['inst', 'Institute'], ['year', 'Year'], ['dur', 'Duration (6 Months)'], ['desc', 'Training Areas — প্রতি লাইনে একটি']]];
 LISTS.cs = ['🖥️ কম্পিউটার / টেকনিক্যাল স্কিল (শতকরা সহ)', [['name', 'Skill (Microsoft Word)'], ['pct', 'দক্ষতা % (যেমন: 90)']]];
@@ -24,7 +25,7 @@ cvForm = function () {
   let h = _cvForm();
   const ins = (marker, add, after) => { const i = h.indexOf(marker); if (i < 0) return; const j = after ? h.indexOf('</details>', i) : i + marker.length; h = h.slice(0, j) + add + h.slice(j) };
   h = h.replace('🎯 ক্যারিয়ার সারসংক্ষেপ (Summary)', '🎯 Profile Summary ও Career Objective');
-  ins('Profile Summary ও Career Objective</summary>', F('cobj', 'Career Objective (১–২ লাইন)', 'area', 'কোন ধরনের চাকরি/পদে কী অবদান রাখতে চান'));
+  ins('Profile Summary ও Career Objective</summary>', F('cobj', 'Career Objective — কোন পদে কী অবদান রাখতে চান (১–২ লাইন)', 'area', 'To secure a position where I can ...'));
   h = h.replace('🛠️ স্কিল, ভাষা, আগ্রহ', '🛠️ Special Qualification, ভাষা, আগ্রহ');
   ins('Special Qualification, ভাষা, আগ্রহ</summary>', F('soft', 'Soft Skills (কমা দিয়ে)', 'area', 'Communication, Teamwork, ...'));
   const k = h.indexOf('Special Qualification, ভাষা, আগ্রহ</summary>'); const e = h.indexOf('</details>', k) + 10; h = h.slice(0, e) + listEd('cs') + h.slice(e);
@@ -32,18 +33,44 @@ cvForm = function () {
   return h;
 };
 
-/* ---- 2. adapt BDJobs fields for the older templates & Word ---- */
-function adapt(d) {
+
+/* ---- data cleaning: titles, results, durations, skill sentences ---- */
+const spc = v => String(v ?? '').replace(/\s+/g, ' ').replace(/\s+([,.;:])/g, '$1').trim();
+const cap1 = z => z ? z.charAt(0).toUpperCase() + z.slice(1) : z;
+function splitSkills(str) {
+  const seen = new Set();
+  return String(str || '').split(/[\n;,]|\.(?:\s|$)/).map(z => cap1(z.replace(/^\s*(?:and|&)\s+/i, '').replace(/^\s*(?:proficient|skilled|experienced|expert|good|strong)\s+(?:in|at|with)\s+/i, '').replace(/^\s*(?:knowledge|experience)\s+of\s+/i, '').replace(/[.\s]+$/, '').trim()))
+    .filter(z => z.length > 1).filter(z => { const k = z.toLowerCase().replace(/&/g, 'and').replace(/[^a-z0-9\u0980-\u09ff]+/g, ' ').trim(); if (seen.has(k)) return false; seen.add(k); return true });
+}
+function normalize(d) {
   const x = clone(d);
-  x.edu = (x.edu || []).map(e => ({ ...e, deg: [e.deg, e.major ? 'in ' + e.major : ''].filter(Boolean).join(' '), inst: [e.inst, e.board].filter(Boolean).join(', '), res: [e.res, e.ach].filter(Boolean).join(' • ') }));
-  x.exp = (x.exp || []).map(e => ({ ...e, org: [e.org, e.loc].filter(Boolean).join(', ') }));
-  x.train = (x.train || []).map(e => ({ ...e, name: e.name + (e.dur ? ' (' + e.dur + ')' : '') }));
-  { const seen = new Set(); x.skills = [x.skills, x.soft, (x.cs || []).map(c => c.name).join(', ')].join(',').split(/[,\n]/).map(z => z.trim()).filter(z => z && !seen.has(z.toLowerCase()) && seen.add(z.toLowerCase())).join(', ') }
-  x.obj = [x.obj, x.cobj].filter(s => s && s.trim()).join('\n');
+  Object.keys(x).forEach(k => { if (typeof x[k] === 'string' && k !== 'photo' && k !== 'sign') x[k] = (k === 'obj' || k === 'cobj') ? x[k].trim() : spc(x[k]) });
+  ['edu', 'exp', 'proj', 'train', 'ach', 'vol', 'refs', 'cs'].forEach(k => { x[k] = (x[k] || []).map(it => { const o = {}; for (const f in it) o[f] = typeof it[f] === 'string' ? (f === 'desc' ? it[f].replace(/[ \t]+$/gm, '').trim() : spc(it[f])) : it[f]; return o }) });
+  x.edu = x.edu.map(e => { const T = eduTitle(e); return { ...e, title: T.t + (T.mj ? ' (' + T.mj + ')' : ''), res: eduRes(e), dur: eduDur(e.dur) } });
+  x.train = x.train.map(e => ({ ...e, dur: eduDur(e.dur) }));
+  x.skillList = splitSkills(x.skills); x.softList = splitSkills(x.soft);
+  return x;
+}
+
+/* ---- 2. adapt BDJobs fields for the older templates & Word ---- */
+/* clean stray spaces typed by users (e.g. "College " -> "College") — photo/signature data untouched */
+function trimDeep(v, k) {
+  if (typeof v === 'string') return (k === 'photo' || k === 'sign') ? v : v.replace(/[ \t\u00a0]+/g, ' ').replace(/ *\n */g, '\n').trim();
+  if (Array.isArray(v)) return v.map(x => trimDeep(x));
+  if (v && typeof v === 'object') { const o = {}; for (const key in v) o[key] = trimDeep(v[key], key); return o }
+  return v;
+}
+function adapt(d0) {
+  const x = normalize(d0);
+  x.edu = x.edu.map(e => ({ ...e, deg: e.title, inst: [e.inst, e.board].filter(Boolean).join(', '), res: [e.res, e.ach].filter(Boolean).join(' • ') }));
+  x.exp = x.exp.map(e => ({ ...e, org: [e.org, e.loc].filter(Boolean).join(', ') }));
+  x.train = x.train.map(e => ({ ...e, name: e.name + (e.dur ? ' (' + e.dur + ')' : '') }));
+  { const seen = new Set(); x.skills = [...x.skillList, ...x.softList, ...(x.cs || []).map(c => c.name)].filter(z => { const k = String(z).toLowerCase().replace(/&/g, 'and'); if (!z || seen.has(k)) return false; seen.add(k); return true }).join(', ') }
+  if (x.cobj) { x.sum2 = x.obj; x.obj = x.cobj } else x.sum2 = '';
   if (!x.paddr && (x.village || x.po || x.ps || x.dist)) x.paddr = [x.village, x.po && 'PO: ' + x.po, x.ps && 'PS: ' + x.ps, x.dist, x.country].filter(Boolean).join(', ');
   return x;
 }
-const _cvWord = cvWord; cvWord = function (d = cv, o = cvo) { return _cvWord(adapt(d), o) };
+const _cvWord = cvWord; cvWord = function (d = cv, o = cvo) { return _cvWord(adapt(trimDeep(d)), o) };
 
 /* ---- 3. colour helpers (no color-mix: PDF engine cannot read it) ---- */
 function tint(c, p, to) { const h = c.replace('#', ''), f = h.length === 3 ? h.split('').map(z => z + z).join('') : h, n = [0, 2, 4].map(i => parseInt(f.substr(i, 2), 16)), t = to === 'k' ? 0 : 255; return '#' + n.map(v => Math.round(v * p + t * (1 - p)).toString(16).padStart(2, '0')).join('') }
@@ -77,7 +104,7 @@ document.head.insertAdjacentHTML('beforeend', `<style id="cvpro-css">
 .t7 .sh::after{content:"";flex:1;height:2px;background:var(--o);max-width:150px}
 .t7 .bi{width:38px;height:38px;border-radius:50%;background:var(--ac);display:flex;align-items:center;justify-content:center;flex:none}
 .t7 .sm{font-size:1.02em;line-height:1.6;text-align:left}
-.t7 .cg{display:grid;grid-template-columns:1fr 1fr;gap:9px 14px}.t7 .cg div{display:flex;gap:8px;align-items:center;font-size:1em}
+.t7 .cg{display:grid;grid-template-columns:1fr 1fr;gap:9px 14px}.t7 .cg div{display:flex;gap:8px;align-items:center;font-size:1em}.t7 .cg.c3{grid-template-columns:1fr 1fr 1fr;gap:6px 8px}.t7 .cg.c3 div{font-size:.92em;gap:5px}
 .t7 .bd7{background:var(--ac);color:#fff;display:flex;align-items:center;gap:14px;padding:11px 22px;font-weight:800;font-size:1.5em;text-transform:uppercase;margin:calc(8px*var(--gap)) 0 14px;border-bottom:3px solid var(--o)}
 .t7 .bd7::after{content:"";flex:1;height:2px;background:var(--o)}
 .t7 .bd7 .bi{background:#fff;width:34px;height:34px}
@@ -112,12 +139,13 @@ const H7 = {
   en: { sum: 'Profile Summary', comp: 'Core Competencies', obj: 'Career Objective', edu: 'Education', ach: 'Academic Achievements', exp: 'Work Experience', proj: 'Projects', vol: 'Extracurricular Activities', skills: 'Skills', cs: 'Computer Skills', soft: 'Soft Skills', train: 'Training & Certifications', lang: 'Language Proficiency', pinfo: 'Personal Information', addr: 'Permanent & Present Address', decl: 'Declaration', contact: 'Contact', pd: 'Personal Details', langs: 'Languages', ref: 'References', page: 'Page', avail: 'Available on request.', area: 'Training Areas', dur: 'Duration', res: 'Result', year: 'Passing Year', ach2: 'Achievement', village: 'Village', po: 'Post Office', ps: 'Police Station', dist: 'District', country: 'Country', pres: 'Present Address', hd: 'Home District', date: 'Date', sig: 'Signature' },
   bn: { sum: 'প্রোফাইল সারসংক্ষেপ', comp: 'মূল দক্ষতা', obj: 'ক্যারিয়ার উদ্দেশ্য', edu: 'শিক্ষাগত যোগ্যতা', ach: 'একাডেমিক অর্জন', exp: 'কর্ম অভিজ্ঞতা', proj: 'প্রজেক্ট', vol: 'সহ-শিক্ষা কার্যক্রম', skills: 'দক্ষতা', cs: 'কম্পিউটার দক্ষতা', soft: 'সফট স্কিল', train: 'প্রশিক্ষণ ও সনদ', lang: 'ভাষা দক্ষতা', pinfo: 'ব্যক্তিগত তথ্য', addr: 'স্থায়ী ও বর্তমান ঠিকানা', decl: 'ঘোষণা', contact: 'যোগাযোগ', pd: 'ব্যক্তিগত বিবরণ', langs: 'ভাষা', ref: 'রেফারেন্স', page: 'পৃষ্ঠা', avail: 'চাইলে সরবরাহ করা হবে।', area: 'প্রশিক্ষণের বিষয়', dur: 'মেয়াদ', res: 'ফলাফল', year: 'পাসের সন', ach2: 'অর্জন', village: 'গ্রাম', po: 'ডাকঘর', ps: 'থানা', dist: 'জেলা', country: 'দেশ', pres: 'বর্তমান ঠিকানা', hd: 'নিজ জেলা', date: 'তারিখ', sig: 'স্বাক্ষর' },
 };
-function cvPro(d, o, color) {
+function cvPro(d0, o, color) {
+  const d = normalize(d0);
   const T = H7[o.lang] || H7.en, L = LBL[o.lang] || LBL.en, col = color || TPLC.t7, bl = col;
-  const sz = { s: 12.5, m: 13.5, l: 14.5 }[o.size] || 13.5, gap = o.dense === 'c' ? .72 : 1, mode = o.pg || 'two';
+  const sz = { s: 12.5, m: 13.5, l: 14.5 }[o.size] || 13.5, gap = o.dense === 'c' ? .72 : 1, mode = o.pg || 'two', lite = o.lite || 0;
   const sty = `--ac:${col};${tintVars(col)}--fs:${sz}px;--gap:${gap}`;
   const e = esc, bul = s => { const a = String(s || '').split(/\n/).map(x => x.replace(/^\s*[-•*·▪●‣]+\s*/, '').trim()).filter(Boolean); return a.length ? `<ul>${a.map(x => `<li>${e(x)}</li>`).join('')}</ul>` : '' };
-  const chipsA = s => String(s || '').split(/[,\n]/).map(x => x.trim()).filter(Boolean);
+  const chipsA = splitList;
   const badge = n => `<span class="bi">${ico(n, mode === 'one' ? 16 : 19, '#fff')}</span>`;
   const sh = (n, t) => `<div class="sh">${badge(n)}<span>${e(t)}</span></div>`;
   const band = (n, t) => `<div class="bd7"><span class="bi">${ico(n, 19, bl)}</span><span>${e(t)}</span></div>`;
@@ -133,18 +161,18 @@ function cvPro(d, o, color) {
   const langKV = langs.map(x => `<div class="kv"><i>•</i><b style="width:80px">${e(x.n)}</b><span>${x.l ? ': ' + e(x.l) : ''}</span></div>`).join('');
   const refs = has(d.refs).length ? has(d.refs).map(r => `<div style="margin:5px 0;font-size:.95em"><b>${e(r.name)}</b><br>${e(r.info)}</div>`).join('') : `<div style="font-size:.95em">${T.avail}</div>`;
   const cs = has(d.cs).map(c => ({ n: c.name, p: Math.max(5, Math.min(100, parseInt(c.pct) || 80)) }));
-  const soft = chipsA(d.soft);
-  const comp = chipsA(d.skills);
-  const compHTML = comp.length ? `<div class="cg">${comp.map(c => `<div>${ico('check', 18, bl)}<span>${e(c)}</span></div>`).join('')}</div>` : '';
+  const soft = d.softList;
+  const comp = d.skillList;
+  const compHTML = comp.length ? `<div class="cg${(mode === 'one' && lite >= 1) ? ' c3' : ''}">${comp.map(c => `<div>${ico('check', 18, bl)}<span>${e(c)}</span></div>`).join('')}</div>` : '';
   const sumB = d.obj && d.obj.trim() ? `<div class="sm">${esc(d.obj).replace(/\n/g, '<br>')}</div>` : '';
   const objB = d.cobj && d.cobj.trim() ? `<div class="sm">${esc(d.cobj).replace(/\n/g, '<br>')}</div>` : '';
   const head = `<h1 class="nm">${e(d.name || 'Your Name')}</h1>${d.title ? `<div class="tt7">${e(d.title)}</div>` : ''}`;
   const pgBar = (n, tot) => tot > 1 ? `<div class="pb">${T.page} ${n}</div>` : '';
   /* items */
-  const eduI = has(d.edu).map(x => `<div class="ti"><div class="tb"><span class="bi">${ico(/ssc|hsc|secondary|school|ক্লাস/i.test(x.deg) ? 'book' : 'cap', 19, '#fff')}</span></div><div class="tc"><b class="h">${e(x.deg)}${x.major ? ' in ' + e(x.major) : ''}</b>${x.inst ? `<div>${e(x.inst)}</div>` : ''}${x.board ? `<div>${e(x.board)}</div>` : ''}${x.res ? `<div>${T.res}: <b>${e(x.res)}</b></div>` : ''}${x.year ? `<div>${T.year}: <b>${e(x.year)}</b>${x.dur ? ` &nbsp;|&nbsp; ${T.dur}: ${e(x.dur)}` : ''}</div>` : x.dur ? `<div>${T.dur}: ${e(x.dur)}</div>` : ''}${x.ach ? `<div>${T.ach2}: ${e(x.ach)}</div>` : ''}</div></div>`);
-  const eduC = has(d.edu).map(x => `<div style="margin:5px 0;line-height:1.35"><b>${e(x.deg)}${x.major ? ' in ' + e(x.major) : ''}</b> <span style="float:right">${e(x.year)}</span><br><span style="font-size:.95em">${[x.inst, x.board].filter(Boolean).map(e).join(', ')}${x.res ? ' — <b>' + e(x.res) + '</b>' : ''}${x.ach ? ' • ' + e(x.ach) : ''}</span></div>`);
+  const eduI = has(d.edu).map(x => { const T = eduTitle(x), rs = eduRes(x), du = eduDur(x.dur); return `<div class="ti"><div class="tb"><span class="bi">${ico(isSchool(x.deg) ? 'book' : 'cap', 19, '#fff')}</span></div><div class="tc"><b class="h">${e(T.t)}</b>${T.mj ? `<div>${T.ml === 'Group' ? 'Group' : 'Concentration / Major'}: ${e(T.mj)}</div>` : ''}${x.inst ? `<div>${e(x.inst)}</div>` : ''}${x.board ? `<div>${e(x.board)}</div>` : ''}${rs ? `<div>${/^(CGPA|GPA)/.test(rs) ? e(rs).replace(/(\d+(?:\.\d+)?) out of/, '<b>$1</b> out of') : 'Result: ' + e(rs)}</div>` : ''}${x.year || du ? `<div>${x.year ? `${(H7[o.lang] || H7.en).year}: <b>${e(x.year)}</b>` : ''}${x.year && du ? ' &nbsp;|&nbsp; ' : ''}${du ? `${(H7[o.lang] || H7.en).dur}: ${e(du)}` : ''}</div>` : ''}${x.ach ? `<div>${(H7[o.lang] || H7.en).ach2}: <b>${e(x.ach)}</b></div>` : ''}</div></div>` });
+  const eduC = has(d.edu).map(x => { const T = eduTitle(x), rs = eduRes(x), du = eduDur(x.dur); return `<div style="margin:6px 0;line-height:1.38"><div style="display:flex;justify-content:space-between;gap:12px"><b>${e(T.t)}${T.mj ? ' (' + T.ml + ': ' + e(T.mj) + ')' : ''}</b><span style="white-space:nowrap">${e(x.year)}</span></div><span style="font-size:.95em">${[x.inst, x.board].filter(Boolean).map(e).join(', ')}${rs ? ' — <b>' + e(rs) + '</b>' : ''}${x.ach ? ' • ' + e(x.ach) : ''}${du ? ' • ' + e(du) : ''}</span></div>` });
   const expI = (arr, ic) => has(arr).map(x => `<div class="ti"><div class="tb"><span class="bi">${ico(ic, 19, '#fff')}</span></div><div class="tc"><b class="h">${e(x.role)}</b>${x.org ? `<div><b>${e(x.org)}</b></div>` : ''}<div class="m">${x.loc ? `<span>${ico('pin', 14, bl)}${e(x.loc)}</span>` : ''}${x.period ? `<span>${ico('brief', 14, bl)}${T.dur}: ${e(x.period)}</span>` : ''}</div>${bul(x.desc)}</div></div>`);
-  const expC = arr => has(arr).map(x => `<div style="margin:6px 0;line-height:1.35"><b>${e(x.role)}</b>${x.org ? ' — ' + e(x.org) : ''}${x.loc ? ', ' + e(x.loc) : ''} <span style="float:right;font-size:.95em">${e(x.period)}</span>${bul(x.desc).replace('<ul>', '<ul style="margin:2px 0 0;padding-left:18px;font-size:.95em">')}</div>`);
+  const expC = arr => has(arr).map(x => `<div style="margin:6px 0;line-height:1.35"><div style="display:flex;justify-content:space-between;gap:12px"><span><b>${e(x.role)}</b>${x.org ? ' — ' + e(x.org) : ''}${x.loc ? ', ' + e(x.loc) : ''}</span><span style="white-space:nowrap;font-size:.95em">${e(x.period)}</span></div>${bul(x.desc).replace('<ul>', '<ul style="margin:2px 0 0;padding-left:18px;font-size:.95em">')}</div>`);
   const pjI = has(d.proj).map(x => `<div class="ti"><div class="tb"><span class="bi">${ico('gear', 19, '#fff')}</span></div><div class="tc"><b class="h">${e(x.name)}</b>${x.link ? `<div>${e(x.link)}</div>` : ''}${bul(x.desc)}</div></div>`);
   const achL = has(d.ach).length ? `<ul class="st">${has(d.ach).map(x => `<li>${ico('star', 16, '#10183a')}<span><b>${e(x.name)}</b>${x.desc ? ' — ' + e(x.desc) : ''}</span></li>`).join('')}</ul>` : '';
   const trI = has(d.train).map(x => `<div style="margin:6px 0 10px;break-inside:avoid"><b style="font-size:1.1em">${e(x.name)}</b>${x.inst ? `<div>${e(x.inst)}${x.year ? ' • ' + e(x.year) : ''}</div>` : x.year ? `<div>${e(x.year)}</div>` : ''}${x.dur ? `<div>${T.dur}: ${e(x.dur)}</div>` : ''}${x.desc ? `<div>${T.area}:</div>${bul(x.desc).replace('<ul>', '<ul style="margin:2px 0 0;padding-left:20px">')}` : ''}</div>`);
@@ -157,26 +185,27 @@ function cvPro(d, o, color) {
   const piB = o.personal && (pinfo || addrB) ? `<div class="sh">${badge('user')}<span>${T.pinfo}</span></div><div class="pi"><div>${pinfo}</div><div><div class="sub">${ico('home', 20, bl)}<span>${T.addr}</span></div>${addrB}</div></div>` : '';
   const sgn = (compact) => !(o.decl !== false) && !(o.sign && d.sign) ? '' : `${o.decl !== false ? `<div class="sh">${badge('edit')}<span>${T.decl}</span></div><div class="sm">${e(L.decl || '')}</div>` : ''}<div class="sgn" style="${compact ? 'margin-top:16px' : ''}"><div class="l">${o.sign && d.sign ? `<img src="${d.sign}">` : `<div style="height:${compact ? 22 : 40}px"></div>`}<div class="ln">${T.sig}</div></div><div class="dl">${T.date}: <i></i></div></div>`;
 
-  const side = (full, ext) => `<aside>${avatar}<h4>${T.contact}</h4>${contact}${(ext ? pdet2 : pdet) ? `<h4>${T.pd}</h4>${ext ? pdet2 : pdet}` : ''}${langKV ? `<h4>${T.langs}</h4>${langKV}` : ''}${full ? `<h4>${T.ref}</h4>${refs}` : ''}${mode === 'one' ? (cs.length ? `<h4>${T.cs}</h4>${cs.map(c => `<div style="font-size:.95em;display:flex;justify-content:space-between"><span>${e(c.n)}</span><span>${c.p}%</span></div><div class="bar7"><i style="width:${c.p}%"></i></div>`).join('')}` : '') + (soft.length ? `<h4>${T.soft}</h4>${soft.map(s => `<div class="kv"><i>•</i><span>${e(s)}</span></div>`).join('')}` : '') + `<h4>${T.ref}</h4>${refs}` : ''}</aside>`;
+  const sgnLite = `<div class="sgn" style="margin-top:12px"><div class="l">${o.sign && d.sign ? `<img src="${d.sign}">` : '<div style="height:20px"></div>'}<div class="ln">${T.sig}</div></div><div class="dl">${T.date}: <i></i></div></div>`;
+  const side = (full, ext) => `<aside>${avatar}<h4>${T.contact}</h4>${contact}${(ext ? pdet2 : pdet) ? `<h4>${T.pd}</h4>${ext ? pdet2 : pdet}` : ''}${langKV ? `<h4>${T.langs}</h4>${langKV}` : ''}${full ? `<h4>${T.ref}</h4>${refs}` : ''}${mode === 'one' ? (cs.length ? `<h4>${T.cs}</h4>${cs.map(c => lite >= 2 ? `<div style="font-size:.9em;display:flex;justify-content:space-between;margin:2px 0"><span>${e(c.n)}</span><span>${c.p}%</span></div>` : `<div style="font-size:.95em;display:flex;justify-content:space-between"><span>${e(c.n)}</span><span>${c.p}%</span></div><div class="bar7"><i style="width:${c.p}%"></i></div>`).join('')}` : '') + (soft.length && lite === 0 ? `<h4>${T.soft}</h4>${soft.map(s => `<div class="kv"><i>•</i><span>${e(s)}</span></div>`).join('')}` : '') + `<h4>${T.ref}</h4>${refs}` : ''}</aside>`;
   const secE = (arr, n, t, cls) => arr.length ? sh(n, t) + `<div class="${cls || ''}">${arr.join('')}</div>` : '';
   const P = [];
   if (mode === 'one') {
-    P.push(`<div class="pg p1 one">${side(false, true)}<div class="mn">${head}${d.obj && d.obj.trim() ? sh('user', T.sum) + sumB : ''}${comp.length ? sh('award', T.comp) + compHTML : ''}${eduC.length ? sh('cap', T.edu) + eduC.join('') : ''}${has(d.exp).length ? sh('brief', T.exp) + expC(d.exp).join('') : ''}${has(d.proj).length ? sh('gear', T.proj) + has(d.proj).map(x => `<div style="margin:5px 0"><b>${e(x.name)}</b>${bul(x.desc)}</div>`).join('') : ''}${has(d.train).length ? sh('award', T.train) + has(d.train).map(x => `<div style="margin:4px 0"><b>${e(x.name)}</b>${x.inst ? ' — ' + e(x.inst) : ''}${x.dur ? ' (' + e(x.dur) + ')' : ''}${x.year ? ' <span style="float:right">' + e(x.year) + '</span>' : ''}</div>`).join('') : ''}${has(d.ach).length ? sh('star', T.ach) + achL : ''}${objB ? sh('brief', T.obj) + objB : ''}${sgn(true)}</div></div>`);
+    P.push(`<div class="pg p1 one">${side(false, true)}<div class="mn">${head}${d.obj && d.obj.trim() ? sh('user', T.sum) + sumB : ''}${comp.length ? sh('award', T.comp) + compHTML : ''}${eduC.length ? sh('cap', T.edu) + eduC.join('') : ''}${has(d.exp).length ? sh('brief', T.exp) + expC(d.exp).join('') : ''}${has(d.proj).length ? sh('gear', T.proj) + has(d.proj).map(x => `<div style="margin:5px 0"><b>${e(x.name)}</b>${bul(x.desc)}</div>`).join('') : ''}${has(d.train).length ? sh('award', T.train) + has(d.train).map(x => `<div style="margin:4px 0;display:flex;justify-content:space-between;gap:12px"><span><b>${e(x.name)}</b>${x.inst ? ' — ' + e(x.inst) : ''}${x.dur ? ' (' + e(x.dur) + ')' : ''}</span><span style="white-space:nowrap">${x.year ? e(x.year) : ''}</span></div>`).join('') : ''}${has(d.ach).length && lite === 0 ? sh('star', T.ach) + achL : ''}${objB ? sh('brief', T.obj) + objB : ''}${lite >= 2 ? sgnLite : sgn(true)}</div></div>`);
   } else if (mode === 'full') {
-    P.push(`<div class="pg p1">${side(true)}<div class="mn">${head}${d.obj && d.obj.trim() ? sh('user', T.sum) + sumB : ''}${comp.length ? sh('award', T.comp) + compHTML : ''}${objB ? sh('brief', T.obj) + objB : ''}</div>PB</div>`);
+    P.push(`<div class="pg p1">${side(true)}<div class="mn">${head}${d.obj && d.obj.trim() ? sh('user', T.sum) + sumB : ''}${comp.length ? sh('award', T.comp) + compHTML : ''}${objB ? sh('brief', T.obj) + objB : ''}</div>{{PB}}</div>`);
     const p2 = (eduI.length ? band('cap', T.edu) + `<div class="tl">${eduI.join('')}</div>` : '') + (achL ? band('star', T.ach) + achL : '') + (has(d.exp).length ? band('brief', T.exp) + `<div class="tl">${expI(d.exp, 'brief').join('')}</div>` : '') + (pjI.length ? band('gear', T.proj) + `<div class="tl">${pjI.join('')}</div>` : '') + (has(d.vol).length ? band('user', T.vol) + `<div class="tl">${expI(d.vol, 'user').join('')}</div>` : '');
-    if (p2) P.push(`<div class="pg"><div class="cnt">${p2}</div>PB</div>`);
+    if (p2) P.push(`<div class="pg"><div class="cnt">${p2}</div>{{PB}}</div>`);
     const p3 = ((cs.length || soft.length) ? sh('gear', T.skills) + `<div class="${cs.length && soft.length ? 'cols' : ''}">${cs.length ? `<div><div class="sub">${ico('monitor', 22, bl)}<span>${T.cs}</span></div>${bars}</div>` : ''}${soft.length ? `<div><div class="sub">${ico('user', 22, bl)}<span>${T.soft}</span></div>${softL}</div>` : ''}</div>` : '') + (trI.length ? sh('award', T.train) + trI.join('') : '') + (langR ? sh('globe', T.lang) + langR : '');
-    if (p3) P.push(`<div class="pg"><div class="cnt">${p3}</div>PB</div>`);
+    if (p3) P.push(`<div class="pg"><div class="cnt">${p3}</div>{{PB}}</div>`);
     const p4 = piB + sgn(false);
-    if (p4.trim()) P.push(`<div class="pg"><div class="cnt">${p4}</div>PB</div>`);
+    if (p4.trim()) P.push(`<div class="pg"><div class="cnt">${p4}</div>{{PB}}</div>`);
   } else { /* two pages */
-    P.push(`<div class="pg p1">${side(true, true)}<div class="mn">${head}${d.obj && d.obj.trim() ? sh('user', T.sum) + sumB : ''}${comp.length ? sh('award', T.comp) + compHTML : ''}${eduI.length ? band('cap', T.edu).replace('<div class="bd7">', '<div class="bd7" style="margin-left:-34px;margin-right:-34px">') + `<div class="tl">${eduI.join('')}</div>` : ''}${objB ? sh('brief', T.obj) + objB : ''}</div>PB</div>`);
-    const p2 = (has(d.exp).length ? band('brief', T.exp) + `<div class="tl">${expI(d.exp, 'brief').join('')}</div>` : '') + (achL ? band('star', T.ach) + achL : '') + (has(d.proj).length ? sh('gear', T.proj) + has(d.proj).map(x => `<div style="margin:5px 0"><b>${e(x.name)}</b>${bul(x.desc)}</div>`).join('') : '') + (has(d.vol).length ? sh('user', T.vol) + expC(d.vol).join('') : '') + ((cs.length || soft.length) ? sh('gear', T.skills) + `<div class="${cs.length && soft.length ? 'cols' : ''}">${cs.length ? `<div>${bars}</div>` : ''}${soft.length ? `<div>${softL}</div>` : ''}</div>` : '') + (has(d.train).length ? sh('award', T.train) + has(d.train).map(x => `<div style="margin:4px 0"><b>${e(x.name)}</b>${x.inst ? ' — ' + e(x.inst) : ''}${x.dur ? ' (' + e(x.dur) + ')' : ''}${x.year ? ' <span style="float:right">' + e(x.year) + '</span>' : ''}</div>`).join('') : '') + sgn(true);
-    if (p2.trim()) P.push(`<div class="pg"><div class="cnt">${p2}</div>PB</div>`);
+    P.push(`<div class="pg p1">${side(true, true)}<div class="mn">${head}${d.obj && d.obj.trim() ? sh('user', T.sum) + sumB : ''}${comp.length ? sh('award', T.comp) + compHTML : ''}${eduC.length ? sh('cap', T.edu) + eduC.join('') : ''}${objB ? sh('brief', T.obj) + objB : ''}</div>{{PB}}</div>`);
+    const p2 = (has(d.exp).length ? (lite >= 1 ? sh('brief', T.exp) + expC(d.exp).join('') : band('brief', T.exp) + `<div class="tl">${expI(d.exp, 'brief').join('')}</div>`) : '') + (achL ? (lite >= 1 ? sh('star', T.ach) : band('star', T.ach)) + achL : '') + (has(d.proj).length ? sh('gear', T.proj) + has(d.proj).map(x => `<div style="margin:5px 0"><b>${e(x.name)}</b>${bul(x.desc)}</div>`).join('') : '') + (has(d.vol).length ? sh('user', T.vol) + expC(d.vol).join('') : '') + ((cs.length || soft.length) ? sh('gear', T.skills) + `<div class="${cs.length && soft.length ? 'cols' : ''}">${cs.length ? `<div>${bars}</div>` : ''}${soft.length ? `<div>${softL}</div>` : ''}</div>` : '') + (has(d.train).length ? sh('award', T.train) + has(d.train).map(x => `<div style="margin:4px 0;display:flex;justify-content:space-between;gap:12px"><span><b>${e(x.name)}</b>${x.inst ? ' — ' + e(x.inst) : ''}${x.dur ? ' (' + e(x.dur) + ')' : ''}</span><span style="white-space:nowrap">${x.year ? e(x.year) : ''}</span></div>`).join('') : '') + (lite >= 2 ? sgnLite : sgn(true));
+    if (p2.trim()) P.push(`<div class="pg"><div class="cnt">${p2}</div>{{PB}}</div>`);
   }
   const tot = P.length;
-  return `<div class="cv t7" data-mode="${mode}" style="${sty}">${P.map((p, i) => p.replace('PB', pgBar(i + 1, tot))).join('')}</div>`;
+  return `<div class="cv t7" data-mode="${mode}" style="${sty}">${P.map((p, i) => p.split('{{PB}}').join(pgBar(i + 1, tot))).join('')}</div>`;
 }
 
 /* ---- 7. wire into the existing builder ---- */
@@ -185,13 +214,23 @@ if (!LS.get('tpl', null)) tpl = 't7';
 cvo.pg = cvo.pg || 'two'; if (!LS.get('decl_init', 0)) { cvo.decl = true; saveO(); LS.set('decl_init', 1) }
 const _cvHTML = cvHTML;
 cvHTML = function (d, t, o = cvo, color = ac) {
-  if (t === 't7') return cvPro(d, o, color);
+  d = trimDeep(d);
+  if (t === 't7') {
+    if (!['one', 'two'].includes(o.pg || 'two')) return cvPro(d, o, color);
+    let html = '';
+    for (let L = 0; L <= 2; L++) {
+      html = cvPro(d, { ...o, lite: L }, color);
+      const w = document.createElement('div'); w.style.cssText = 'position:fixed;left:-10000px;top:0;width:794px'; w.innerHTML = html; document.body.appendChild(w);
+      const r = w.firstElementChild; fitPages(r, L < 2 ? .84 : 0); const ok = [...r.querySelectorAll('.pg')].every(p => p.offsetHeight <= 1121); w.remove(); if (ok) break;
+    }
+    return html;
+  }
   const c = color || TPLC[t] || '#006a4e';
   return _cvHTML(adapt(d), t, o, color).replace(/style="--ac:(#[0-9a-fA-F]{3,6});/, (m, x) => m + tintVars(x));
 };
-function fitPages(root) {
+function fitPages(root, minK = 0) {
   if (!root.dataset.fs0) { root.dataset.fs0 = parseFloat(getComputedStyle(root).getPropertyValue('--fs')) || 13.5; root.dataset.g0 = parseFloat(getComputedStyle(root).getPropertyValue('--gap')) || 1 }
-  const fs0 = +root.dataset.fs0, g0 = +root.dataset.g0, pgs = [...root.querySelectorAll('.pg')], steps = root.dataset.mode === 'one' ? [1, .95, .9, .86, .82, .78, .74, .7] : [1, .96, .92, .88, .84, .8, .76];
+  const fs0 = +root.dataset.fs0, g0 = +root.dataset.g0, pgs = [...root.querySelectorAll('.pg')], steps = (root.dataset.mode === 'one' ? [1, .95, .9, .86, .82, .78, .74, .7] : [1, .96, .92, .88, .84, .8, .76]).filter((k, i) => k >= minK || i === 0);
   for (const k of steps) { root.style.setProperty('--fs', (fs0 * k).toFixed(2) + 'px'); root.style.setProperty('--gap', (g0 * k).toFixed(2)); if (pgs.every(p => p.offsetHeight <= 1121)) break }
   return pgs.length;
 }

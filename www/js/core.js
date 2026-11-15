@@ -97,3 +97,20 @@ async function elementToPDF(el, name, opt = {}) {
   } else await w.save();
   return true;
 }
+
+/* ---- list / education helpers (shared by every CV template) ---- */
+const splitList = s => { const seen = new Set(); return String(s || '').split(/[,;\n]|\.\s+/).map(x => x.trim().replace(/^(and|&|or)\s+/i, '').replace(/\.+$/, '').trim()).filter(x => x && !seen.has(x.toLowerCase()) && seen.add(x.toLowerCase())) };
+const isSchool = d => /ssc|hsc|secondary|dakhil|alim|o.?level|a.?level|jsc|psc|higher secondary/i.test(d || '');
+function eduTitle(e) {
+  const d = String(e.deg || '').trim(), m = String(e.major || '').trim();
+  if (!m || d.toLowerCase().includes(m.toLowerCase())) return { t: d, mj: '', ml: '' };
+  if (isSchool(d)) return { t: d, mj: m, ml: 'Group' };
+  if (/\b(in|of)\b/i.test(d)) return { t: d, mj: m, ml: 'Major' };
+  return { t: d + ' in ' + m, mj: '', ml: '' };
+}
+function eduRes(e) {
+  const r = String(e.res || '').trim(); if (!r) return '';
+  if (/^\d+(\.\d+)?$/.test(r)) { const v = parseFloat(r), sc = parseFloat(e.scale) || (isSchool(e.deg) || v > 4 ? 5 : 4); return (isSchool(e.deg) ? 'GPA' : 'CGPA') + ': ' + v.toFixed(2) + ' out of ' + sc.toFixed(2) }
+  return r;
+}
+const eduDur = s => { s = String(s || '').trim(); return /^\d+(\.\d+)?$/.test(s) ? s + (parseFloat(s) === 1 ? ' Year' : ' Years') : s };
