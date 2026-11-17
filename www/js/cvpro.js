@@ -5,10 +5,21 @@ LBL.en.sum = LBL.en.sum || 'Career Summary'; LBL.bn.sum = LBL.bn.sum || 'ক্�
 /* ---- 1. extra data fields (BDJobs-compatible) ---- */
 Object.assign(EMPTY, { cobj: '', soft: '', hdist: '', village: '', po: '', ps: '', dist: '', country: 'Bangladesh', cs: [] });
 Object.keys(EMPTY).forEach(k => { if (cv[k] === undefined) cv[k] = clone(EMPTY[k]) });
+/* older builds had form fields the template never read (or duplicates). Fold them into the fields that are really used. */
+(function () {
+  let ch = false; const t = v => String(v || '').trim();
+  if (t(cv.cobj)) { if (!t(cv.goal)) cv.goal = cv.cobj; cv.cobj = ''; ch = true }
+  if (t(cv.soft)) { cv.skills = [cv.skills, cv.soft].filter(t).join(', '); cv.soft = ''; ch = true }
+  if ((cv.cs || []).length) { cv.sk2 = [...(cv.sk2 || []), ...cv.cs.filter(c => t(c.name) || t(c.pct)).map(c => ({ n: c.name, p: c.pct }))]; cv.cs = []; ch = true }
+  [['village', 'pvil'], ['po', 'ppo'], ['ps', 'pps'], ['dist', 'pdist']].forEach(([a, b]) => { if (!t(cv[a]) && t(cv[b])) { cv[a] = cv[b]; ch = true } });
+  if (ch) save();
+})();
 Object.assign(SAMPLE, {
-  cobj: 'To secure an entry-level position in a reputable organization where I can use my knowledge and skills and grow professionally.',
-  soft: 'Communication, Problem Solving, Time Management, Teamwork, Honesty & Integrity, Responsibility', hdist: 'Bhola', village: 'Char Kukri', po: 'Char Kukri', ps: 'Bhola Sadar', dist: 'Bhola', country: 'Bangladesh',
-  cs: [{ name: 'JavaScript', pct: '85' }, { name: 'React', pct: '80' }, { name: 'Python', pct: '75' }, { name: 'SQL', pct: '70' }, { name: 'Git & GitHub', pct: '80' }],
+  goal: 'To secure an entry-level position in a reputable organization where I can use my knowledge and skills and grow professionally.',
+  comp: 'JavaScript, React, Node.js, Python, SQL, Git & GitHub, Problem Solving, MS Office',
+  skills: 'Communication, Problem Solving, Time Management, Teamwork, Honesty & Integrity, Responsibility', hdist: 'Bhola', village: 'Char Kukri', po: 'Char Kukri', ps: 'Bhola Sadar', dist: 'Bhola', country: 'Bangladesh',
+  sk2: [{ n: 'JavaScript', p: '85' }, { n: 'React', p: '80' }, { n: 'Python', p: '75' }, { n: 'SQL', p: '70' }, { n: 'Git & GitHub', p: '80' }],
+  lang2: [{ n: 'Bangla', lv: 'Native', p: '100' }, { n: 'English', lv: 'Intermediate', p: '70' }],
 });
 SAMPLE.edu = [{ deg: 'Bachelor of Science (B.Sc.)', major: 'Computer Science & Engineering', inst: 'University of Dhaka', board: '', res: 'CGPA 3.62 out of 4.00', year: '2023', dur: '4 Years', ach: 'First Class' }, { deg: 'Higher Secondary Certificate (HSC)', major: 'Science', inst: 'Notre Dame College, Dhaka', board: 'Dhaka Board', res: 'GPA 5.00 out of 5.00', year: '2018', dur: '', ach: '' }, { deg: 'Secondary School Certificate (SSC)', major: 'Science', inst: 'Bhola Govt. High School', board: 'Barisal Board', res: 'GPA 5.00 out of 5.00', year: '2016', dur: '', ach: '' }];
 SAMPLE.exp[0].loc = 'Dhaka, Bangladesh';
@@ -23,13 +34,11 @@ LISTS.cs = ['🖥️ কম্পিউটার / টেকনিক্যা�
 const _cvForm = cvForm;
 cvForm = function () {
   let h = _cvForm();
-  const ins = (marker, add, after) => { const i = h.indexOf(marker); if (i < 0) return; const j = after ? h.indexOf('</details>', i) : i + marker.length; h = h.slice(0, j) + add + h.slice(j) };
-  h = h.replace('🎯 ক্যারিয়ার সারসংক্ষেপ (Summary)', '🎯 Profile Summary ও Career Objective');
-  ins('Profile Summary ও Career Objective</summary>', F('cobj', 'Career Objective — কোন পদে কী অবদান রাখতে চান (১–২ লাইন)', 'area', 'To secure a position where I can ...'));
-  h = h.replace('🛠️ স্কিল, ভাষা, আগ্রহ', '🛠️ Special Qualification, ভাষা, আগ্রহ');
-  ins('Special Qualification, ভাষা, আগ্রহ</summary>', F('soft', 'Soft Skills (কমা দিয়ে)', 'area', 'Communication, Teamwork, ...'));
-  const k = h.indexOf('Special Qualification, ভাষা, আগ্রহ</summary>'); const e = h.indexOf('</details>', k) + 10; h = h.slice(0, e) + listEd('cs') + h.slice(e);
-  ins('🪪 ব্যক্তিগত তথ্য (সরকারি/ব্যাংক জবের জন্য)</summary>', F('hdist', 'Home District') + '<label style="margin:10px 0 4px;color:var(--g)">📍 স্থায়ী ঠিকানা (Permanent Address)</label>' + F('village', 'Village / Mahalla') + F('po', 'Post Office') + F('ps', 'Police Station / Upazila') + F('dist', 'District') + F('country', 'Country'));
+  const strip = k => { h = h.replace(new RegExp('<label>[^<]*</label><input[^>]*oninput="setF\\(\'' + k + '\',this\\.value\\)">'), '') };
+  ['pvil', 'ppo', 'pps', 'pdist', 'hdist'].forEach(strip);   /* duplicates of the Village/PO/PS/District boxes below */
+  const ins = (marker, add) => { const i = h.indexOf(marker); if (i < 0) return; const j = i + marker.length; h = h.slice(0, j) + add + h.slice(j) };
+  h = h.replace('🛠️ স্কিল, ভাষা, আগ্রহ', '🛠️ Core Competencies, Soft Skills, ভাষা, আগ্রহ');
+  ins('🪪 ব্যক্তিগত তথ্য (সরকারি/ব্যাংক জবের জন্য)</summary>', F('hdist', 'Home District (নিজ জেলা)') + '<label style="margin:10px 0 4px;color:var(--g)">📍 স্থায়ী ঠিকানা (Permanent Address)</label>' + F('village', 'Village / Mahalla') + F('po', 'Post Office') + F('ps', 'Police Station / Upazila') + F('dist', 'District') + F('country', 'Country'));
   return h;
 };
 
@@ -48,7 +57,12 @@ function normalize(d) {
   ['edu', 'exp', 'proj', 'train', 'ach', 'vol', 'refs', 'cs'].forEach(k => { x[k] = (x[k] || []).map(it => { const o = {}; for (const f in it) o[f] = typeof it[f] === 'string' ? (f === 'desc' ? it[f].replace(/[ \t]+$/gm, '').trim() : spc(it[f])) : it[f]; return o }) });
   x.edu = x.edu.map(e => { const T = eduTitle(e); return { ...e, title: T.t + (T.mj ? ' (' + T.mj + ')' : ''), res: eduRes(e), dur: eduDur(e.dur) } });
   x.train = x.train.map(e => ({ ...e, dur: eduDur(e.dur) }));
-  x.skillList = splitSkills(x.skills); x.softList = splitSkills(x.soft);
+  const uniq = a => { const seen = new Set(); return a.filter(z => { const k = String(z).toLowerCase().replace(/&/g, 'and'); if (!z || seen.has(k)) return false; seen.add(k); return true }) };
+  const core = splitSkills(x.comp), sk = splitSkills(x.skills), so = splitSkills(x.soft);
+  if (core.length) { x.skillList = core; x.softList = uniq([...sk, ...so]) } else { x.skillList = sk; x.softList = so }
+  x.cobj = (x.goal || '').trim() || (x.cobj || '').trim();
+  x.village = x.village || x.pvil || ''; x.po = x.po || x.ppo || ''; x.ps = x.ps || x.pps || ''; x.dist = x.dist || x.pdist || '';
+  { const seen = new Set(); x.cs = [...(x.cs || []), ...has(x.sk2 || []).map(c => ({ name: spc(c.n), pct: spc(c.p) }))].filter(c => { const k = String(c.name).toLowerCase(); if (!k || seen.has(k)) return false; seen.add(k); return true }) }
   return x;
 }
 
@@ -98,13 +112,13 @@ document.head.insertAdjacentHTML('beforeend', `<style id="cvpro-css">
 .t7 .cb{width:30px;height:30px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center;flex:none}
 .t7 .kv{display:flex;gap:6px;margin:4px 0;font-size:.95em;line-height:1.35}.t7 .kv i{font-style:normal;flex:none}.t7 .kv b{font-weight:400;width:104px;flex:none}.t7 .kv span{word-break:break-word}
 .t7 .mn{flex:1;min-width:0;padding:42px 34px 100px 34px}
-.t7 .nm{margin:0;font-size:calc(var(--fs)*3.9);line-height:1.02;font-weight:800;text-transform:uppercase;color:var(--ac);letter-spacing:-.5px;word-break:break-word}
+.t7 .nm{margin:0;font-size:calc(var(--fs)*var(--nk,3.9));line-height:1.04;font-weight:800;text-transform:uppercase;color:var(--ac);letter-spacing:-.5px;word-break:normal;overflow-wrap:normal}
 .t7 .tt7{margin-top:14px;padding-bottom:12px;border-bottom:3px solid var(--o);font-size:1.4em;text-transform:uppercase;color:#1b2340}
 .t7 .sh{display:flex;align-items:center;gap:12px;margin:calc(24px*var(--gap)) 0 12px;font-weight:800;font-size:1.32em;text-transform:uppercase;color:#10183a}
 .t7 .sh::after{content:"";flex:1;height:2px;background:var(--o);max-width:150px}
 .t7 .bi{width:38px;height:38px;border-radius:50%;background:var(--ac);display:flex;align-items:center;justify-content:center;flex:none}
 .t7 .sm{font-size:1.02em;line-height:1.6;text-align:left}
-.t7 .cg{display:grid;grid-template-columns:1fr 1fr;gap:9px 14px}.t7 .cg div{display:flex;gap:8px;align-items:center;font-size:1em}.t7 .cg.c3{grid-template-columns:1fr 1fr 1fr;gap:6px 8px}.t7 .cg.c3 div{font-size:.92em;gap:5px}
+.t7 .cg{display:grid;grid-template-columns:1fr 1fr;gap:9px 14px}.t7 .cg div{display:flex;gap:8px;align-items:center;font-size:1em}.t7 .cg.cg3{grid-template-columns:1fr 1fr 1fr;gap:6px 8px}.t7 .cg.cg3 div{font-size:.92em;gap:5px}
 .t7 .bd7{background:var(--ac);color:#fff;display:flex;align-items:center;gap:14px;padding:11px 22px;font-weight:800;font-size:1.5em;text-transform:uppercase;margin:calc(8px*var(--gap)) 0 14px;border-bottom:3px solid var(--o)}
 .t7 .bd7::after{content:"";flex:1;height:2px;background:var(--o)}
 .t7 .bd7 .bi{background:#fff;width:34px;height:34px}
@@ -128,7 +142,7 @@ document.head.insertAdjacentHTML('beforeend', `<style id="cvpro-css">
 .t7 .dl{display:flex;gap:6px;align-items:flex-end}.t7 .dl i{display:inline-block;width:150px;border-bottom:1.5px solid #111;height:1px}
 .t7 .pb{position:absolute;left:40px;right:40px;bottom:30px;height:46px;background:var(--ac);color:var(--o);font-weight:800;font-size:1.25em;display:flex;align-items:center;justify-content:flex-end;padding-right:36px;text-transform:uppercase}
 .t7 .p1 .pb{left:auto;right:0;width:240px;color:#fff;justify-content:center;padding:0}
-.t7 .one .mn{padding:36px 30px 36px 30px}.t7 .one aside{padding:30px 20px 36px;width:268px}.t7 .one .av{width:150px;height:150px}.t7 .one .nm{font-size:calc(var(--fs)*3.2)}
+.t7 .one .mn{padding:36px 30px 36px 30px}.t7 .one aside{padding:30px 20px 36px;width:268px}.t7 .one .av{width:150px;height:150px}.t7 .one .nm{font-size:calc(var(--fs)*var(--nk1,3.2))}
 .t7 .one .sh{margin:calc(16px*var(--gap)) 0 8px;font-size:1.18em}.t7 .one .bi{width:30px;height:30px}.t7 .one .kv b{width:84px}
 .t7 .one aside .bar7{height:6px;border-radius:4px;background:#ffffff40;overflow:hidden;margin:3px 0 7px}.t7 .one aside .bar7 i{display:block;height:100%;background:var(--o);border-radius:4px}
 #pwi .t7 .pg+.pg{border-top:3px dashed #f23a4d77}
@@ -136,13 +150,13 @@ document.head.insertAdjacentHTML('beforeend', `<style id="cvpro-css">
 
 /* ---- 6. the template ---- */
 const H7 = {
-  en: { sum: 'Profile Summary', comp: 'Core Competencies', obj: 'Career Objective', edu: 'Education', ach: 'Academic Achievements', exp: 'Work Experience', proj: 'Projects', vol: 'Extracurricular Activities', skills: 'Skills', cs: 'Computer Skills', soft: 'Soft Skills', train: 'Training & Certifications', lang: 'Language Proficiency', pinfo: 'Personal Information', addr: 'Permanent & Present Address', decl: 'Declaration', contact: 'Contact', pd: 'Personal Details', langs: 'Languages', ref: 'References', page: 'Page', avail: 'Available on request.', area: 'Training Areas', dur: 'Duration', res: 'Result', year: 'Passing Year', ach2: 'Achievement', village: 'Village', po: 'Post Office', ps: 'Police Station', dist: 'District', country: 'Country', pres: 'Present Address', hd: 'Home District', date: 'Date', sig: 'Signature' },
-  bn: { sum: 'প্রোফাইল সারসংক্ষেপ', comp: 'মূল দক্ষতা', obj: 'ক্যারিয়ার উদ্দেশ্য', edu: 'শিক্ষাগত যোগ্যতা', ach: 'একাডেমিক অর্জন', exp: 'কর্ম অভিজ্ঞতা', proj: 'প্রজেক্ট', vol: 'সহ-শিক্ষা কার্যক্রম', skills: 'দক্ষতা', cs: 'কম্পিউটার দক্ষতা', soft: 'সফট স্কিল', train: 'প্রশিক্ষণ ও সনদ', lang: 'ভাষা দক্ষতা', pinfo: 'ব্যক্তিগত তথ্য', addr: 'স্থায়ী ও বর্তমান ঠিকানা', decl: 'ঘোষণা', contact: 'যোগাযোগ', pd: 'ব্যক্তিগত বিবরণ', langs: 'ভাষা', ref: 'রেফারেন্স', page: 'পৃষ্ঠা', avail: 'চাইলে সরবরাহ করা হবে।', area: 'প্রশিক্ষণের বিষয়', dur: 'মেয়াদ', res: 'ফলাফল', year: 'পাসের সন', ach2: 'অর্জন', village: 'গ্রাম', po: 'ডাকঘর', ps: 'থানা', dist: 'জেলা', country: 'দেশ', pres: 'বর্তমান ঠিকানা', hd: 'নিজ জেলা', date: 'তারিখ', sig: 'স্বাক্ষর' },
+  en: { sum: 'Profile Summary', comp: 'Core Competencies', obj: 'Career Objective', edu: 'Education', ach: 'Academic Achievements', exp: 'Work Experience', proj: 'Projects', vol: 'Extracurricular Activities', skills: 'Skills', cs: 'Computer Skills', soft: 'Soft Skills', train: 'Training & Certifications', lang: 'Language Proficiency', pinfo: 'Personal Information', addr: 'Permanent & Present Address', decl: 'Declaration', contact: 'Contact', pd: 'Personal Details', langs: 'Languages', hobby: 'Interests', ref: 'References', page: 'Page', avail: 'Available on request.', area: 'Training Areas', dur: 'Duration', res: 'Result', year: 'Passing Year', ach2: 'Achievement', village: 'Village', po: 'Post Office', ps: 'Police Station', dist: 'District', country: 'Country', pres: 'Present Address', hd: 'Home District', date: 'Date', sig: 'Signature' },
+  bn: { sum: 'প্রোফাইল সারসংক্ষেপ', comp: 'মূল দক্ষতা', obj: 'ক্যারিয়ার উদ্দেশ্য', edu: 'শিক্ষাগত যোগ্যতা', ach: 'একাডেমিক অর্জন', exp: 'কর্ম অভিজ্ঞতা', proj: 'প্রজেক্ট', vol: 'সহ-শিক্ষা কার্যক্রম', skills: 'দক্ষতা', cs: 'কম্পিউটার দক্ষতা', soft: 'সফট স্কিল', train: 'প্রশিক্ষণ ও সনদ', lang: 'ভাষা দক্ষতা', pinfo: 'ব্যক্তিগত তথ্য', addr: 'স্থায়ী ও বর্তমান ঠিকানা', decl: 'ঘোষণা', contact: 'যোগাযোগ', pd: 'ব্যক্তিগত বিবরণ', langs: 'ভাষা', hobby: 'আগ্রহ', ref: 'রেফারেন্স', page: 'পৃষ্ঠা', avail: 'চাইলে সরবরাহ করা হবে।', area: 'প্রশিক্ষণের বিষয়', dur: 'মেয়াদ', res: 'ফলাফল', year: 'পাসের সন', ach2: 'অর্জন', village: 'গ্রাম', po: 'ডাকঘর', ps: 'থানা', dist: 'জেলা', country: 'দেশ', pres: 'বর্তমান ঠিকানা', hd: 'নিজ জেলা', date: 'তারিখ', sig: 'স্বাক্ষর' },
 };
 function cvPro(d0, o, color) {
   const d = normalize(d0);
   const T = H7[o.lang] || H7.en, L = LBL[o.lang] || LBL.en, col = color || TPLC.t7, bl = col;
-  const sz = { s: 12.5, m: 13.5, l: 14.5 }[o.size] || 13.5, gap = o.dense === 'c' ? .72 : 1, mode = o.pg || 'two', lite = o.lite || 0;
+  const sz = { s: 11.4, m: 12.4, l: 13.4 }[o.size] || 12.4, gap = o.dense === 'c' ? .72 : 1, mode = o.pg || 'two', lite = o.lite || 0;
   const sty = `--ac:${col};${tintVars(col)}--fs:${sz}px;--gap:${gap}`;
   const e = esc, bul = s => { const a = String(s || '').split(/\n/).map(x => x.replace(/^\s*[-•*·▪●‣]+\s*/, '').trim()).filter(Boolean); return a.length ? `<ul>${a.map(x => `<li>${e(x)}</li>`).join('')}</ul>` : '' };
   const chipsA = splitList;
@@ -150,23 +164,29 @@ function cvPro(d0, o, color) {
   const sh = (n, t) => `<div class="sh">${badge(n)}<span>${e(t)}</span></div>`;
   const band = (n, t) => `<div class="bd7"><span class="bi">${ico(n, 19, bl)}</span><span>${e(t)}</span></div>`;
   const showPh = o.photo, ini = String(d.name || 'U').trim().split(/\s+/).slice(0, 2).map(w => w[0] || '').join('').toUpperCase();
-  const avatar = !showPh ? '' : d.photo ? `<img class="av" src="${d.photo}">` : `<div class="av avi">${e(ini)}</div>`;
+  const sil = `<svg class="av" viewBox="0 0 100 100" width="190" height="190" style="display:block"><defs><linearGradient id="sg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#dfe5f2"/><stop offset="1" stop-color="#b9c4dc"/></linearGradient></defs><circle cx="50" cy="50" r="50" fill="url(#sg)"/><circle cx="50" cy="38" r="15" fill="#8e9bb8"/><path d="M18 92c2-20 16-30 32-30s30 10 32 30a50 50 0 0 1-64 0z" fill="#8e9bb8"/></svg>`;
+  const avatar = !showPh ? '' : d.photo ? `<img class="av" src="${d.photo}">` : sil;
   const cinfo = [['phone', d.phone], ['mail', d.email], ['pin', d.address], ['link', d.link]].filter(x => x[1] && String(x[1]).trim());
   const contact = cinfo.map(x => `<div class="ci"><span class="cb">${ico(x[0], 16, bl)}</span><span>${e(x[1])}</span></div>`).join('');
   const kv = (a, b) => b && String(b).trim() ? `<div class="kv"><i>•</i><b>${a}</b><span>: ${e(b)}</span></div>` : '';
   const pdet = o.personal ? [kv(L.dob, d.dob), kv(L.nat, d.nat), kv(L.rel, d.rel), kv(L.mar, d.mar), kv(L.nid.split(' /')[0], d.nid), kv(L.gender, d.gender), kv(L.blood, d.blood)].join('') : '';
   const permT = [d.village, d.po && 'PO: ' + d.po, d.ps && 'PS: ' + d.ps, d.dist, d.country].filter(Boolean).join(', ') || d.paddr;
   const pdet2 = o.personal ? [kv(L.father, d.father), kv(L.mother, d.mother), kv(L.dob, d.dob), kv(L.nat, d.nat), kv(L.rel, d.rel), kv(L.mar, d.mar), kv(L.nid.split(' /')[0], d.nid), kv(L.gender, d.gender), kv(L.blood, d.blood), kv(T.hd, d.hdist), kv(o.lang === 'bn' ? 'স্থায়ী ঠিকানা' : 'Permanent Addr.', permT)].join('') : '';
-  const langs = chipsA(d.langs).map(x => { const m = x.match(/^(.*?)\s*\((.*?)\)\s*$/); return m ? { n: m[1], l: m[2] } : { n: x, l: '' } });
+  const langs = (() => { const out = has(d.lang2 || []).map(x => ({ n: spc(x.n), l: spc(x.lv), p: Math.max(5, Math.min(100, parseInt(x.p) || lvPct(x.lv))) })).filter(x => x.n); const seen = new Set(out.map(x => x.n.toLowerCase()));
+    chipsA(d.langs).forEach(x => { const m = x.match(/^(.*?)\s*\((.*?)\)\s*$/), o = m ? { n: m[1], l: m[2] } : { n: x, l: '' }; if (!seen.has(o.n.toLowerCase())) { seen.add(o.n.toLowerCase()); o.p = lvPct(o.l); out.push(o) } }); return out })();
+  const hob = chipsA(d.hobby);
   const langKV = langs.map(x => `<div class="kv"><i>•</i><b style="width:80px">${e(x.n)}</b><span>${x.l ? ': ' + e(x.l) : ''}</span></div>`).join('');
   const refs = has(d.refs).length ? has(d.refs).map(r => `<div style="margin:5px 0;font-size:.95em"><b>${e(r.name)}</b><br>${e(r.info)}</div>`).join('') : `<div style="font-size:.95em">${T.avail}</div>`;
   const cs = has(d.cs).map(c => ({ n: c.name, p: Math.max(5, Math.min(100, parseInt(c.pct) || 80)) }));
   const soft = d.softList;
   const comp = d.skillList;
-  const compHTML = comp.length ? `<div class="cg${(mode === 'one' && lite >= 1) ? ' c3' : ''}">${comp.map(c => `<div>${ico('check', 18, bl)}<span>${e(c)}</span></div>`).join('')}</div>` : '';
+  const compHTML = comp.length ? `<div class="cg${(mode === 'one' && lite >= 1) ? ' cg3' : ''}">${comp.map(c => `<div>${ico('check', 18, bl)}<span>${e(c)}</span></div>`).join('')}</div>` : '';
   const sumB = d.obj && d.obj.trim() ? `<div class="sm">${esc(d.obj).replace(/\n/g, '<br>')}</div>` : '';
   const objB = d.cobj && d.cobj.trim() ? `<div class="sm">${esc(d.cobj).replace(/\n/g, '<br>')}</div>` : '';
-  const head = `<h1 class="nm">${e(d.name || 'Your Name')}</h1>${d.title ? `<div class="tt7">${e(d.title)}</div>` : ''}`;
+  const nmWords = String(d.name || 'Your Name').trim().split(/\s+/), nmFit = (W, max) => { /* biggest size at which the whole name fits in few lines and no word is cut */
+    for (const [ml, lo] of [[2, 2.6], [3, 2.3], [5, 1.6]]) for (let k = max; k >= lo - 1e-6; k -= .1) { const cw = .76 * k * sz, sp = .32 * k * sz; let lines = 1, cur = 0, bad = false; nmWords.forEach(w => { const wl = w.length * cw; if (wl > W) bad = true; if (cur && cur + sp + wl > W) { lines++; cur = wl } else cur = cur ? cur + sp + wl : wl }); if (!bad && lines <= ml) return k.toFixed(2) } return '1.6' };
+  const nk = nmFit(420, 3.9), nk1 = nmFit(466, 3.2);
+  const head = `<h1 class="nm" style="--nk:${nk};--nk1:${nk1}">${e(d.name || 'Your Name')}</h1>${d.title ? `<div class="tt7">${e(d.title)}</div>` : ''}`;
   const pgBar = (n, tot) => tot > 1 ? `<div class="pb">${T.page} ${n}</div>` : '';
   /* items */
   const eduI = has(d.edu).map(x => { const T = eduTitle(x), rs = eduRes(x), du = eduDur(x.dur); return `<div class="ti"><div class="tb"><span class="bi">${ico(isSchool(x.deg) ? 'book' : 'cap', 19, '#fff')}</span></div><div class="tc"><b class="h">${e(T.t)}</b>${T.mj ? `<div>${T.ml === 'Group' ? 'Group' : 'Concentration / Major'}: ${e(T.mj)}</div>` : ''}${x.inst ? `<div>${e(x.inst)}</div>` : ''}${x.board ? `<div>${e(x.board)}</div>` : ''}${rs ? `<div>${/^(CGPA|GPA)/.test(rs) ? e(rs).replace(/(\d+(?:\.\d+)?) out of/, '<b>$1</b> out of') : 'Result: ' + e(rs)}</div>` : ''}${x.year || du ? `<div>${x.year ? `${(H7[o.lang] || H7.en).year}: <b>${e(x.year)}</b>` : ''}${x.year && du ? ' &nbsp;|&nbsp; ' : ''}${du ? `${(H7[o.lang] || H7.en).dur}: ${e(du)}` : ''}</div>` : ''}${x.ach ? `<div>${(H7[o.lang] || H7.en).ach2}: <b>${e(x.ach)}</b></div>` : ''}</div></div>` });
@@ -178,7 +198,7 @@ function cvPro(d0, o, color) {
   const trI = has(d.train).map(x => `<div style="margin:6px 0 10px;break-inside:avoid"><b style="font-size:1.1em">${e(x.name)}</b>${x.inst ? `<div>${e(x.inst)}${x.year ? ' • ' + e(x.year) : ''}</div>` : x.year ? `<div>${e(x.year)}</div>` : ''}${x.dur ? `<div>${T.dur}: ${e(x.dur)}</div>` : ''}${x.desc ? `<div>${T.area}:</div>${bul(x.desc).replace('<ul>', '<ul style="margin:2px 0 0;padding-left:20px">')}` : ''}</div>`);
   const bars = cs.map(c => `<div class="sb7"><span class="n">${e(c.n)}</span><span class="br"><i style="width:${c.p}%"></i></span><span class="p">${c.p}%</span></div>`).join('');
   const softL = soft.length ? `<ul class="st">${soft.map(s => `<li><span style="font-size:1.3em;line-height:1">•</span><span>${e(s)}</span></li>`).join('')}</ul>` : '';
-  const langR = langs.length ? `<div class="lg">${langs.map(x => { const p = lvPct(x.l); return `<div><div class="lgp">${ring7(p, bl)}<b>${p}%</b></div><div><b>${e(x.n)}</b>${x.l ? `<br>(${e(x.l)})` : ''}</div></div>` }).join('')}</div>` : '';
+  const langR = langs.length ? `<div class="lg">${langs.map(x => { const p = x.p; return `<div><div class="lgp">${ring7(p, bl)}<b>${p}%</b></div><div><b>${e(x.n)}</b>${x.l ? `<br>(${e(x.l)})` : ''}</div></div>` }).join('')}</div>` : '';
   const addrT = ([[T.village, d.village], [T.po, d.po], [T.ps, d.ps], [T.dist, d.dist], [T.country, d.country]].filter(x => x[1] && String(x[1]).trim()));
   const addrB = (d.address ? `<div class="pr"><b>${T.pres}</b><span>: ${e(d.address)}</span></div>` : '') + (addrT.length ? addrT.map(x => `<div class="pr"><b>${x[0]}</b><span>: ${e(x[1])}</span></div>`).join('') : d.paddr ? `<div class="pr"><b>${L.paddr.split(' ')[0] === 'Permanent' ? 'Permanent' : 'স্থায়ী'}</b><span>: ${e(d.paddr)}</span></div>` : '');
   const pinfo = [[L.father, d.father], [L.mother, d.mother], [L.dob, d.dob], [L.nat, d.nat], [L.rel, d.rel], [L.mar, d.mar], [L.nid.split(' /')[0], d.nid], [T.hd, d.hdist], [L.gender, d.gender], [L.blood, d.blood]].filter(x => x[1] && String(x[1]).trim()).map(x => `<div class="pr"><b>${x[0]}</b><span>: ${e(x[1])}</span></div>`).join('');
@@ -186,7 +206,7 @@ function cvPro(d0, o, color) {
   const sgn = (compact) => !(o.decl !== false) && !(o.sign && d.sign) ? '' : `${o.decl !== false ? `<div class="sh">${badge('edit')}<span>${T.decl}</span></div><div class="sm">${e(L.decl || '')}</div>` : ''}<div class="sgn" style="${compact ? 'margin-top:16px' : ''}"><div class="l">${o.sign && d.sign ? `<img src="${d.sign}">` : `<div style="height:${compact ? 22 : 40}px"></div>`}<div class="ln">${T.sig}</div></div><div class="dl">${T.date}: <i></i></div></div>`;
 
   const sgnLite = `<div class="sgn" style="margin-top:12px"><div class="l">${o.sign && d.sign ? `<img src="${d.sign}">` : '<div style="height:20px"></div>'}<div class="ln">${T.sig}</div></div><div class="dl">${T.date}: <i></i></div></div>`;
-  const side = (full, ext) => `<aside>${avatar}<h4>${T.contact}</h4>${contact}${(ext ? pdet2 : pdet) ? `<h4>${T.pd}</h4>${ext ? pdet2 : pdet}` : ''}${langKV ? `<h4>${T.langs}</h4>${langKV}` : ''}${full ? `<h4>${T.ref}</h4>${refs}` : ''}${mode === 'one' ? (cs.length ? `<h4>${T.cs}</h4>${cs.map(c => lite >= 2 ? `<div style="font-size:.9em;display:flex;justify-content:space-between;margin:2px 0"><span>${e(c.n)}</span><span>${c.p}%</span></div>` : `<div style="font-size:.95em;display:flex;justify-content:space-between"><span>${e(c.n)}</span><span>${c.p}%</span></div><div class="bar7"><i style="width:${c.p}%"></i></div>`).join('')}` : '') + (soft.length && lite === 0 ? `<h4>${T.soft}</h4>${soft.map(s => `<div class="kv"><i>•</i><span>${e(s)}</span></div>`).join('')}` : '') + `<h4>${T.ref}</h4>${refs}` : ''}</aside>`;
+  const side = (full, ext) => `<aside>${avatar}<h4>${T.contact}</h4>${contact}${(ext ? pdet2 : pdet) ? `<h4>${T.pd}</h4>${ext ? pdet2 : pdet}` : ''}${langKV ? `<h4>${T.langs}</h4>${langKV}` : ''}${hob.length && !(mode === 'one' && lite > 0) ? `<h4>${T.hobby}</h4>${hob.map(z => `<div class="kv"><i>•</i><span>${e(z)}</span></div>`).join('')}` : ''}${full ? `<h4>${T.ref}</h4>${refs}` : ''}${mode === 'one' ? (cs.length ? `<h4>${T.cs}</h4>${cs.map(c => lite >= 2 ? `<div style="font-size:.9em;display:flex;justify-content:space-between;margin:2px 0"><span>${e(c.n)}</span><span>${c.p}%</span></div>` : `<div style="font-size:.95em;display:flex;justify-content:space-between"><span>${e(c.n)}</span><span>${c.p}%</span></div><div class="bar7"><i style="width:${c.p}%"></i></div>`).join('')}` : '') + (soft.length && lite === 0 ? `<h4>${T.soft}</h4>${soft.map(s => `<div class="kv"><i>•</i><span>${e(s)}</span></div>`).join('')}` : '') + `<h4>${T.ref}</h4>${refs}` : ''}</aside>`;
   const secE = (arr, n, t, cls) => arr.length ? sh(n, t) + `<div class="${cls || ''}">${arr.join('')}</div>` : '';
   const P = [];
   if (mode === 'one') {
