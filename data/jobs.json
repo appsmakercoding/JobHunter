@@ -1,7 +1,46 @@
 {
- "updated": "2026-11-18T01:29:33.430Z",
- "count": 266,
+ "updated": "2026-11-18T07:30:31.326Z",
+ "count": 260,
  "items": [
+  {
+   "title": "সরকারি চাকরি, অষ্টম শ্রেণি পাসেই আবেদন",
+   "org": "কালবেলা",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-18",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBtdXBEQTdNQVdZNk1Kd0tJdEpVclhjdU5FT2xtUUxJT2lkb0R5dE1yRC1iNUhtRVJDdnhSTVg3R3ZvQjZlSHFhRVNqaUQ3ZFdR?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "govt"
+  },
+  {
+   "title": "প্ল্যান ইন্টারন্যাশনালে চাকরি, বেতন ছাড়াও রয়েছে অন্যান্য সুবিধা",
+   "org": "dhakapost.com",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-18",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBWSk1BUi1NbFIxdlBIU0lSRnJTZjBoVHhqdVlBWUdDYnV5a3hQU1JHRWVySWNscWdremxaQXJvSmFKUWFlZDhzc1pvM284TTJHVjBBZzhiMA?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "চাকরি দিচ্ছে বুয়েট, ৮ বিভাগে নিয়োগ পাবেন ১৫ শিক্ষক",
+   "org": "প্রথম আলো",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-18",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBGUjZsSDVIenFVbnp0REZPMXA0THZiWG9FMjA5VXpUblZsWkZtTXJEZlQyWDlJUGdlTFRFWl9IXzFFM08yRFgxdEthMkFiWmc5eWpBZUp4OWFEdzN4d3BrQ3IxelVKZ9IBc0FVX3lxTE5OZVBhdUphaENOeG9fVXVtNUNnOFNRSlZTYVpYbHpsNXRvVEEwck9vME1qZ2sxbUtjUjlpUEJ1RFp3X0VvNEdiWjk5bUc0cXEyaWhEekoxMUdSb09XTUJWRDY0OS0wYnBkbVRocFp1bGlEVnM?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "edu"
+  },
   {
    "title": "এইচএসসি পাসে সরকারি চাকরি, আবেদন ফি ১১২ টাকা",
    "org": "Jagonews24",
@@ -92,19 +131,6 @@
     "সংবাদ"
    ],
    "cat": "bank"
-  },
-  {
-   "title": "এনজিও ফোরামে ২০ জন Data Enumerator পদে নিয়োগ, কর্মস্থল, কক্সবাজার",
-   "org": "UkhiyaNews.Com",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-17",
-   "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxNX0JhcTV5SmU0Qk84OGFRZ0RhU3VFdWlJeU1RRFo3MVFBVmJlblk0TzFqSWNhaE5SeEg0Yl9RZjRRSTFWUnYzMkVnQkZXWjEzOEpGeDl4bkt6TEpCNVk4dFkxUUE4Nk9DeE0tSmpZSmRYUFFHa2lvbjJ4clh0ZHpmMkRzd3U0OWZoN3htUEdqVUdtRGllWmtJbXc4Q1FqR3BDWXp0aXM4TllaaWxFRGlReFRSX0dnT1p2aC1VVUhWbWpKYlNISTdIUy0xYndOV1VVWHJ3dU5tLUFveEdONzZESlN5ZjNDRm9TTlNMRFY0TVBQbEptUVYxUVFXc0FUakEzSjZhYXpBYzUybVAzRGowUkg5ZVkyUHN1QnJ2R2FnSWJJNXdwRGk1X1otWGQxVERuV2FsVzBYS0cwMllnUFZ6dGt3?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "ngo"
   },
   {
    "title": "রাজশাহী বিশ্ববিদ্যালয়ে শিক্ষক নিয়োগ, আবেদন অনলাইনে",
@@ -237,19 +263,6 @@
    "cat": "ngo"
   },
   {
-   "title": "ইবিতে ১৮ পদে শিক্ষক নিয়োগ বিজ্ঞপ্তি, আবেদন শেষ ৩০ নভেম্বর",
-   "org": "https://edutimes.net/",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-16",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE91WHA1aG8yRkRONy1KTG80bXdOcFEybmRoNmpyV0JTVThMYWVCTDJzYTl0d2hCbHoxLVRzMXpDMzM3TXJsU3hrUnp0NWlNU2VW?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "edu"
-  },
-  {
    "title": "চট্টগ্রাম ইস্পাহানি পাবলিক স্কুল এন্ড কলেজে শিক্ষক পদে চাকরি",
    "org": "Dainik Shiksha",
    "loc": "বাংলাদেশ",
@@ -257,6 +270,19 @@
    "src": "নিয়োগ সংবাদ",
    "date": "2026-11-16",
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMU9fRHJGalFUQVcxQ25URXJSWmJhZ0hTWUhTY1QyT2tjM1d6UWFXTC1Xemx3ZDdBbW9vbzZaLTRmZTFGallJUnNaU25MRmVzWUkwci1yeW1zaVRpZmhrZzF1YVg1Y2dvVVV3ZzR2M1hiTVpJY3JXUnhYZGtFTUZmMllCLUk3ejBMSTNQa0FJSllSaVNDS0xRWTIzOVd6RmlxMUF1UjJGSE0?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "edu"
+  },
+  {
+   "title": "ইবিতে ১৮ পদে শিক্ষক নিয়োগ বিজ্ঞপ্তি, আবেদন শেষ ৩০ নভেম্বর",
+   "org": "https://edutimes.net/",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-16",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE91WHA1aG8yRkRONy1KTG80bXdOcFEybmRoNmpyV0JTVThMYWVCTDJzYTl0d2hCbHoxLVRzMXpDMzM3TXJsU3hrUnp0NWlNU2VW?oc=5",
    "tags": [
     "সংবাদ"
    ],
@@ -326,19 +352,6 @@
     "সংবাদ"
    ],
    "cat": "ngo"
-  },
-  {
-   "title": "৩ নতুন দেশে বাংলাদেশি দক্ষ জনশক্তি নিয়োগের আহ্বান রাষ্ট্রপতির",
-   "org": "Channel i Online",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-16",
-   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNHR6clhLaTd4MmhoMDVObFY5ZnR6b05sRGtJTm5FQXp1dmlkdU1ZV1d1S1ptTDU5dW1OQTRDZFJTQ2puc2E3NC1OdjNZWVpBZWtZdW8yX1ZoWjRkMDlacWhCdktTTlpqNnB6X1Zkb1dDYlV1Y2loR0FFWjBER3dZSlgzVjY?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "other"
   },
   {
    "title": "পেট্রোবাংলায় ৭৫৩ পদে নিয়োগ, আবেদনের সময় বাড়ল",
@@ -445,6 +458,19 @@
    "cat": "other"
   },
   {
+   "title": "হাজী মিছির আলী ডিগ্রী কলেজে নিয়ােগ বিজ্ঞপ্তি",
+   "org": "Dainik Shiksha",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-15",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPU1hwcmUyc1Q1b2VXVDBrQUZGY2g5NENNWVVnekFXS3dUb3FXa05XbXFnaTlGU1c1NzJaMHN3X0tSamIyeWhWRW56VnpJYUVNUUhOY2o5eXRHOUp6MnRpdnpZODFBcDUwNDF5OGk2QXRBVzdhODVyNGNQZWxFamZUR3FwdHUybVVtNDYxUjhNVlliaEFhV0tHUUt3aDR0Zw?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "edu"
+  },
+  {
    "title": "৬৭ জনের সরকারি চাকরি, অষ্টম শ্রেণি পাসেই আবেদনের সুযোগ",
    "org": "Jagonews24",
    "loc": "বাংলাদেশ",
@@ -456,6 +482,19 @@
     "সংবাদ"
    ],
    "cat": "govt"
+  },
+  {
+   "title": "পেট্রোবাংলায় ৭৫৩ পদে নিয়োগে অনলাইনে আবেদনের সময় বাড়ল",
+   "org": "কালের কণ্ঠ",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-14",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5OOTRwNDRRWVVzNUx2VzRhTGdKNkJxNmlqalBTNnkxYWY3ZmlpQ0J4LXNEejZJY0dWVG5RR0hHTWRuVHRucUQ3S25mUF9nZDcyTFFGUGlmWkRoc1lHTHltN1JTeUZLNDBEVHc?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "other"
   },
   {
    "title": "কৃষি বিপণন অধিদপ্তরে ৯৭ জনের চাকরি, বেতন স্কেল ২০ হাজার থেকে শুরু",
@@ -692,19 +731,6 @@
    "cat": "govt"
   },
   {
-   "title": "শূন্য পদে বড় নিয়োগের দুয়ার খুলছে",
-   "org": "Bdtoday",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-12",
-   "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAxcC1kcWxfT1NUR2lKYWxreWpiOUMtMm1Xd0FGbTFzZ0hwVWYzNV91dkhleldFdkt2bEtOZHItbThfTGFEMGlWc2ZqWQ?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "other"
-  },
-  {
    "title": "ব্যাংক এশিয়ায় অফিসার পদে চাকরির সুযোগ, আবেদন ১৯ নভেম্বরের মধ্যে",
    "org": "প্রথম আলো",
    "loc": "বাংলাদেশ",
@@ -742,6 +768,19 @@
     "সংবাদ"
    ],
    "cat": "edu"
+  },
+  {
+   "title": "ব্র্যাক ব্যাংকে নিয়োগ, ফ্রেশার প্রার্থীদের আবেদনের সুযোগ",
+   "org": "Jagonews24",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-12",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5yQnVRc243QUg1aDR4S3BiQl92Y0oycEY0Umlqa0dqejRPSEJlc014T2pqQXR1UUZOMkc1MVpKelNsMkpnRmh1Q0JUOVpHNjZNejFwYU9LZXNiVE1pdkE?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "bank"
   },
   {
    "title": "৬৫ জনের সরকারি চাকরির সুযোগ, এসএসসি পাসেই আবেদন",
@@ -796,19 +835,6 @@
    "cat": "ngo"
   },
   {
-   "title": "লাবীব মডেল স্কুলে নিয়োগ বিজ্ঞপ্তি",
-   "org": "Dainik Shiksha",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-11",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVjRkN21MZzNETkk0MmpUX241dVI3NEFEVGViSnRnSEI2NEVnUTRVby1oTC00M0ZFT0R1clJtMWprUWJLSEtidzBoWUpwMnlYX3NNTVhxWko2QktLUGwzZ2J2S2FZZWtvV0ljZkJRZmxRMnZya1BrSFBnOGxvanpWQ1hn?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "edu"
-  },
-  {
    "title": "আড়ংয়ের নিয়োগ বিজ্ঞপ্তি, ঢাকায় কাজের সুযোগ",
    "org": "Jagonews24",
    "loc": "বাংলাদেশ",
@@ -835,19 +861,6 @@
    "cat": "other"
   },
   {
-   "title": "৫০ অফিসার নিয়োগ দেবে মিনিস্টার, ফ্রেশার প্রার্থীদের আবেদন",
-   "org": "Jagonews24",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-11",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBFRXFtcHNISmc4VXN4T2J1Y0xlVmFpYlVWYU9MekhVNFRrM2gydVhnR2w5c01oSFp2RS1RMGQxU0VLN25nUzhnTHRObkhMOEQyZFdQRTNXTmExbkdNbFE?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "other"
-  },
-  {
    "title": "শপআপে ম্যানেজার নিয়োগ, ফ্রেশার প্রার্থীদের আবেদনের সুযোগ",
    "org": "Jagonews24",
    "loc": "বাংলাদেশ",
@@ -855,19 +868,6 @@
    "src": "নিয়োগ সংবাদ",
    "date": "2026-11-11",
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5Vc1RZMlE2ZmxSb3QxZjBQOHVvMnNCSm4yNWlHVEUzTTRsMktLdFJaU3ZJVERmUGtRaWpNNWdQWDRUdFFlcXB2d1E0MmlVcjdzRDV6VFZSTE5xT29Uc0E?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "এসিআই মটরসে নিয়োগ, ফ্রেশার প্রার্থীদের আবেদনের সুযোগ",
-   "org": "Jagonews24",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-11",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE54YjRoMGk2d2JnaEx4ZDljRnJXM2NZVFV4U1Q5WVdueVRtZTJTUUowSEFTaU1tbTRPNWNPUkVka0Z4LXAxMnpBNnJhNC1adWdrb1BQSTdzNUJ6Tm4tWHc?oc=5",
    "tags": [
     "সংবাদ"
    ],
@@ -965,19 +965,6 @@
    "cat": "ngo"
   },
   {
-   "title": "শিক্ষক নিয়োগ দেবে বাংলাদেশ ব্যাংক কলোনি উচ্চ বিদ্যালয়",
-   "org": "Dainik Shiksha",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-10",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeG9PZjBvSXNEX0VDanNKczVjNFpkY0JpNGdvc3hZUXNFQ21oYXRJSGU0VDh2SDQ1UExEOWZqaW05cXc3OS1wSFRfOEdzVFc2WE5wN3M4VFFvVVMzdmJFelRvNll2WDFudF9aMUhFel9KU3VoemhIWFJGdUhYNFloc2lGN0lfc09sT1M5eEVqN2VIaExnbjNfU2VWRzZva0VRVTNZ?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "bank"
-  },
-  {
    "title": "শিক্ষক নিয়োগ দিচ্ছে ব্র্যাক, আবেদন শেষ ১৫ নভেম্বর",
    "org": "কালবেলা",
    "loc": "বাংলাদেশ",
@@ -989,6 +976,19 @@
     "সংবাদ"
    ],
    "cat": "ngo"
+  },
+  {
+   "title": "শিক্ষক নিয়োগ দেবে বাংলাদেশ ব্যাংক কলোনি উচ্চ বিদ্যালয়",
+   "org": "Dainik Shiksha",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-10",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeG9PZjBvSXNEX0VDanNKczVjNFpkY0JpNGdvc3hZUXNFQ21oYXRJSGU0VDh2SDQ1UExEOWZqaW05cXc3OS1wSFRfOEdzVFc2WE5wN3M4VFFvVVMzdmJFelRvNll2WDFudF9aMUhFel9KU3VoemhIWFJGdUhYNFloc2lGN0lfc09sT1M5eEVqN2VIaExnbjNfU2VWRzZva0VRVTNZ?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "bank"
   },
   {
    "title": "বেগম রোকেয়া বিশ্ববিদ্যালয়ে ৩৫ পদে নিয়োগ",
@@ -1011,19 +1011,6 @@
    "src": "নিয়োগ সংবাদ",
    "date": "2026-11-10",
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB4NkgzaUVUN01OQzBab2twWGFERFo2aUVZbGwxR2F6VDNNRXJxSmxQN1liaHo2cmVpRk54d2lVcGdfVGZRS0tOcDcyc0lNMVRwUkd0VHRnUThpRS1raFE?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "আড়ংয়ে চাকরির সুযোগ, প্রভিডেন্ট ফান্ডসহ থাকছে নানা সুবিধা",
-   "org": "Jugantor",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-10",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE12UVFfbTZTSEJLcFFWUXQtbEZoVmN2QUk1bGtKbDRBUDFFeWkzWHFJRkZ1azVDZ1hvTG9xNzdOT0ZUR3J3Q1EtV2lCX2ltODlLVmlv?oc=5",
    "tags": [
     "সংবাদ"
    ],
@@ -1102,6 +1089,19 @@
    "src": "নিয়োগ সংবাদ",
    "date": "2026-11-09",
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBHcTRSTHlaUTV2YW5sTTkxZW9lNG5pcVdHeTBQaWtITDl5ZU9vNXRYM1ozVVIwTmhfMkNDWjRZTnpjcmM3VWo0eGhzWFM1UE9ocktPNXdxV2N4NlQwS2c?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "edu"
+  },
+  {
+   "title": "দ্রুতই ১২ হাজার ক্রীড়া শিক্ষক নিয়োগ: সংসদে ক্রীড়া প্রতিমন্ত্রী",
+   "org": "Dainik Shiksha",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-09",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQcG82VUFhR3dELWNOay1LWVRWanpXTmxtSXN1NXZHa04yblFSUVJzVWo0MGFTeWNUdXRlNWZkQWI0Y0dKbUROUWt5WW5pbTR2a3VpaFlzMnhlenhXb0ZIUHdkbHI1SjRpVWh0R1RJNXJGaE1rdTZ3U1V0TnlkYmlaVWZQeFVZQXUyMGN1ZncyYkllcmxIMUpaYXRsblZGVVRhU0lIbThIczhHYmFVRU11elpMUmRNX3E2dE14R0habkVjRHBEY1E?oc=5",
    "tags": [
     "সংবাদ"
    ],
@@ -1210,19 +1210,6 @@
     "সংবাদ"
    ],
    "cat": "edu"
-  },
-  {
-   "title": "উপায়ের নিয়োগ বিজ্ঞপ্তি, বেতন ৫৫ হাজার টাকা",
-   "org": "Jagonews24",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-08",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBuc2lmdHJKTTJnWFgzWkJSWnAyS3BNS0doaHNxM3ZFbzFhWXlYbW1QbFg0Y3ZzUElRWnJuTmFsanNBZU5Nc0dqaDNrNGQzaGd6SWFLS2xDU25DZUM2REE?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "other"
   },
   {
    "title": "বাংলাদেশ মেডিক্যাল বিশ্ববিদ্যালয়ে চাকরি",
@@ -1472,13 +1459,13 @@
    "cat": "bank"
   },
   {
-   "title": "ফ্রিতে ২ লাখ টাকার আইটি প্রশিক্ষণ কোর্স, শেষে চাকরির সুযোগ",
-   "org": "The Daily Ittefaq",
+   "title": "ফ্রিতে ২ লাখ টাকার আইটি প্রশিক্ষণ, কোর্স শেষে চাকরির সুযোগ",
+   "org": "Primenewsbd.com",
    "loc": "বাংলাদেশ",
    "type": "bd",
    "src": "নিয়োগ সংবাদ",
    "date": "2026-11-06",
-   "url": "https://news.google.com/rss/articles/CBMijwRBVV95cUxQWm1NbHpxY2E5cEZpMk8tWDdKakY1VHNnZEpIWlI5VlVlckwxRFBacmVmeTB3UUhCeXVyWmlteGU3VzR6STZmSGZpbVhxVlVCR21hakkwREdrWldfZEtybFVZT0NJakFDcl80SzFnY29INXJ5cnVEVVIzaXVZUEk0VUVHZGtQMXBFMFdZYkY2djFGT1dzUHFQX3lOQXNYVTBienU1SlowR2pid2ZvQ3JqaHc2VzJyOXJXdmctTmYxcDVNN3dHbFRnLUJwck1iRnhOaWtRa3A5Rjkya3RpOG8zNzdYbVYxa0NvWTNoT0I1bWVmb01hRWx1dGo2ajFZMGN0OUJZcko2dzZVMUZfTzlBcXZqUVJDeFBSclZHazhyVEhCV2hqS3RuT2NlclFUTXFLbF92NUFaeTk2U0dQZjMxTFZQSmNKeDFJM1BtQWdfUmc1ZmZCMmxXNXFUdmVnbnJPcnJ6Tk1MQ1J0ai1pQXR4S3NWRlBlaThMQWhpeDljRnZPVXVxNG1NdGlERkZ2UW5fVjJ1eC04Wjd1Z1dsTHNNVHVISzdhMFJ5R3hzSnNtU1d6RzRMWWRUWTRvU1NiQ2NzOWx2cXh0TklERjFnS012QzhvMWdER0stdm5Gb1lvQjNyYXlONzlXTVBvdlJ5bTlEeWJtSi1yMUVPSjFJb1ByODlQdmlEZ3JSem5pZUpJb9IBlARBVV95cUxQeWNTdjR6aFlYSjRkQXNhTUI4ZjF4U0hZcWR1Ulg2ajNpaS1IM3h0QWFITkROZURvMGZ6aVhXTVpBZk1uWUtfd3ZSNWxJUlM4UFc0UGVIWkRMeXVOMm1mR1NGSmg5b2hlczRYYmkweWZGY0dFLVRmMkRtTTJHdHBkSDBBaHYzcXNra0FRWVdCcGc4RmVpV3VJMmwzVHkwVi1lcHoySklJdkJzUUNqZDBveXN4Y0o3YTBzTl9PVEYwOHFfZEhvS2Z5V1pubEZHNDRvZk5ZczRaSHJFaDRoV1Q3VUl3bm5zdDUxS0RVdjI5c3haczd3WFEyQmgyUUZFQWRZTjQycXZRQzlQTjhNekQ5cElMLUd3QUo0MHBQYUxidm9zOGIyOEs1RE1NT0tWUlptM0VrQmNvekVOVExaY3UwRDdOeWhGeEhXTGxnWGZJVHV0V3V0eWZsbmdORE8tb0t1VzVBR0lyMHBlV2k4ZWR3THp6enFROEotbzY2QjlEMk11ZUxVZzI2UkxHUVYtTkUtVmdkZV84UUpYUmRjdXJKUHdtOUIxNWZJMDJpRTZmcEF2V3d6U2NmbjNBM1lwemxoZDN0dGV4TlM3RXlCbmRiVDVoMl8zVGpRdFpkOUx4YlR0NW1VNGFfVU5vaTFlTWxCQ01vWnpIeWExanZIMjg4QTlPejdqRFVhUDhIVHdTRm5MR3JY?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1fczNGTENTWno3ZXFhWFNSNUM3NXBRWnJ0UGEyaHJiUG14NXh6TW1PUHQ0bDlIb05BaFpQbUpkX3ExS2tVR05tWXhzdk1zb3BfbEdTeg?oc=5",
    "tags": [
     "সংবাদ"
    ],
@@ -1563,19 +1550,6 @@
    "cat": "other"
   },
   {
-   "title": "ব্র্যাকে চাকরির সুযোগ, আবেদন ১৩ নভেম্বর পর্যন্ত",
-   "org": "duaa-news.com",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-05",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5VQk5vV3Job0xVSDhySks5ZlUyMEpSUXFDM05CeE84YWJFWXR1S2NZTmZiSEFXUGZ5Y3FjV0xWTy13aVhCRzYxaTI0ZjRvZVlP?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "ngo"
-  },
-  {
    "title": "আহমেদ বাওয়ানী একাডেমী স্কুল এন্ড কলেজে নিয়ােগ বিজ্ঞপ্তি",
    "org": "Dainik Shiksha",
    "loc": "বাংলাদেশ",
@@ -1600,6 +1574,19 @@
     "সংবাদ"
    ],
    "cat": "edu"
+  },
+  {
+   "title": "ব্যাংক এশিয়ায় নিয়োগ, ফ্রেশার প্রার্থীদের আবেদনের সুযোগ",
+   "org": "Jagonews24",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-05",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBVbXRLVVdSRHNleHRpRG5OVFgwaXRSUlZUVVJUMFRSWEpyX0JTdkY3emFFQ1RHYWxqLVdvbE1yanBRLXdVd3FQUkdxbVBDWklYSWdDQ2dzWjZSYjQ0MWc?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "bank"
   },
   {
    "title": "রাজশাহীতে সরকারি চাকরির সুযোগ, এসএসসি পাসেই আবেদন",
@@ -1719,19 +1706,6 @@
    "cat": "ngo"
   },
   {
-   "title": "মাহিগঞ্জ কলেজে শিক্ষক নিয়োগ বিজ্ঞপ্তি",
-   "org": "Dainik Shiksha",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-04",
-   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxONC1ldTREamE4VXFvME15Z3l3RnZ3YVdhWW0xeEEtdGN1dmg3STBvSDdsLXg0a3lERjN2aXNrRTNyeGhkVTJwalNfSEN3XzFmOTVJc1l1dVpWT3pDcGhXZmZvOHZ3Tk5BNXMyTEVvMHhvQXZWM2hCU3A5TXA3bDBKTk8zLVFyN0VUUVJUUnF6U0hfUQ?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "edu"
-  },
-  {
    "title": "গোলনা শহীদ স্মৃতি ডিগ্রী কলেজে নিয়োগ বিজ্ঞপ্তি",
    "org": "Dainik Shiksha",
    "loc": "বাংলাদেশ",
@@ -1767,6 +1741,521 @@
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA2TGw0cFowbEVHTGxTOXk0eVNVRTh5VW12Zm4tT2cydlJ4MUdPVHdvaWl5N08wazVzSkhmYWhLa0NIQnNqYVNVM0dEek00VkJBY0VkZkZ5VVQ2WmF5VUE?oc=5",
    "tags": [
     "সংবাদ"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Praktikant Front Office (m/w/d)",
+   "org": "Swissitsecuritygroup",
+   "loc": "Wiesbaden, Hesse",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/swissitsecuritygroup/praktikant-front-office-wiesbaden-hesse-51954",
+   "tags": [
+    "Administration"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Talent Coordinator",
+   "org": "Cohere",
+   "loc": "Germany",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/cohere/talent-coordinator-germany-49240",
+   "tags": [
+    "People Operations"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Hyperscaler & Systems Integrator Partner Manager (North America)",
+   "org": "ElevenLabs",
+   "loc": "Remote",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/elevenlabs/remote-hyperscaler-systems-integrator-partner-manager-north-america-331543",
+   "tags": [
+    "Revenue"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Full-Stack Engineer - ElevenMusic",
+   "org": "ElevenLabs",
+   "loc": "Remote",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/elevenlabs/remote-full-stack-engineer-elevenmusic-301874",
+   "tags": [
+    "Engineering & Product"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Account Executive - Enterprise - Healthcare",
+   "org": "ElevenLabs",
+   "loc": "Remote",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/elevenlabs/remote-account-executive-enterprise-healthcare-77113",
+   "tags": [
+    "Revenue"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Full-Stack Engineer (Backend Leaning) - Payments Engineering",
+   "org": "ElevenLabs",
+   "loc": "Remote",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/elevenlabs/remote-full-stack-engineer-backend-leaning-payments-engineering-51351",
+   "tags": [
+    "Engineering & Product"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Full-Stack Engineer (Backend Leaning) - Platform Engineering",
+   "org": "ElevenLabs",
+   "loc": "Remote",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/elevenlabs/remote-full-stack-engineer-backend-leaning-platform-engineering-8063",
+   "tags": [
+    "Engineering & Product"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Head of Strategic Pursuits",
+   "org": "ElevenLabs",
+   "loc": "Remote",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/elevenlabs/remote-head-of-strategic-pursuits-490085",
+   "tags": [
+    "Revenue"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Werkstudent Content Management (m/w/d) · Remote",
+   "org": "Evolve Digital GmbH",
+   "loc": "Homeoffice",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/evolve-digital-gmbh/werkstudent-content-management-remote-14434",
+   "tags": [
+    "Operations",
+    "Remote"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Kundenbetreuer:in Beschwerdemanagement (Remote, Telefon)",
+   "org": "Simplyright GmbH",
+   "loc": "Monheim am Rhein",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/simplyright-gmbh/kundenbetreuerin-beschwerdemanagement-remote-telefon-monheim-am-rhein-104292",
+   "tags": [
+    "Remote",
+    "Customer Service"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Market Access (Senior) Manager, EU Center",
+   "org": "Bridgebio",
+   "loc": "",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/bridgebio/market-access-senior-manager-eu-center-59227",
+   "tags": [
+    "Market Access"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Senior Intelligence Officer, Information & Cybersecurity",
+   "org": "isaraerospace",
+   "loc": "Parsdorf, Bavaria",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/isaraerospace/senior-intelligence-officer-information-cybersecurity-parsdorf-bavaria-185786",
+   "tags": [
+    "Information & Cybersecurity"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Manager Quality Assurance & Quality Engineering (m/f/d)",
+   "org": "isaraerospace",
+   "loc": "Parsdorf, Bavaria",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/isaraerospace/manager-quality-assurance-quality-engineering-parsdorf-bavaria-112995",
+   "tags": [
+    "Production",
+    "Operations & Quality"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Intern AI & Data Transformation",
+   "org": "isaraerospace",
+   "loc": "Parsdorf, Bavaria",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/isaraerospace/intern-ai-data-transformation-parsdorf-bavaria-95195",
+   "tags": [
+    "AI & Data Transformation"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Director Quality and Continuous Improvement (m/f/d)",
+   "org": "isaraerospace",
+   "loc": "Parsdorf, Bavaria",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/isaraerospace/director-quality-and-continuous-improvement-parsdorf-bavaria-334752",
+   "tags": [
+    "Production",
+    "Operations & Quality"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Director of Indirect Procurement and Logistics (m/f/d)",
+   "org": "isaraerospace",
+   "loc": "Parsdorf, Bavaria",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/isaraerospace/director-of-indirect-procurement-and-logistics-parsdorf-bavaria-258967",
+   "tags": [
+    "Production",
+    "Operations & Quality"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Director Enterprise Planning and Transformation (m/f/d)",
+   "org": "isaraerospace",
+   "loc": "Parsdorf, Bavaria",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/isaraerospace/director-enterprise-planning-and-transformation-parsdorf-bavaria-58640",
+   "tags": [
+    "Production",
+    "Operations & Quality"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Senior Maintenance Manager (all genders)",
+   "org": "hellofresh",
+   "loc": "Barleben, Saxony-Anhalt; Magdeburg, Saxony-Anhalt",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/hellofresh/senior-maintenance-manager-all-genders-barleben-saxony-anhalt-magdeburg-saxony-anhalt-464187",
+   "tags": [
+    "Supply Chain Management & Operations"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Senior Category Manager – Marketing (All Genders)",
+   "org": "hellofresh",
+   "loc": "Berlin, Berlin",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/hellofresh/senior-category-manager-marketing-all-genders-berlin-berlin-11345",
+   "tags": [
+    "Marketing"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Indirect Procurement Senior Manager - Marketing (All genders)",
+   "org": "hellofresh",
+   "loc": "Berlin, Berlin",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/hellofresh/indirect-procurement-senior-manager-marketing-all-genders-berlin-berlin-114542",
+   "tags": [
+    "Marketing"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Working Student Export Control & Trade Compliance (All Genders)",
+   "org": "Skdse",
+   "loc": "",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/skdse/working-student-export-control-trade-compliance-all-genders-368343",
+   "tags": [
+    "Supply Chain"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Software Flight Test Engineer (All Genders)",
+   "org": "Skdse",
+   "loc": "Berlin",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/skdse/software-flight-test-engineer-all-genders-berlin-237151",
+   "tags": [
+    "Berlin Flight Team"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Senior Radar Signal Processing Engineer (All Genders)",
+   "org": "Skdse",
+   "loc": "Munich, Bavaria",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/skdse/senior-radar-signal-processing-engineer-all-genders-munich-bavaria-430462",
+   "tags": [
+    "Engineering"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Solutions Architect",
+   "org": "databricks",
+   "loc": "Munich",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/databricks/solutions-architect-munich-66216",
+   "tags": [
+    "Field Engineering - Other"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Lakebase Sales Specialist, Associate Director (Germany)",
+   "org": "databricks",
+   "loc": "Hesse",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/databricks/lakebase-sales-specialist-associate-director-germany-hesse-361866",
+   "tags": [
+    "HQ Management"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Senior Manager Partner Investment CTV (Mensch)",
+   "org": "wppmedia",
+   "loc": "Dusseldorf",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/wppmedia/senior-manager-partner-investment-ctv-mensch-dusseldorf-130949",
+   "tags": [
+    "Operations"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Senior Manager Media Investment (Mensch) - TV & Advanced TV",
+   "org": "wppmedia",
+   "loc": "Dusseldorf",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/wppmedia/senior-manager-media-investment-mensch-tv-advanced-tv-dusseldorf-441155",
+   "tags": [
+    "Operations"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Venture Develoment Intern (d/f/m)",
+   "org": "Taxfix",
+   "loc": "Berlin",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/taxfix/venture-develoment-intern-berlin-259844",
+   "tags": [
+    "Commercial"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Staff Site Reliability Engineer - Sovereign Cloud",
+   "org": "DeepL",
+   "loc": "Munich",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/deepl/staff-site-reliability-engineer-sovereign-cloud-munich-48462",
+   "tags": [
+    "Operations"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Product Marketing Manager (m/f/d)",
+   "org": "Dataguard",
+   "loc": "Munich",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/dataguard/product-marketing-manager-munich-49149",
+   "tags": [
+    "Marketing"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Backend Engineer - Team Optimize",
+   "org": "Taktile",
+   "loc": "Berlin Office",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/taktile/backend-engineer-team-optimize-berlin-429660",
+   "tags": [
+    "Engineering"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Griller im Stadionkiosk (all genders)",
+   "org": "Supreme Sports Hospitality GmbH",
+   "loc": "Frankfurt am Main, Hessen, Deutschland",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/supreme-sports-hospitality-gmbh/griller-im-stadionkiosk-all-genders-frankfurt-am-main-68211",
+   "tags": [
+    "Aushilfsjobs Frankfurt (Minijob)"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Kioskleitung (all genders)",
+   "org": "Supreme Sports Hospitality GmbH",
+   "loc": "Frankfurt am Main, Hessen, Deutschland",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/supreme-sports-hospitality-gmbh/kioskleitung-all-genders-frankfurt-am-main-373650",
+   "tags": [
+    "Aushilfsjobs Frankfurt (Minijob)"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Werkstudent Berlin (m/w/d)",
+   "org": "My Jewellery",
+   "loc": "Berlijn, Brandenburg, Duitsland",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/my-jewellery/werkstudent-berlin-berlijn-485207",
+   "tags": [
+    "Boutiques"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Teamleiter für Haushaltshilfen (m/w/d) Quereinstieg Einzelhandel",
+   "org": "Agentur für Haushaltshilfe GmbH",
+   "loc": "Homeoffice",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/agentur-fur-haushaltshilfe-gmbh/remote-teamleiter-fur-haushaltshilfen-quereinstieg-einzelhandel-bayern-229952",
+   "tags": [
+    "Teamleitung",
+    "Remote"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Fachinformatiker Systemintegration (m/w/d)",
+   "org": "Lamm HR GmbH",
+   "loc": "Zell, Rheinland-Pfalz, Deutschland",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/lamm-hr-gmbh/fachinformatiker-systemintegration-zell-71758",
+   "tags": [
+    "IT"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "SPS-Programmierer (m/w/d) Twincat-3",
+   "org": "Lamm HR GmbH",
+   "loc": "Mannheim, Rheinland-Pfalz, Deutschland",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/lamm-hr-gmbh/sps-programmierer-twincat-3-mannheim-56276",
+   "tags": [
+    "IT"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Werkstudent Finance Operations - Prozesse und Digitalisierung (w/m/d) | Berlin",
+   "org": "Arsipa GmbH",
+   "loc": "Berlin, Berlin, Deutschland",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/arsipa-gmbh/werkstudent-finance-operations-prozesse-und-digitalisierung-berlin-465054",
+   "tags": [
+    "Arsipa GmbH"
+   ],
+   "cat": "bank"
+  },
+  {
+   "title": "(Senior) Social Media Manager:in (gn)",
+   "org": "Intermate Media GmbH",
+   "loc": "Homeoffice",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-18",
+   "url": "https://www.arbeitnow.com/jobs/companies/intermate-media-gmbh/remote-senior-social-media-managerin-gn-berlin-498414",
+   "tags": [
+    "Social Media Marketing",
+    "Remote"
    ],
    "cat": "other"
   },
@@ -2044,629 +2533,41 @@
    "cat": "it"
   },
   {
-   "title": "Backend Engineer (Golang)",
-   "org": "AMBOSS",
-   "loc": "Berlin",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-18",
-   "url": "https://www.arbeitnow.com/jobs/companies/amboss/backend-engineer-golang-berlin-430585",
-   "tags": [
-    "Research & Development"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Regional Sales Director - Germany",
-   "org": "Kong",
-   "loc": "Germany",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-18",
-   "url": "https://www.arbeitnow.com/jobs/companies/kong/regional-sales-director-germany-berlin-96526",
-   "tags": [
-    "All Cost Center"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Brand Manager (f/m/d)",
-   "org": "Zenjob",
-   "loc": "Berlin",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-18",
-   "url": "https://www.arbeitnow.com/jobs/companies/zenjob/brand-manager-berlin-27312",
-   "tags": [
-    "Marketing"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Investment Analyst (m/f/d)",
-   "org": "Buena",
-   "loc": "Berlin",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-18",
-   "url": "https://www.arbeitnow.com/jobs/companies/buena/investment-analyst-berlin-349697",
-   "tags": [
-    "Operations"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "General Manager NRW (m/f/d)",
-   "org": "Buena",
-   "loc": "Köln",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-18",
-   "url": "https://www.arbeitnow.com/jobs/companies/buena/general-manager-nrw-koln-447593",
-   "tags": [
-    "Operations"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "(Senior) Product Manager | Full Time (m/w/d)",
-   "org": "CONROO GmbH",
-   "loc": "Munich",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-17",
-   "url": "https://www.arbeitnow.com/jobs/companies/conroo-gmbh/senior-product-manager-full-time-munich-206451",
-   "tags": [
-    "Product Management"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Head of Data Protection (m/f/d)",
-   "org": "Quantum-Systems GmbH",
-   "loc": "Gilching",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-17",
-   "url": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/head-of-data-protection-gilching-96874",
-   "tags": [
-    "Other",
-    "high school coursework"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Founder's Associate Intern",
-   "org": "Stealth",
-   "loc": "Cologne",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-17",
-   "url": "https://www.arbeitnow.com/jobs/companies/stealth/founders-associate-intern-cologne-268757",
-   "tags": [
-    "Business Operations"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Junior Business Development Manager (m/w/d)",
-   "org": "WTE Charkos GmbH",
-   "loc": "Hamburg",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-17",
-   "url": "https://www.arbeitnow.com/jobs/companies/wte-charkos-gmbh/junior-business-development-manager-hamburg-212440",
-   "tags": [
-    "Business Development"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Senior Visual Designer (m/f/d)",
-   "org": "Agilerobotsse",
-   "loc": "Munich, Bavaria",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-17",
-   "url": "https://www.arbeitnow.com/jobs/companies/agilerobotsse/senior-visual-designer-munich-bavaria-252473",
-   "tags": [
-    "Marketing"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Director, Solutions Engineering, EMEA CEE",
-   "org": "okta",
-   "loc": "",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-17",
-   "url": "https://www.arbeitnow.com/jobs/companies/okta/director-solutions-engineering-emea-cee-277053",
-   "tags": [
-    "SE Field-321"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Commercial Account Executive, Growth | Remote | Germany",
-   "org": "grafanalabs",
-   "loc": "",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-17",
-   "url": "https://www.arbeitnow.com/jobs/companies/grafanalabs/commercial-account-executive-growth-remote-germany-32147",
-   "tags": [
-    "Sales (EMEA)"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Senior Product Manager",
-   "org": "Yubico",
-   "loc": "Remote US (EST), London",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-17",
-   "url": "https://www.arbeitnow.com/jobs/companies/yubico/remote-senior-product-manager-211555",
-   "tags": [
-    "Product Management"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Senior Strategic Presales and Solutions Consultant (AI)",
-   "org": "celonis",
-   "loc": "Munich",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-17",
-   "url": "https://www.arbeitnow.com/jobs/companies/celonis/senior-strategic-presales-and-solutions-consultant-ai-munich-270069",
-   "tags": [
-    "Value Engineering"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Senior Applied Value Engineer",
-   "org": "celonis",
-   "loc": "Munich",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-17",
-   "url": "https://www.arbeitnow.com/jobs/companies/celonis/senior-applied-value-engineer-munich-418051",
-   "tags": [
-    "Value Engineering"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Senior Applied AI Solution Engineer",
-   "org": "celonis",
-   "loc": "Munich",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-17",
-   "url": "https://www.arbeitnow.com/jobs/companies/celonis/senior-applied-ai-solution-engineer-munich-471967",
-   "tags": [
-    "Value Engineering"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Senior AI Transformation & Innovation Consultant",
-   "org": "celonis",
-   "loc": "Munich",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-17",
-   "url": "https://www.arbeitnow.com/jobs/companies/celonis/senior-ai-transformation-innovation-consultant-munich-55804",
-   "tags": [
-    "Value Engineering"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Senior Technical Project Manager / Delivery Manager",
-   "org": "wongdoody",
-   "loc": "Berlin, DE",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-17",
-   "url": "https://www.arbeitnow.com/jobs/companies/wongdoody/senior-technical-project-manager-delivery-manager-berlin-de-256427",
-   "tags": [
-    "Development"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Senior Backend Engineer / DevOps",
-   "org": "wongdoody",
-   "loc": "Berlin, DE",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-17",
-   "url": "https://www.arbeitnow.com/jobs/companies/wongdoody/senior-backend-engineer-devops-berlin-de-398281",
-   "tags": [
-    "Development"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Backend Engineer / DevOps",
-   "org": "wongdoody",
-   "loc": "Berlin, DE",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-17",
-   "url": "https://www.arbeitnow.com/jobs/companies/wongdoody/backend-engineer-devops-berlin-de-221735",
-   "tags": [
-    "Development"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "QA Engineer - Payments",
-   "org": "sumup",
-   "loc": "Berlin",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-17",
-   "url": "https://www.arbeitnow.com/jobs/companies/sumup/qa-engineer-payments-berlin-435071",
-   "tags": [
-    "QA"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Customer Success Manager - Key",
-   "org": "Sugarai",
-   "loc": "Germany - Remote",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-17",
-   "url": "https://www.arbeitnow.com/jobs/companies/sugarai/remote-customer-success-manager-key-440393",
-   "tags": [
-    "Customer Experience"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Sales Development Representative (m/f/d)",
-   "org": "RobCo",
-   "loc": "Munich",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-17",
-   "url": "https://www.arbeitnow.com/jobs/companies/robco/sales-development-representative-munich-47805",
-   "tags": [
-    "Revenue"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Staff Forward Deployed Engineer",
-   "org": "Swarmaero",
-   "loc": "Remote",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-17",
-   "url": "https://www.arbeitnow.com/jobs/companies/swarmaero/remote-staff-forward-deployed-engineer-424891",
-   "tags": [
-    "Legion"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Strategic Finance Intern",
-   "org": "Proxima Fusion GmbH",
-   "loc": "Munich",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-17",
-   "url": "https://www.arbeitnow.com/jobs/companies/proxima-fusion-gmbh/strategic-finance-intern-munich-109543",
-   "tags": [
-    "Business Operations"
-   ],
-   "cat": "bank"
-  },
-  {
-   "title": "Tech Recruiter",
-   "org": "Andercore",
-   "loc": "Berlin",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-17",
-   "url": "https://www.arbeitnow.com/jobs/companies/andercore/tech-recruiter-berlin-16379",
-   "tags": [
-    "Talent & HR"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Head of Talent",
-   "org": "Andercore",
-   "loc": "Berlin",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-17",
-   "url": "https://www.arbeitnow.com/jobs/companies/andercore/head-of-talent-berlin-344714",
-   "tags": [
-    "Talent & HR"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "General Legal Counsel",
-   "org": "Andercore",
-   "loc": "Berlin",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-17",
-   "url": "https://www.arbeitnow.com/jobs/companies/andercore/general-legal-counsel-berlin-97374",
-   "tags": [
-    "Legal"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Head of Engineering Services (m/w/d)",
-   "org": "shopware AG",
-   "loc": "Homeoffice",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-17",
-   "url": "https://www.arbeitnow.com/jobs/companies/shopware-ag/remote-head-of-engineering-services-schoppingen-372510",
-   "tags": [
-    "Product",
-    "Remote"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Senior Account Executive (m/w/d)",
-   "org": "shopware AG",
-   "loc": "Homeoffice",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-17",
-   "url": "https://www.arbeitnow.com/jobs/companies/shopware-ag/remote-senior-account-executive-schoppingen-118104",
-   "tags": [
-    "Sales",
-    "Remote"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Senior Quality Control & Supplier Quality Specialist (m/f/d)",
-   "org": "Quantum-Systems GmbH",
-   "loc": "Gilching, Bayern, Germany",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-17",
-   "url": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/senior-quality-control-supplier-quality-specialist-gilching-284457",
-   "tags": [
-    "Supply Chain"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Senior Mechanical Engineer - Drone Port (m/f/d)",
-   "org": "Quantum-Systems GmbH",
-   "loc": "Gilching, Bayern, Germany",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-17",
-   "url": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/senior-mechanical-engineer-drone-port-gilching-358088",
-   "tags": [
-    "Hardware"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Software Prototyping Engineer - N3XT (m/f/d)",
-   "org": "Quantum-Systems GmbH",
-   "loc": "Gilching, Bayern, Germany",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-17",
-   "url": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/software-prototyping-engineer-n3xt-gilching-365615",
-   "tags": [
-    "Software"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Embedded Software Engineer - N3XT (m/f/d)",
-   "org": "Quantum-Systems GmbH",
-   "loc": "Gilching, Bayern, Germany",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-17",
-   "url": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/embedded-software-engineer-n3xt-gilching-228796",
-   "tags": [
-    "Software"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Simulation & SIL Infrastructure Engineer (m/f/d)",
-   "org": "Quantum-Systems GmbH",
-   "loc": "Gilching, Bayern, Germany",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-17",
-   "url": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/simulation-sil-infrastructure-engineer-gilching-6974",
-   "tags": [
-    "Software"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Senior Avionics Hardware Certification Engineer (m/f/d)",
-   "org": "Quantum-Systems GmbH",
-   "loc": "Gilching, Bayern, Germany",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-17",
-   "url": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/senior-avionics-hardware-certification-engineer-gilching-435554",
-   "tags": [
-    "Hardware"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Intern/Working Student Process Management (m/f/d)",
-   "org": "Quantum-Systems GmbH",
-   "loc": "Gilching, Bayern, Germany",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-17",
-   "url": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/intern-working-student-process-management-gilching-22698",
-   "tags": [
-    "Student & Early Professionals"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "(Senior) Event Manager (m/f/d)",
-   "org": "Quantum-Systems GmbH",
-   "loc": "Gilching, Bayern, Germany",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-17",
-   "url": "https://www.arbeitnow.com/jobs/companies/quantum-systems-gmbh/senior-event-manager-gilching-415782",
-   "tags": [
-    "Marketing & Communication"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Senior Expert für Enterprise Service Management (m/w/d)",
-   "org": "Labtagon GmbH",
-   "loc": "Mönchengladbach",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-17",
-   "url": "https://www.arbeitnow.com/jobs/companies/labtagon-gmbh/senior-expert-fur-enterprise-service-management-monchengladbach-281188",
-   "tags": [
-    "Remote",
-    "Consulting",
-    "Engineering"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Expert Talent Pool Physical AI",
-   "org": "Clera",
-   "loc": "Remote",
-   "type": "remote",
-   "src": "RemoteOK",
-   "date": "2026-11-17",
-   "url": "https://remoteOK.com/remote-jobs/remote-expert-talent-pool-physical-ai-clera-1137799",
-   "tags": [
-    "design",
-    "education",
-    "testing",
-    "travel"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Expert Talent Pool Feedback and Alignment",
-   "org": "Clera",
-   "loc": "Remote",
-   "type": "remote",
-   "src": "RemoteOK",
-   "date": "2026-11-17",
-   "url": "https://remoteOK.com/remote-jobs/remote-expert-talent-pool-feedback-and-alignment-clera-1137798",
-   "tags": [
-    "quality assurance",
-    "finance",
-    "math",
-    "exec"
-   ],
-   "cat": "bank"
-  },
-  {
-   "title": "Engineering Manager Network Engineering",
-   "org": "PatientPoint",
-   "loc": "Remote",
-   "type": "remote",
-   "src": "RemoteOK",
-   "date": "2026-11-17",
-   "url": "https://remoteOK.com/remote-jobs/remote-engineering-manager-network-engineering-patientpoint-1137797",
-   "tags": [
-    "exec",
-    "design",
-    "infosec",
-    "technical"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Senior Salesforce Engineer | Resellers Team",
-   "org": "Wellhub",
-   "loc": "Brazil",
+   "title": "Senior QA Engineer",
+   "org": "Airtm",
+   "loc": "LATAM, Canada, USA",
    "type": "remote",
    "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/163048-senior-salesforce-engineer-resellers-team",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155766-senior-qa-engineer-3",
    "tags": [
-    "Software Engineering",
-    "Part-Time"
+    "QA & Testing",
+    "Full-Time"
    ],
    "cat": "it"
   },
   {
-   "title": "Senior MLOps Engineer",
-   "org": "Wellhub",
-   "loc": "Brazil",
+   "title": "Strategic Sourcing Lead – Fulfillment - Mexico",
+   "org": "Appen",
+   "loc": "Brazil, Mexico, Philippines",
    "type": "remote",
    "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/163047-senior-mlops-engineer-2",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155756-strategic-sourcing-lead-fulfillment-mexico",
    "tags": [
-    "DevOps & Infrastructure",
-    "Part-Time"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Senior Project Manager",
-   "org": "Welo Global",
-   "loc": "Argentina, Mexico",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/163046-senior-project-manager",
-   "tags": [
-    "Project & Program Management",
+    "HR & Recruiting",
     "Full-Time"
    ],
    "cat": "other"
   },
   {
-   "title": "Senior Localization Project Manager",
-   "org": "Welo Global",
-   "loc": "Argentina, Mexico",
+   "title": "Risk Analyst",
+   "org": "Flex",
+   "loc": "USA",
    "type": "remote",
    "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/163045-senior-localization-project-manager",
-   "tags": [
-    "Project & Program Management",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Senior Data Analyst",
-   "org": "Welo Global",
-   "loc": "Mexico",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/163044-senior-data-analyst-5",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155772-risk-analyst",
    "tags": [
     "Data Science & Analytics",
     "Full-Time"
@@ -2674,97 +2575,111 @@
    "cat": "it"
   },
   {
-   "title": "Hydrus - Voice Contributor - Spanish (Mexico)",
-   "org": "Welo Global",
-   "loc": "Mexico",
+   "title": "Product Owner, Growth",
+   "org": "Flex",
+   "loc": "Brazil, Canada, Mexico, USA",
    "type": "remote",
    "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/163043-hydrus-voice-contributor-spanish-mexico",
-   "tags": [
-    "Creative & Design",
-    "Contract"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Hydrus - Voice Contributor - Spanish (Latin America) - Argentina",
-   "org": "Welo Global",
-   "loc": "Argentina",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/163042-hydrus-voice-contributor-spanish-latin-america-argentina",
-   "tags": [
-    "Creative & Design",
-    "Contract"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Staff Accountant",
-   "org": "Enumerate",
-   "loc": "LATAM",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/163040-staff-accountant-4",
-   "tags": [
-    "Finance & Accounting",
-    "Contract"
-   ],
-   "cat": "bank"
-  },
-  {
-   "title": "Product Owner, AI Pod",
-   "org": "Enumerate",
-   "loc": "LATAM",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/163037-product-owner-ai-pod",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155770-product-owner-growth",
    "tags": [
     "Product & Operations",
-    "Contract"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "English to Spanish (ESMX native) Linguist for Life Sciences",
-   "org": "Welo Global",
-   "loc": "Mexico",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/163035-english-to-spanish-esmx-native-linguist-for-life-sciences",
-   "tags": [
-    "Healthcare & Medical",
-    "Contract"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Sr Genomics Specialist",
-   "org": "Veracyte",
-   "loc": "USA",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/163033-sr-genomics-specialist",
-   "tags": [
-    "Sales",
     "Full-Time"
    ],
    "cat": "other"
   },
   {
-   "title": "Principal Engineer Cryptography",
-   "org": "GoDaddy",
+   "title": "General Manager, Construction",
+   "org": "Flex",
    "loc": "USA",
    "type": "remote",
    "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/163031-principal-engineer-cryptography",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155768-general-manager-construction",
+   "tags": [
+    "Business Development",
+    "Full-Time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Customer Experience Specialist",
+   "org": "Flex",
+   "loc": "USA",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155767-customer-experience-specialist-7",
+   "tags": [
+    "Customer Support & Success",
+    "Full-Time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "International Audio/Video Remote Spanish Interpreter",
+   "org": "Language Services Associates",
+   "loc": "Anywhere",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155758-international-audio-video-remote-spanish-interpreter",
+   "tags": [
+    "Customer Support & Success",
+    "Contract"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "GTM Strategist",
+   "org": "Fandom",
+   "loc": "USA",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155763-gtm-strategist",
+   "tags": [
+    "Business Development",
+    "Full-Time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "FP&A Manager",
+   "org": "Fandom",
+   "loc": "USA",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155759-fpa-manager",
+   "tags": [
+    "Finance & Accounting",
+    "Full-Time"
+   ],
+   "cat": "bank"
+  },
+  {
+   "title": "Corporate Development Director",
+   "org": "Fandom",
+   "loc": "USA",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155757-corporate-development-director",
+   "tags": [
+    "Finance & Accounting",
+    "Full-Time"
+   ],
+   "cat": "bank"
+  },
+  {
+   "title": "Director of Security Operations and Engineering",
+   "org": "EDB",
+   "loc": "USA",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155742-director-of-security-operations-and-engineering",
    "tags": [
     "Cybersecurity",
     "Full-Time"
@@ -2772,55 +2687,293 @@
    "cat": "it"
   },
   {
-   "title": "Sr. Genomic Specialist, Phoenix",
-   "org": "Veracyte",
+   "title": "Bilingual Customer Experience Specialist (Spanish)",
+   "org": "Instacart",
    "loc": "USA",
    "type": "remote",
    "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/163029-sr-genomic-specialist-phoenix",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155764-bilingual-customer-experience-specialist-spanish",
    "tags": [
-    "Sales",
+    "Customer Support & Success",
     "Full-Time"
    ],
    "cat": "other"
   },
   {
-   "title": "Senior Director of Product",
-   "org": "Tekmetric",
+   "title": "Account Manager",
+   "org": "Instacart",
    "loc": "USA",
    "type": "remote",
    "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/163028-senior-director-of-product",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155755-account-manager-14",
+   "tags": [
+    "Customer Support & Success",
+    "Full-Time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Consultant Relations Senior Manager",
+   "org": "BetterHelp",
+   "loc": "USA",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155737-consultant-relations-senior-manager",
+   "tags": [
+    "Business Development",
+    "Full-Time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Director, Legal",
+   "org": "Submittable",
+   "loc": "USA",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155765-director-legal",
+   "tags": [
+    "Legal & Compliance",
+    "Full-Time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Assistant General Counsel, Servicing",
+   "org": "Goodleap",
+   "loc": "USA",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155716-assistant-general-counsel-servicing",
+   "tags": [
+    "Legal & Compliance",
+    "Full-Time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Staff Software Engineer - Python, Java / Spring or Go",
+   "org": "Bloomreach",
+   "loc": "Europe",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155731-staff-software-engineer-python-java-spring-or-go",
+   "tags": [
+    "Software Engineering",
+    "Full-Time"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Senior Software Engineer, Data Pipeline",
+   "org": "Bloomreach",
+   "loc": "Europe",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155730-senior-software-engineer-data-pipeline",
+   "tags": [
+    "Software Engineering",
+    "Full-Time"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Hebrew Freelance Translator & Copy Editor (Product, Marketing & UI Content)",
+   "org": "Welo Global",
+   "loc": "Israel",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155709-hebrew-freelance-translator-copy-editor-product-marketing-ui-content",
+   "tags": [
+    "Content & Editorial",
+    "Contract"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Machine Learning Engineer (Governance ML Platform)",
+   "org": "EDB",
+   "loc": "EMEA",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155746-machine-learning-engineer-governance-ml-platform",
+   "tags": [
+    "Software Engineering",
+    "Full-Time"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Full Stack Software Engineer",
+   "org": "BetterHelp",
+   "loc": "USA",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155744-full-stack-software-engineer-2",
+   "tags": [
+    "Software Engineering",
+    "Full-Time"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Customer Success Manager",
+   "org": "Hubstaff",
+   "loc": "USA",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155739-customer-success-manager-52",
+   "tags": [
+    "Customer Support & Success",
+    "Full-Time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Principal Production Designer, Print & Packaging",
+   "org": "hims &#038; hers",
+   "loc": "Europe",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155728-principal-production-designer-print-packaging",
+   "tags": [
+    "Creative & Design",
+    "Full-Time"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Manager, Engineering (Remote Eligible in Bulgaria)",
+   "org": "Smartsheet",
+   "loc": "Bulgaria",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155726-manager-engineering-remote-eligible-in-bulgaria",
+   "tags": [
+    "Software Engineering",
+    "Full-Time"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Sr. Manager, Data Science",
+   "org": "hims &#038; hers",
+   "loc": "UK",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155725-sr-manager-data-science",
+   "tags": [
+    "Data Science & Analytics",
+    "Full-Time"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Technical Solutions Consultant",
+   "org": "Banyan Software",
+   "loc": "Canada",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155719-technical-solutions-consultant",
+   "tags": [
+    "Technical Support",
+    "Full-Time"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "1 on 1 High School Math Tutor",
+   "org": "Think Academy US",
+   "loc": "USA",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155717-1-on-1-high-school-math-tutor-3",
+   "tags": [
+    "Education & E-learning",
+    "Part-Time"
+   ],
+   "cat": "edu"
+  },
+  {
+   "title": "Chief Executive Officer",
+   "org": "Banyan Software",
+   "loc": "USA",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155715-chief-executive-officer-4",
    "tags": [
     "Product & Operations",
     "Full-Time"
    ],
-   "cat": "other"
+   "cat": "it"
   },
   {
-   "title": "Sleep Medicine Physician",
-   "org": "Dreem Health",
-   "loc": "USA",
+   "title": "Enterprise Customer Success Manager (French speaker)",
+   "org": "Canonical",
+   "loc": "EMEA",
    "type": "remote",
    "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/163026-sleep-medicine-physician",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155706-enterprise-customer-success-manager-french-speaker",
    "tags": [
-    "Healthcare & Medical",
+    "Customer Support & Success",
     "Full-Time"
    ],
    "cat": "other"
   },
   {
-   "title": "Sr. Genomic Specialist, Cincinnati",
-   "org": "Veracyte",
+   "title": "Enterprise Customer Success Manager",
+   "org": "Canonical",
+   "loc": "Anywhere",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155703-enterprise-customer-success-manager-9",
+   "tags": [
+    "Customer Support & Success",
+    "Full-Time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Customer Success Manager, Small Group",
+   "org": "Elation Health",
    "loc": "USA",
    "type": "remote",
    "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/163025-sr-genomic-specialist-cincinnati",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155697-customer-success-manager-small-group",
+   "tags": [
+    "Customer Support & Success",
+    "Full-Time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Enterprise Account Executive, Acquisition | Remote | Sweden",
+   "org": "Grafana Labs",
+   "loc": "Sweden",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155690-enterprise-account-executive-acquisition-remote-sweden",
    "tags": [
     "Sales",
     "Full-Time"
@@ -2828,97 +2981,13 @@
    "cat": "other"
   },
   {
-   "title": "Consolidations & Financial Reporting Manager",
-   "org": "Wellhub",
+   "title": "IT Support Specialist",
+   "org": "6sense",
    "loc": "USA",
    "type": "remote",
    "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/163022-consolidations-financial-reporting-manager",
-   "tags": [
-    "Finance & Accounting",
-    "Part-Time"
-   ],
-   "cat": "bank"
-  },
-  {
-   "title": "Referral Coordinator",
-   "org": "Dreem Health",
-   "loc": "USA",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/163021-referral-coordinator",
-   "tags": [
-    "Healthcare & Medical",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Sales Development Representative",
-   "org": "Tekmetric",
-   "loc": "USA",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/163019-sales-development-representative-19",
-   "tags": [
-    "Sales",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Client Sales Enterprise Account Executive",
-   "org": "Wellhub",
-   "loc": "USA",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/163017-client-sales-enterprise-account-executive",
-   "tags": [
-    "Sales",
-    "Part-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Patient Financial Counselor",
-   "org": "Dreem Health",
-   "loc": "USA",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/163016-patient-financial-counselor",
-   "tags": [
-    "Healthcare & Medical",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Market Access Manager",
-   "org": "Veracyte",
-   "loc": "USA",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/163015-market-access-manager",
-   "tags": [
-    "Healthcare & Medical",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Product Support Specialist - East Coast",
-   "org": "Tekmetric",
-   "loc": "USA",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/163014-product-support-specialist-east-coast",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155698-it-support-specialist-3",
    "tags": [
     "Technical Support",
     "Full-Time"
@@ -2926,251 +2995,69 @@
    "cat": "other"
   },
   {
-   "title": "Senior Software Engineer II, Cloud Security",
-   "org": "Qualia",
-   "loc": "USA",
+   "title": "Ads Quality Rater – German (Austria)",
+   "org": "Welo Global",
+   "loc": "Austria",
    "type": "remote",
    "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/163013-senior-software-engineer-ii-cloud-security",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155692-ads-quality-rater-german-austria",
    "tags": [
-    "Cybersecurity",
-    "Full-Time"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Director Corporate Development",
-   "org": "GoDaddy",
-   "loc": "USA",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/163012-director-corporate-development-2",
-   "tags": [
-    "Finance & Accounting",
-    "Full-Time"
-   ],
-   "cat": "bank"
-  },
-  {
-   "title": "Canada - Client Sales Account Director",
-   "org": "Wellhub",
-   "loc": "Canada",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/163011-canada-client-sales-account-director",
-   "tags": [
-    "Sales",
-    "Full-Time"
+    "QA & Testing",
+    "Contract"
    ],
    "cat": "other"
   },
   {
-   "title": "Nurse Practitioner",
-   "org": "Dreem Health",
-   "loc": "USA",
+   "title": "Ads Quality Rater - Slovenian (Slovenia)",
+   "org": "Welo Global",
+   "loc": "Slovenia",
    "type": "remote",
    "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/163010-nurse-practitioner",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155689-ads-quality-rater-slovenian-slovenia",
    "tags": [
-    "Healthcare & Medical",
-    "Full-Time"
+    "QA & Testing",
+    "Contract"
    ],
    "cat": "other"
   },
   {
-   "title": "Information Security Engineer",
-   "org": "Qualia",
-   "loc": "USA",
+   "title": "Ads Quality Rater – Język polski (Polska)",
+   "org": "Welo Global",
+   "loc": "Poland",
    "type": "remote",
    "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/163005-information-security-engineer-2",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155695-ads-quality-rater-jezyk-polski-polska",
    "tags": [
-    "Cybersecurity",
-    "Full-Time"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Security Advocate",
-   "org": "Maze",
-   "loc": "USA",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/163007-security-advocate",
-   "tags": [
-    "Cybersecurity",
-    "Full-Time"
+    "QA & Testing",
+    "Contract"
    ],
    "cat": "other"
   },
   {
-   "title": "Support Operations Lead",
-   "org": "Zip",
-   "loc": "USA",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/163006-support-operations-lead",
-   "tags": [
-    "Customer Support & Success",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Enterprise Account Director, West",
-   "org": "Yubico",
-   "loc": "USA",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/163004-enterprise-account-director-west-2",
-   "tags": [
-    "Sales",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Charge Analysis Associate",
-   "org": "Dreem Health",
-   "loc": "USA",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/163002-charge-analysis-associate",
-   "tags": [
-    "Healthcare & Medical",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Bioinformatics Scientist II",
-   "org": "Veracyte",
-   "loc": "USA",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/163001-bioinformatics-scientist-ii",
-   "tags": [
-    "Data Science & Analytics",
-    "Full-Time"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Growth Marketing Manager",
-   "org": "Maze",
-   "loc": "USA",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/162999-growth-marketing-manager-7",
-   "tags": [
-    "Marketing & Sales",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Enterprise Architect (Pre-Sales)",
-   "org": "Zip",
-   "loc": "Canada",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/162998-enterprise-architect-pre-sales",
-   "tags": [
-    "Sales",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Senior Tax Accountant",
-   "org": "Articulate",
-   "loc": "USA",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/162997-senior-tax-accountant-2",
-   "tags": [
-    "Finance & Accounting",
-    "Full-Time"
-   ],
-   "cat": "bank"
-  },
-  {
-   "title": "Engineering Manager II, Cloud Security",
-   "org": "Qualia",
-   "loc": "USA",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/162996-engineering-manager-ii-cloud-security",
-   "tags": [
-    "Cybersecurity",
-    "Full-Time"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Principal Consultant (DevOps)",
-   "org": "Xebia",
-   "loc": "USA",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/162995-principal-consultant-devops",
-   "tags": [
-    "DevOps & Infrastructure",
-    "Full-Time"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Channel Account Manager",
-   "org": "Yubico",
-   "loc": "USA",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/162994-channel-account-manager-4",
-   "tags": [
-    "Sales",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Analytics Engineer (AI) | Martech",
-   "org": "Wellhub",
+   "title": "Full Stack Developer (Frontend-Focused) - Brazil",
+   "org": "Brafton",
    "loc": "Brazil",
    "type": "remote",
    "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/162992-analytics-engineer-ai-martech",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155661-full-stack-developer-frontend-focused-brazil",
    "tags": [
-    "Data Science & Analytics",
-    "Part-Time"
+    "Software Engineering",
+    "Contract"
    ],
    "cat": "it"
   },
   {
-   "title": "Staff Machine Learning Engineer, Ads Foundational Representations",
-   "org": "Reddit",
-   "loc": "Netherlands, UK",
+   "title": "Software Engineer",
+   "org": "Flex",
+   "loc": "Brazil",
    "type": "remote",
    "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/162990-staff-machine-learning-engineer-ads-foundational-representations-2",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155660-software-engineer-12",
    "tags": [
     "Software Engineering",
     "Full-Time"
@@ -3178,69 +3065,83 @@
    "cat": "it"
   },
   {
-   "title": "Senior Fullstack Engineer",
-   "org": "Nebius",
-   "loc": "Europe, Israel",
+   "title": "Strategic Sourcing Lead – Fulfillment - Argentina",
+   "org": "Appen",
+   "loc": "Argentina, Brazil, Mexico, Philippines",
    "type": "remote",
    "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/162989-senior-fullstack-engineer-5",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155659-strategic-sourcing-lead-fulfillment-argentina",
    "tags": [
-    "Software Engineering",
+    "HR & Recruiting",
     "Full-Time"
    ],
-   "cat": "it"
-  },
-  {
-   "title": "Corporate & Integration Operations Associate",
-   "org": "3Y Health",
-   "loc": "Greece",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/162988-corporate-integration-operations-associate",
-   "tags": [
-    "Product & Operations",
-    "Contract"
-   ],
    "cat": "other"
   },
   {
-   "title": "Senior Growth Manager (Contract)",
-   "org": "Reddit",
-   "loc": "UK, USA",
+   "title": "Enterprise Account Executive, Growth - META | Remote | Spain",
+   "org": "Grafana Labs",
+   "loc": "Spain",
    "type": "remote",
    "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/162987-senior-growth-manager-contract-2",
-   "tags": [
-    "Product & Operations",
-    "Contract"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Lead Solutions Engineer",
-   "org": "Veriff",
-   "loc": "Estonia, Spain",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/162986-lead-solutions-engineer-3",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155693-enterprise-account-executive-growth-meta-remote-spain",
    "tags": [
     "Sales",
     "Full-Time"
    ],
+   "cat": "other"
+  },
+  {
+   "title": "Deployment Strategist, Eastern Europe",
+   "org": "TRM Labs",
+   "loc": "EMEA",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155691-deployment-strategist-eastern-europe",
+   "tags": [
+    "Customer Support & Success",
+    "Full-Time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Senior Software Engineer, AI Engineer (Brazil)",
+   "org": "TRM Labs",
+   "loc": "Brazil",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155662-senior-software-engineer-ai-engineer-brazil",
+   "tags": [
+    "Software Engineering",
+    "Full-Time"
+   ],
    "cat": "it"
   },
   {
-   "title": "Senior Central Monitor",
-   "org": "Precision Medicine Group",
-   "loc": "Serbia",
+   "title": "Senior Data Scientist, Full Stack (Brazil)",
+   "org": "TRM Labs",
+   "loc": "Brazil",
    "type": "remote",
    "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/162985-senior-central-monitor",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155658-senior-data-scientist-full-stack-brazil",
+   "tags": [
+    "Data Science & Analytics",
+    "Full-Time"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Consultant Psychiatrist PAYE",
+   "org": "Montu UK",
+   "loc": "UK",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155650-consultant-psychiatrist-paye",
    "tags": [
     "Healthcare & Medical",
     "Full-Time"
@@ -3248,27 +3149,27 @@
    "cat": "other"
   },
   {
-   "title": "Senior AI Engineer",
-   "org": "Inato",
-   "loc": "France",
+   "title": "Tax Manager",
+   "org": "Bloomreach",
+   "loc": "Czechia, Slovakia",
    "type": "remote",
    "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/162984-senior-ai-engineer-10",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155732-tax-manager",
    "tags": [
-    "Data Science & Analytics",
+    "Finance & Accounting",
     "Full-Time"
    ],
-   "cat": "it"
+   "cat": "bank"
   },
   {
-   "title": "Product Engineer",
-   "org": "Inato",
-   "loc": "France",
+   "title": "Senior Fullstack Engineer",
+   "org": "Spotify",
+   "loc": "Sweden, UK",
    "type": "remote",
    "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/162983-product-engineer-2",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155655-senior-fullstack-engineer-3",
    "tags": [
     "Software Engineering",
     "Full-Time"
@@ -3276,32 +3177,60 @@
    "cat": "it"
   },
   {
-   "title": "Senior Cloud Infrastructure Engineer",
-   "org": "Inato",
-   "loc": "France",
+   "title": "Ads Quality Rater - Norwegian (Norway)",
+   "org": "Welo Global",
+   "loc": "Norway",
    "type": "remote",
    "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/162982-senior-cloud-infrastructure-engineer-2",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155652-ads-quality-rater-norwegian-norway",
    "tags": [
-    "DevOps & Infrastructure",
-    "Full-Time"
+    "QA & Testing",
+    "Contract"
    ],
-   "cat": "it"
+   "cat": "other"
   },
   {
-   "title": "Mid-Market Customer Success Manager - EMEA (German speaking)",
-   "org": "Ashby",
-   "loc": "Europe",
+   "title": "Strategic Sourcing Lead – Fulfillment - Brazil",
+   "org": "Appen",
+   "loc": "Brazil, Philippines",
    "type": "remote",
    "src": "Jobicy",
-   "date": "2026-11-17",
-   "url": "https://jobicy.com/jobs/162981-mid-market-customer-success-manager-emea-german-speaking",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155664-strategic-sourcing-lead-fulfillment-brazil",
    "tags": [
-    "Customer Support & Success",
+    "HR & Recruiting",
     "Full-Time"
    ],
    "cat": "other"
+  },
+  {
+   "title": "Ads Quality Rater - Slovak (Slovakia)",
+   "org": "Welo Global",
+   "loc": "Slovakia",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155656-ads-quality-rater-slovak-slovakia",
+   "tags": [
+    "QA & Testing",
+    "Contract"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Senior C++/iOS Engineer - User Platform",
+   "org": "Spotify",
+   "loc": "Sweden, UK",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-18",
+   "url": "https://jobicy.com/jobs/155651-senior-c-ios-engineer-user-platform",
+   "tags": [
+    "Software Engineering",
+    "Full-Time"
+   ],
+   "cat": "it"
   },
   {
    "title": "Tech Lead Full-Stack Rails Engineer",
@@ -3328,86 +3257,6 @@
    "tags": [
     "Marketing",
     "full_time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Global Partnerships BD Lead",
-   "org": "Fuku",
-   "loc": "Paris",
-   "type": "remote",
-   "src": "RemoteOK",
-   "date": "2026-11-13",
-   "url": "https://remoteOK.com/remote-jobs/remote-global-partnerships-bd-lead-fuku-1137796",
-   "tags": [
-    "web3",
-    "sys admin",
-    "finance",
-    "exec"
-   ],
-   "cat": "bank"
-  },
-  {
-   "title": "Scaled Account Manager EMEA",
-   "org": "DoiT",
-   "loc": "Estonia",
-   "type": "remote",
-   "src": "RemoteOK",
-   "date": "2026-11-13",
-   "url": "https://remoteOK.com/remote-jobs/remote-scaled-account-manager-emea-doit-1137795",
-   "tags": [
-    "exec",
-    "marketing",
-    "cloud",
-    "microsoft"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Software Engineer AI Tooling",
-   "org": "Supabase",
-   "loc": "Remote",
-   "type": "remote",
-   "src": "RemoteOK",
-   "date": "2026-11-13",
-   "url": "https://remoteOK.com/remote-jobs/remote-software-engineer-ai-tooling-supabase-1137793",
-   "tags": [
-    "dev",
-    "design",
-    "front end",
-    "customer support"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Research Engineer Privacy and Anonymization",
-   "org": "Pragmatike",
-   "loc": "Remote",
-   "type": "remote",
-   "src": "RemoteOK",
-   "date": "2026-11-12",
-   "url": "https://remoteOK.com/remote-jobs/remote-research-engineer-privacy-and-anonymization-pragmatike-1137792",
-   "tags": [
-    "design",
-    "embedded",
-    "infosec",
-    "python"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Freelance Question Reviewers",
-   "org": "AMBOSS",
-   "loc": "New York",
-   "type": "remote",
-   "src": "RemoteOK",
-   "date": "2026-11-12",
-   "url": "https://remoteOK.com/remote-jobs/remote-freelance-question-reviewers-amboss-1137791",
-   "tags": [
-    "hr",
-    "education",
-    "customer support",
-    "content writing"
    ],
    "cat": "other"
   },
@@ -3454,54 +3303,6 @@
    "cat": "other"
   },
   {
-   "title": "Patient Care Specialist I",
-   "org": "Boston Scientific",
-   "loc": "Remote",
-   "type": "remote",
-   "src": "RemoteOK",
-   "date": "2026-11-11",
-   "url": "https://remoteOK.com/remote-jobs/remote-patient-care-specialist-i-boston-scientific-1137719",
-   "tags": [
-    "design",
-    "sys admin",
-    "education",
-    "technical"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Strategy & Operations Coach APAC",
-   "org": "Mento",
-   "loc": "Remote",
-   "type": "remote",
-   "src": "RemoteOK",
-   "date": "2026-11-11",
-   "url": "https://remoteOK.com/remote-jobs/remote-strategy-operations-coach-apac-mento-1137717",
-   "tags": [
-    "education",
-    "marketing",
-    "exec",
-    "senior"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Bilingual Patient Engagement Specialist I English Spanish",
-   "org": "Sprinter Health",
-   "loc": "Menlo Park",
-   "type": "remote",
-   "src": "RemoteOK",
-   "date": "2026-11-11",
-   "url": "https://remoteOK.com/remote-jobs/remote-bilingual-patient-engagement-specialist-i-english-spanish-sprinter-health-1137716",
-   "tags": [
-    "customer support",
-    "dev",
-    "speech",
-    "ops"
-   ],
-   "cat": "other"
-  },
-  {
    "title": "Senior React Full-stack Developer",
    "org": "Lemon.io",
    "loc": "LATAM, Europe, USA, Canada, APAC",
@@ -3516,50 +3317,142 @@
    "cat": "it"
   },
   {
-   "title": "Data Engineer",
-   "org": "Addepto",
-   "loc": "Remote",
+   "title": "Inside Sales Contractor",
+   "org": "Credit Wellness, LLC",
+   "loc": "Worldwide",
    "type": "remote",
-   "src": "RemoteOK",
-   "date": "2026-11-10",
-   "url": "https://remoteOK.com/remote-jobs/remote-data-engineer-addepto-1137714",
+   "src": "Remotive",
+   "date": "2026-11-08",
+   "url": "https://remotive.com/remote-jobs/sales/inside-sales-contractor-2086540",
    "tags": [
-    "design",
-    "saas",
-    "salesforce",
-    "python"
+    "Sales",
+    "full_time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Tier III Service Desk Engineer",
+   "org": "Unio Digital",
+   "loc": "Worldwide",
+   "type": "remote",
+   "src": "Remotive",
+   "date": "2026-11-07",
+   "url": "https://remotive.com/remote-jobs/information-technology/tier-iii-service-desk-engineer-2091045",
+   "tags": [
+    "Information Technology",
+    "full_time"
    ],
    "cat": "it"
   },
   {
-   "title": "Senior Software Engineer â Kubernetes Control Plane",
-   "org": "Buoyant",
-   "loc": "Remote",
+   "title": "US Remote Patient Care Advocate (Customer Service)",
+   "org": "VXI Global Solutions",
+   "loc": "USA",
    "type": "remote",
-   "src": "RemoteOK",
-   "date": "2026-11-09",
-   "url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-kubernetes-control-plane-buoyant-1137713",
+   "src": "Remotive",
+   "date": "2026-11-06",
+   "url": "https://remotive.com/remote-jobs/customer-service/us-remote-patient-care-advocate-customer-service-2091168",
    "tags": [
-    "golang",
-    "dev",
-    "senior",
-    "golang"
+    "Customer Service",
+    "full_time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Freelance Writer",
+   "org": "IAPWE",
+   "loc": "Worldwide",
+   "type": "remote",
+   "src": "Remotive",
+   "date": "2026-11-04",
+   "url": "https://remotive.com/remote-jobs/writing/freelance-writer-1185979",
+   "tags": [
+    "Writing",
+    "freelance"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Content Reviewer - United States",
+   "org": "TELUS Digital",
+   "loc": "USA",
+   "type": "remote",
+   "src": "Remotive",
+   "date": "2026-11-04",
+   "url": "https://remotive.com/remote-jobs/all-others/content-reviewer-united-states-2091166",
+   "tags": [
+    "All others",
+    "part_time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Freelance Copywriter",
+   "org": "Coalition Technologies",
+   "loc": "Worldwide",
+   "type": "remote",
+   "src": "Remotive",
+   "date": "2026-11-02",
+   "url": "https://remotive.com/remote-jobs/writing/freelance-copywriter-1749306",
+   "tags": [
+    "Writing",
+    "freelance"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Full-Stack Developer",
+   "org": "Fluence International, Inc.",
+   "loc": "Worldwide",
+   "type": "remote",
+   "src": "Remotive",
+   "date": "2026-10-29",
+   "url": "https://remotive.com/remote-jobs/software-development/full-stack-developer-2091165",
+   "tags": [
+    "Software Development",
+    "contract"
    ],
    "cat": "it"
   },
   {
-   "title": "HIL Support Specialist",
-   "org": "Extend Your Team",
-   "loc": "Remote",
+   "title": "Senior Back-end Developer",
+   "org": "Lemon.io",
+   "loc": "Europe, USA, Canada, Australia, Singapore, Mexico, Saudi Arabia",
    "type": "remote",
-   "src": "RemoteOK",
-   "date": "2026-11-09",
-   "url": "https://remoteOK.com/remote-jobs/remote-hil-support-specialist-extend-your-team-1137711",
+   "src": "Remotive",
+   "date": "2026-10-27",
+   "url": "https://remotive.com/remote-jobs/software-development/senior-back-end-developer-2091135",
    "tags": [
-    "design",
-    "c sharp",
-    "amazon",
-    "customer support"
+    "Software Development",
+    "full_time"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Head of Engineering",
+   "org": "Lemon.io",
+   "loc": "Worldwide",
+   "type": "remote",
+   "src": "Remotive",
+   "date": "2026-10-26",
+   "url": "https://remotive.com/remote-jobs/software-development/head-of-engineering-2091134",
+   "tags": [
+    "Software Development",
+    "full_time"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "AI Trainer - Video Annotation",
+   "org": "iMerit Technology",
+   "loc": "Worldwide",
+   "type": "remote",
+   "src": "Remotive",
+   "date": "2026-10-22",
+   "url": "https://remotive.com/remote-jobs/artificial-intelligence/ai-trainer-video-annotation-2091161",
+   "tags": [
+    "Artificial Intelligence",
+    "freelance"
    ],
    "cat": "other"
   }
