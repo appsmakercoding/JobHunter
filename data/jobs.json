@@ -1,6 +1,6 @@
 {
- "updated": "2026-11-26T07:37:14.829Z",
- "count": 266,
+ "updated": "2026-11-26T13:35:27.302Z",
+ "count": 269,
  "items": [
   {
    "title": "আবেদন ফি ছাড়াই ব্র্যাকে চাকরির সুযোগ, আবেদন চলবে ৩ ডিসেম্বর পর্যন্ত",
@@ -16,7 +16,20 @@
    "cat": "ngo"
   },
   {
-   "title": "এক ফলাফলের গেজেট–জটে আটকে পরের বিসিএসের চূড়ান্ত ফল, চাকরিপ্রার্থীরা অপেক্ষায়",
+   "title": "ঢাকা কর অঞ্চল-২৪–এর অধীনে ১৩ থেকে ২০ গ্রেডে চাকরি, পদ ৫৯",
+   "org": "প্রথম আলো",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE0wZy15dkNmcTBNR2d5Z1FfVk9fME1zNVNlNVR4Qk1XblRiYmFHZ3FrX2thXzNsUFBLV1ozVV90VHhZUGdRX0Q0QlJub2xwOXBLcHhhcGoxbnhmb04xcTFOOEdWeU9WZ9IBc0FVX3lxTE9JQmVhdjRRU3c5YkNsWlN3emtJWkRBQ3htMkdoNDYtUGhDdXRWVVZKTXBFSzdib1VEVEtSVFM5SUhkTkpfU3JuWThiSWlXMDA0TkNTdFJQaXlRMUF6Y1pReHFZXzJhOGdGdEhfSS05dEhrdXc?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "৪৬তম বিসিএসের গেজেটে আটকে ৫০তম বিসিএসের ফল, চাকরিপ্রার্থীদের অপেক্ষা কত দিনের",
    "org": "প্রথম আলো",
    "loc": "বাংলাদেশ",
    "type": "bd",
@@ -29,13 +42,39 @@
    "cat": "govt"
   },
   {
+   "title": "ওয়ান ব্যাংকে নিয়োগ বিজ্ঞপ্তি, স্নাতক পাসেই আবেদনের সুযোগ",
+   "org": "Ajker Patrika",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5veXVkZFFsY3R4UVR5U20ySXFSalJBOXVpTk5mMVFKbWdCZDZ1WGtSdXVqRmkwM196X3pZeVVQeGc1M2pYUnBTMmtCdHI4SnI5NGk1VEFMNnlDZ9IBX0FVX3lxTE1WZFlXWUgwSXE0aFRIcmJ1aTN3WlJnU2hxcGtXQ0VtOXJuenJDSERuOThHWm1iQVNLUjFYNXhuMEVYN1M0eGd1aDlMcW5Tbk54VDZTb2ltMlJ5MkFSRWtN?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "bank"
+  },
+  {
+   "title": "ঢাকা বিশ্ববিদ্যালয়ে লেকচারার নিয়োগ",
+   "org": "বাংলা টেলিগ্রাফ",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-26",
+   "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1WdmR2dEFac0NVOU0zYmxiaC1VcUV4TmhwWmpPR0p4SVVQeWpRY3VLSExnME9QMUQ1NFBtbHdEZUd6UHpCY0hvZTBIcWU2cVhrOVZHOVNObW0xdw?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "edu"
+  },
+  {
    "title": "নারীদের চাকরি দেবে আস-সুন্নাহ ফাউন্ডেশন, বেতন ৩৫,০০০",
    "org": "Dhaka Mail",
    "loc": "বাংলাদেশ",
    "type": "bd",
    "src": "নিয়োগ সংবাদ",
    "date": "2026-11-26",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8xMFRCQmcyWTZZSmtBTWZMVDdTSVM3c05uSGNrZ3RZU0VTZEtnSTY2VFNEbHF4UFZqYVRZZnI3SnIwbzJOTTBBcVdHRmMwNEZ4a2c?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8xMFRCQmcyWTZZSmtBTWZMVDdTSVM3c05uSGNrZ3RZU0VTZEtnSTY2VFNEbHF4UFZqYVRZZnI3SnIwbzJOTTBBcVdHRmMwNEZ4a2fSAVdBVV95cUxNazl6dWxlYlhkVndjUUpoZzRBNE1NanRjQ21kaWt6V2dKc2N3Q3F4UmRuR3FMZHplNzQzYnA3Q3NZNlh4NXZCV2IxRElzWDY1VERhV2o4Y0E?oc=5",
    "tags": [
     "সংবাদ"
    ],
@@ -62,6 +101,19 @@
    "src": "নিয়োগ সংবাদ",
    "date": "2026-11-25",
    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1LSnh4OFc3UVNDWm9pZ1I1bjJMYUFqdGVkOVEtTmVmREthdW9xVkVfMmNDVS1MODJjR1N6VEY5c0J5Q0NDMUtLZXMyWGtSbENQd01POGJmeWZ1NWE5ME9RX2xVZS1ad9IBc0FVX3lxTE9IUm85eTRjMi1vaVpaTmJ3b2RqSUJDQTZuY1pmYzF2SG94a0h6Y0tHNHlTWUJkWWlNZHZyRldqRzZDSWI1b3pRdU5ZUFpRdWpXU1dNa3dPVjdJM3haU1FLYVQxV1E0TFJQd3l5d3BtdHhveE0?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "govt"
+  },
+  {
+   "title": "বগুড়ায় সরকারি চাকরি, ৩৬ জনের কাজের সুযোগ",
+   "org": "Jagonews24",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9iSzBlOVFVazF3b0NfSDJSdlJtcXh4RHZXMXJXME9wQ3ctLW9sY3BXM2I2MXFwSkV4ZDZ4Zjg4dGdITGgta3hPUHBsVFdKRmp3Y1NuR1EtTzRlbTBaWkE?oc=5",
    "tags": [
     "সংবাদ"
    ],
@@ -105,19 +157,6 @@
     "সংবাদ"
    ],
    "cat": "govt"
-  },
-  {
-   "title": "গ্রিন ইউনিভার্সিটির নিয়োগ বিজ্ঞপ্তি, অভিজ্ঞতা ছাড়াই চাকরি",
-   "org": "Jagonews24",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-25",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE16VmR6T0RnaGNqWGV0QkhaU2xnbHFlenVFRlVHNFI0VVhWd3dEeHV5UjNRLVZyb1NCY3ZfQjNKZ1d0WDJKSjl5V185ZVFIbG9TYWxYLWpoRlhXdzU2eEE?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "other"
   },
   {
    "title": "সিলেটবাসীর জন্য সরকারি চাকরি, ১৭৮ পদে নিয়োগ সিভিল সার্জনের কার্যালয়ে",
@@ -185,6 +224,58 @@
    "cat": "ngo"
   },
   {
+   "title": "ব্র্যাক এনজিওতে চাকরি: একাধিক সুবিধা ও যোগ্যতার বিস্তারিত",
+   "org": "Talash BD",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1yX0FGUVFkXzZtdmVjRW03YTZhQXo1VWNoWHJYWmhRTUR3b0J6TGEwdFNJS3FzNXRPYVZVY2VNRXhYRHRLdUtXNDZfY1RxVnNiQTB3RA?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "ngo"
+  },
+  {
+   "title": "ওয়ালটনে নিয়োগ বিজ্ঞপ্তি, আবেদন করতে পারবেন যারা",
+   "org": "RTV News",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBuT2I1VFM2YThCR2tUMkUwaU1jZWdtQVA0Ny1fUVZHWGhJMGY4d243Y3lncm8wOUkxbnlYZTJSLURNM19OQ01xRQ?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "অভিজ্ঞতা ছাড়াই আবুল খায়ের গ্রুপে চাকরি, বেতন ৪০ হাজার টাকা",
+   "org": "RTV News",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1OY2c0RmtVQnc0eFBVb3NLeUdMWVI5YzdYd0J0TGw2RWp5RHZZT0hvbHRpa09heXJUVmtoUmR6R0dvVDNSVGpUdA?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "ওয়ান ব্যাংকে চাকরির সুযোগ, আবেদন চলবে ২৬ নভেম্বর পর্যন্ত",
+   "org": "RTV News",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9ZTmdpRi1VTTFoLXVPNmpkUDBadXdJTkRNM0VILU5rSU1qMGhnT0xJVkkwZjJ1bVNxS0NQeC1LTGtWR1BkZWlDQg?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "bank"
+  },
+  {
    "title": "এইচএসসি পাসে ৩০০ জনকে নিয়োগ দেবে ইজি ফ্যাশন",
    "org": "dhakapost.com",
    "loc": "বাংলাদেশ",
@@ -224,6 +315,19 @@
    "cat": "edu"
   },
   {
+   "title": "গ্রিন ইউনিভার্সিটির নিয়োগ বিজ্ঞপ্তি, অভিজ্ঞতা ছাড়াই চাকরি",
+   "org": "Jagonews24",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE16VmR6T0RnaGNqWGV0QkhaU2xnbHFlenVFRlVHNFI0VVhWd3dEeHV5UjNRLVZyb1NCY3ZfQjNKZ1d0WDJKSjl5V185ZVFIbG9TYWxYLWpoRlhXdzU2eEE?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "other"
+  },
+  {
    "title": "শিক্ষক নিয়োগ পরীক্ষার নম্বর নিয়ে ‘নতুন প্রস্তাব’",
    "org": "Channel i Online",
    "loc": "বাংলাদেশ",
@@ -235,19 +339,6 @@
     "সংবাদ"
    ],
    "cat": "edu"
-  },
-  {
-   "title": "ঢাকায় চাকরির সুযোগ দিচ্ছে সিঙ্গার, আবেদন অনলাইনে",
-   "org": "Jagonews24",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-25",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1CdzAzZjhEaDd0cWhGaWhzRG9YdUM5WTVYVHhYRVdhRHpSakVvaUdmSTV3NVpQeU5EckxBTjB4NmI2NkJ3X0xSUkpNVFFOZTI2SlJJT0I5SkE0NFNyeEE?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "other"
   },
   {
    "title": "আনোয়ার গ্রুপে জনবল নিয়োগ, ফ্রেশার প্রার্থীদের আবেদন",
@@ -263,6 +354,19 @@
    "cat": "other"
   },
   {
+   "title": "ঢাকায় চাকরির সুযোগ দিচ্ছে সিঙ্গার, আবেদন অনলাইনে",
+   "org": "Jagonews24",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-25",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1CdzAzZjhEaDd0cWhGaWhzRG9YdUM5WTVYVHhYRVdhRHpSakVvaUdmSTV3NVpQeU5EckxBTjB4NmI2NkJ3X0xSUkpNVFFOZTI2SlJJT0I5SkE0NFNyeEE?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "other"
+  },
+  {
    "title": "প্রাণিসম্পদ অধিদপ্তরের নতুন নিয়োগ বিজ্ঞপ্তি, ২২১ জনের সরকারি চাকরি",
    "org": "Jagonews24",
    "loc": "বাংলাদেশ",
@@ -270,19 +374,6 @@
    "src": "নিয়োগ সংবাদ",
    "date": "2026-11-24",
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBGTENyMlIwSC1PZGxKZWNRdlh5R1hCVFhXRkJIM2owVENFRWgtOWpVTmlMTm01QzJVWmpQNndqcDVVdlBETlhQRTVYWXd2RkhrY1ZKcHlILXlmZWJiUHc?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "govt"
-  },
-  {
-   "title": "সমাজকল্যাণ মন্ত্রণালয়ের নিয়োগ বিজ্ঞপ্তি, এসএসসি পাসেই আবেদন",
-   "org": "Jagonews24",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-24",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB3SFBpQU9EM1JuOEFON0F4M2FXdVRMeUtfbHZKaFJhNll3SXNUcTA1aEhkaTFEcFdjSkFiV2JPTjYxX0FTWm9ySi0xMXZSY0hWM0lOdzFQWUdpUHBuN1E?oc=5",
    "tags": [
     "সংবাদ"
    ],
@@ -328,19 +419,6 @@
    "cat": "edu"
   },
   {
-   "title": "২০২৭ সালে চাঙা হবে চাকরির বাজার, তবে সুযোগ পেলেই চাকরি ছাড়বেন ২১%",
-   "org": "প্রথম আলো",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-24",
-   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5aXzBpTm5Kd1hhMlgxYjRGQXpuc0pEbGhLaGxGUEMwT2E1ZWk5RWYza2ppbmVSRFI1alYyUjFoSk9ubGcwT2JxSVRnSjA0eXpYeWFPMkpia1JDLUlVQ0hySGpyWGkzMUXSAXRBVV95cUxQNGtWX09Cb1Roa21iZWs4NW5NU3lvdW1DNk9aM0dkbjMyZW1tbk9MV3lWTW1JUG5uMW9sbWpkUW9STjFzc1B2LVZHQmZHYm01Qjc2UGd2a2lMWWRkUWdNa3VRMFpLZWhtQVBGZzNaM1VvOS1pMA?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "other"
-  },
-  {
    "title": "ব্র্যাক ব্যাংকে নিয়োগ, থাকছে না বয়সসীমা",
    "org": "Jugantor",
    "loc": "বাংলাদেশ",
@@ -380,6 +458,19 @@
    "cat": "bank"
   },
   {
+   "title": "মধুমতি ব্যাংকে নিয়োগ, স্নাতক পাসেই আবেদন",
+   "org": "Jagonews24",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-24",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9SeGdjOEtWYU5OaWF2b0ZybjNuN0t1MW5ZQlRFUG9lTW0tZlNsLVFhNjR4YlVTbUt0OWlodENDSGVKM2Z6dl9qc1ZPOVhwRkRkUlFFV25aTy1xeWxfMUE?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "bank"
+  },
+  {
    "title": "ব্র্যাকের নিয়োগ বিজ্ঞপ্তি, ১৮ বছর বয়স হলেই আবেদন",
    "org": "Jagonews24",
    "loc": "বাংলাদেশ",
@@ -387,6 +478,19 @@
    "src": "নিয়োগ সংবাদ",
    "date": "2026-11-24",
    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5GWkd0TlE1SjhsWHNkdGdYRVRzdnhHYXN3UjZDTFI2LXFObS04NmlNVzJUd2ItTklyZG1HaFRGTWcxQzlsN192X2FJTmJDY1lreHV4LUJPUm0xNzlIb0E?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "ngo"
+  },
+  {
+   "title": "জোনাল ম্যানেজার পদে ব্র্যাকে চাকরি, থাকছে যেসব সুবিধা",
+   "org": "Jugantor",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-24",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBfbXljM0F0dXg5eGxQVXNqZ1NWUnJrU2djaEo3VERWY1d0MnR1YXJDektmVUROLWhqSUtjUlZac1hCZkhwdTNKRnFYMFpfMWdPb1hR?oc=5",
    "tags": [
     "সংবাদ"
    ],
@@ -406,13 +510,26 @@
    "cat": "ngo"
   },
   {
-   "title": "বেগম রোকেয়া বিশ্ববিদ্যালয়ে কর্মকর্তা-কর্মচারী পদে চাকরির সুযোগ",
-   "org": "Newszonebd",
+   "title": "এনটিআরসিএ’র শিক্ষক নিয়োগ পরীক্ষা: ২৩০ থেকে ৪০০ নম্বর, মন্ত্রণালয়ের সভায় যা আলোচনা",
+   "org": "Dainik Shiksha",
    "loc": "বাংলাদেশ",
    "type": "bd",
    "src": "নিয়োগ সংবাদ",
    "date": "2026-11-24",
-   "url": "https://news.google.com/rss/articles/CBMi7gVBVV95cUxOaGNzTGdzNjlhX292bVZVM1FfRUswQ3pTby1kVklNbWFIWkVxN0FrM012TTFURUFPYkxwRlQ2dXEzOHhEQ2xPOC1MMk9sMnctZWRBU0lTNnZZZlppOHlRT0FoY1B2R2NjQzlJdEd0Q1lFa2FZZDBKMFNuTVRxeG5jODhJX204QkVKRE5acjdES1c4RDAyWS16bkJUQjdfNkUzcktlNkJkMmdiLUgtNzM5bVJrdE9lR2ZHZGxVUzNRUFpZNzFuUDk1QkJiQkR5VjJKQWtZd3NvbUJPSEZ1Zl9mdXFvOHFkTU1ITmdhSEJ6b09vejhBVXlaY0JNVEU5ZUE0Y196X05waVBibldGX3NsenBfTFhlcmtaZ3FvUjd2QlJyMmU5X3FmUV84MHFYU3ZweXc1d0IwVUVSblJaWVVHNmxQVG02bmltOEVTUmYxQmVUVUc1TTYxNkhJbFhVeE03M084aTlkaFFEUFVIa0JKNS1ueG1jdVFlSmdhSU9tejJUVEQ3UVFISEQ2ejBCZndxZTRZVzVaaDhIeFpwOVVzRTZuYWlOd2NGWFpZS2QzcGgwWWU3REpxVkFITWlUSVJvcXM3ZDB2dzlYbEctdTNLYlFtTkczclN1RkRhclFTTHNwQ1puZUNYeEZOTjRtZE8weEEzS2syTS1vbXF0UjRFLW83ZVdaeWdqSEpteTNlTGl5MmNJRmNMclhFQmkyOVM2OXY5TDlnVTBYcEs1OU5pN01fT0RxTEFEaVNkeUsxVWVwZVJHbWZVSVd4eXR4bkRfTjUtZ0JHdFlNeEFJYzB2VDRSbnhNbE1yWndDRFg1NGo5SlVmM256RTRyR2E5SHBiNWhPamY4U21jbmptVkpnTlp2U3F2cUxiY1oySTZFZl9oakpxN3dCWmtoY0ZycDZkVDM4anRWQnotT1BqcElmNGJEMjlSengyUzE1bGwzMUV0RmJteVc0MDRnd3hLd3dKMlNoMDBFNjRIVFROaUHSAe4FQVVfeXFMTmhjc0xnczY5YV9vdm1WVTNRX0VLMEN6U28tZFZJTW1hSFpFcTdBazNNdk0xVEVBT2JMcEZUNnVxMzh4RENsTzgtTDJPbDJ3LWVkQVNJUzZ2WWZaaTh5UU9BaGNQdkdjY0M5SXRHdENZRWthWWQwSjBTbk1UcXhuYzg4SV9tOEJFSkROWnI3REtXOEQwMlktem5CVEI3XzZFM3JLZTZCZDJnYi1ILTczOW1Sa3RPZUdmR2RsVVMzUVBaWTcxblA5NUJCYkJEeVYySkFrWXdzb21CT0hGdWZfZnVxbzhxZE1NSE5nYUhCem9Pb3o4QVV5WmNCTVRFOWVBNGNfel9OcGlQYm5XRl9zbHpwX0xYZXJrWmdxb1I3dkJScjJlOV9xZlFfODBxWFN2cHl3NXdCMFVFUm5SWllVRzZsUFRtNm5pbThFU1JmMUJlVFVHNU02MTZISWxYVXhNNzNPOGk5ZGhRRFBVSGtCSjUtbnhtY3VRZUpnYUlPbXoyVFREN1FRSEhENnowQmZ3cWU0WVc1Wmg4SHhacDlVc0U2bmFpTndjRlhaWUtkM3BoMFllN0RKcVZBSE1pVElSb3FzN2Qwdnc5WGxHLXUzS2JRbU5HM3JTdUZEYXJRU0xzcENabmVDWHhGTk40bWRPMHhBM0trMk0tb21xdFI0RS1vN2VXWnlnakhKbXkzZUxpeTJjSUZjTHJYRUJpMjlTNjl2OUw5Z1UwWHBLNTlOaTdNX09EcUxBRGlTZHlLMVVlcGVSR21mVUlXeHl0eG5EX041LWdCR3RZTXhBSWMwdlQ0Um54TWxNclp3Q0RYNTRqOUpVZjNuekU0ckdhOUhwYjVoT2pmOFNtY25qbVZKZ05adlNxdnFMYmNaMkk2RWZfaGpKcTd3QlpraGNGcnA2ZFQzOGp0VkJ6LU9QanBJZjRiRDI5Unp4MlMxNWxsMzFFdEZibXlXNDA0Z3d4S3d3SjJTaDAwRTY0SFRUTmlB?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdnVvaFJHYzhBVG1YZ2NzbnE0a1hib1FiWW5xYTlJeUpjWXFvNjQxRUFNcmxZb3ZndHd3SnJnVk1TUFBZX2p3ZHNZOEhET3FvY3B0M2xfZmtLYWVsWUk0cHppblVBV2FPNHM0dFpYYWU1blY4T012dERqeWgzQmlCWHFMcGVPbldMSTRBQnl5Q080enY5SExWSVhjUXdxejRublBHb0JQMUc0QUVjWHI5b0VYb2hLX2dQd2FYVk9ibFptUDBGdTlpdUE4NA?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "govt"
+  },
+  {
+   "title": "২০২৭ সালে চাঙা হবে চাকরির বাজার, তবে সুযোগ পেলেই চাকরি ছাড়বেন ২১%",
+   "org": "প্রথম আলো",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-24",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5aXzBpTm5Kd1hhMlgxYjRGQXpuc0pEbGhLaGxGUEMwT2E1ZWk5RWYza2ppbmVSRFI1alYyUjFoSk9ubGcwT2JxSVRnSjA0eXpYeWFPMkpia1JDLUlVQ0hySGpyWGkzMUXSAXRBVV95cUxQNGtWX09Cb1Roa21iZWs4NW5NU3lvdW1DNk9aM0dkbjMyZW1tbk9MV3lWTW1JUG5uMW9sbWpkUW9STjFzc1B2LVZHQmZHYm01Qjc2UGd2a2lMWWRkUWdNa3VRMFpLZWhtQVBGZzNaM1VvOS1pMA?oc=5",
    "tags": [
     "সংবাদ"
    ],
@@ -458,19 +575,6 @@
    "cat": "other"
   },
   {
-   "title": "মিউচুয়াল ট্রাস্ট ব্যাংকের নিয়োগ বিজ্ঞপ্তি, কর্মস্থল ঢাকা",
-   "org": "Jagonews24",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-23",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9MTmdybGR5dG9WYlNlQml2YmlVcjRqUXZYVFgtV2JsMnFhVFRUYUJoM2VhSXpxWUJLa0lsQlI4bzdLZ3g0WkRaQnU2Z0VfQ3lXN1h1VHhCekZGanFXV0E?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "bank"
-  },
-  {
    "title": "আল-আরাফাহ ইসলামী ব্যাংকে নিয়োগ বিজ্ঞপ্তি",
    "org": "lastnewsbd",
    "loc": "বাংলাদেশ",
@@ -478,6 +582,19 @@
    "src": "নিয়োগ সংবাদ",
    "date": "2026-11-23",
    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE14WDNtMUNCLVVIdFVLeDYyTWJZYnE0TnBZTnlrMGhmRG1sOXZYRVhlTnA4ZC1wbXBwYlpPYmMwT0VWeGt1SU5CUzJMb09CTTdxVUdXSzQ4RF9FdWN1?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "bank"
+  },
+  {
+   "title": "মিউচুয়াল ট্রাস্ট ব্যাংকের নিয়োগ বিজ্ঞপ্তি, কর্মস্থল ঢাকা",
+   "org": "Jagonews24",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9MTmdybGR5dG9WYlNlQml2YmlVcjRqUXZYVFgtV2JsMnFhVFRUYUJoM2VhSXpxWUJLa0lsQlI4bzdLZ3g0WkRaQnU2Z0VfQ3lXN1h1VHhCekZGanFXV0E?oc=5",
    "tags": [
     "সংবাদ"
    ],
@@ -534,6 +651,19 @@
     "সংবাদ"
    ],
    "cat": "edu"
+  },
+  {
+   "title": "ইসলামী বিশ্ববিদ্যালয়ে চাকরির সুযোগ, আবেদন ৩০ নভেম্বর পর্যন্ত",
+   "org": "প্রথম আলো",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-23",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Rb0R5XzVzdmxEN2psTGM3ODVYNHlwZlR3MlB4djV2Wm02ZW1oajV1S3Nwc2F0RzB2WW5MalI0dVc5ekEyYWpkazhRZEktaUlyU3F0NHh5NDE1OWhRWlN0eDd6LVowckHSAXRBVV95cUxPUkFXMC01Y1pzV3hvTlFtVjdpc1pfUjVuRTRla09Id25EVTlQVFV2alpRektSZ3JibDdBWG5ZTkEtcXc0U2N1dGhoLXdiMS1KeXpHeHdYR1F1YXVldjZSV3o4enNPRml0VUE2RVJZRVB2anFucg?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "other"
   },
   {
    "title": "বুয়েটের নিয়োগ বিজ্ঞপ্তি, আবেদন অনলাইনে",
@@ -601,19 +731,6 @@
    "cat": "other"
   },
   {
-   "title": "আল-আরাফাহ ইসলামী ব্যাংকে চাকরির সুযোগ",
-   "org": "Shomoyer Alo",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-22",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBBUEFrZVQzZ3N6YURMVVNmV3E1bW92NzNuZWJ0bm9uSWl5Mzc1TGh0RGxtRDVkMnpEQUQ1Z3NCRGhNYnpwcHQ4YmNhUXphZS03?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "bank"
-  },
-  {
    "title": "মাঠ পর্যায়ে ব্র্যাক এনজিওতে চাকরি, আবেদন শেষ ২৮ নভেম্বর",
    "org": "Jugantor",
    "loc": "বাংলাদেশ",
@@ -627,19 +744,6 @@
    "cat": "ngo"
   },
   {
-   "title": "বিষ্ণুরামপুর দারুস সুন্নাহ নূরানিয়া হাফিজিয়া ইবতেদায়ি মডেল মাদ্রাসায় নিয়োগ বিজ্ঞপ্তি",
-   "org": "Dainik Shiksha",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-22",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVUp6MFZCVzh3dU5jUTFETEdPbGtjbGVlekhPa3BOVFNpZE1nZUZNa2RZX1pvQlZhRnlWbGpfdFh2cVRDWTFfenRqb3dqM2pTX3BRZGtNTDh2N1hsRzA1eThPSC1LZ0lSejRyM2RrLTNObllaZndMZ1JrNVptWDdUMmZiLWp2OWxZX3FiSkxNNG9XSFAxNmN0NjFNNDBNcHNiWWg5bzFVajJMSjhSQjlDME5xTkxFSTdoZS00cVFUaTBiYUhDRmJreUFRWFpmUQ?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "edu"
-  },
-  {
    "title": "রংপুর বর্ডার গার্ড পাবলিক স্কুল এন্ড কলেজে নিয়ােগ বিজ্ঞপ্তি",
    "org": "Dainik Shiksha",
    "loc": "বাংলাদেশ",
@@ -647,6 +751,19 @@
    "src": "নিয়োগ সংবাদ",
    "date": "2026-11-22",
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQbmM1dW1xTmZNcDVHRm1CM1hISDNYblpFV1lMOEd6aHc1MmhtUHB1dmZtYW5kUFZkN1dZTDE1R3M4LTcyNmlmOGYyeDhSSUVmV3BwUy1Dd3oyVU5zTmFzNDFEellBLTZMRTNwUkhUSU11T0FUZXFBS3lwZHVwRUxxdTBCcXlPU1VLOFVFVkx0R1NFeEtISWdyT3Q5VFJEV0dmemo5aW5fYk42R0JHcUtMRlh5Rkc?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "edu"
+  },
+  {
+   "title": "বিষ্ণুরামপুর দারুস সুন্নাহ নূরানিয়া হাফিজিয়া ইবতেদায়ি মডেল মাদ্রাসায় নিয়োগ বিজ্ঞপ্তি",
+   "org": "Dainik Shiksha",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-22",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVUp6MFZCVzh3dU5jUTFETEdPbGtjbGVlekhPa3BOVFNpZE1nZUZNa2RZX1pvQlZhRnlWbGpfdFh2cVRDWTFfenRqb3dqM2pTX3BRZGtNTDh2N1hsRzA1eThPSC1LZ0lSejRyM2RrLTNObllaZndMZ1JrNVptWDdUMmZiLWp2OWxZX3FiSkxNNG9XSFAxNmN0NjFNNDBNcHNiWWg5bzFVajJMSjhSQjlDME5xTkxFSTdoZS00cVFUaTBiYUhDRmJreUFRWFpmUQ?oc=5",
    "tags": [
     "সংবাদ"
    ],
@@ -718,19 +835,6 @@
    "cat": "bank"
   },
   {
-   "title": "কমিউনিটি ব্যাংকে নিয়োগ, স্নাতক পাসেই আবেদন",
-   "org": "Jagonews24",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-21",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBxcnBnUl9nbjlBdHQtQzYtWU1LQ2VZRXZuaGhFeGFqWkxjZWU5NEUyRXZZZ1k3NVVKVzRBdXVfTzVpMjlLbl9HNU1JbFp0WmI2WEdfX2lxMTd5Qml4ZlE?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "bank"
-  },
-  {
    "title": "আল-আরাফাহ ইসলামী ব্যাংকের নিয়োগ নিয়োগ, থাকছে না বয়সসীমা",
    "org": "Jagonews24",
    "loc": "বাংলাদেশ",
@@ -744,6 +848,19 @@
    "cat": "bank"
   },
   {
+   "title": "কমিউনিটি ব্যাংকে নিয়োগ, স্নাতক পাসেই আবেদন",
+   "org": "Jagonews24",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-21",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBxcnBnUl9nbjlBdHQtQzYtWU1LQ2VZRXZuaGhFeGFqWkxjZWU5NEUyRXZZZ1k3NVVKVzRBdXVfTzVpMjlLbl9HNU1JbFp0WmI2WEdfX2lxMTd5Qml4ZlE?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "bank"
+  },
+  {
    "title": "রোহিঙ্গা ক্যাম্পে নিয়োগ দেবে প্ল্যান ইন্টারন্যাশনাল",
    "org": "dhakapost.com",
    "loc": "বাংলাদেশ",
@@ -751,19 +868,6 @@
    "src": "নিয়োগ সংবাদ",
    "date": "2026-11-21",
    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE44Y0RaZVctZzd3OXJEVmR4bzBLZUdhWU9lc2cybllsQjNma0RhNWh5c0l2MzFHQU9Wd1lwME5kRG9zMlRRN1F6aEloVlRvVkZxQkstQTh6Zw?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "৩ লাখ টাকা বেতনে চাকরি দেবে প্ল্যান ইন্টারন্যাশনাল, কর্মস্থল কক্সবাজার",
-   "org": "Dhaka Mail",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-21",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1Ya1lIYk5XSEdPLUExcDBib2FWYndBTGtwNmg4elo1S1VtMGVienJ4THJBVXprSjdveDU5b1VobU8zMHktUzhfblJ3aVY1dkJRVUHSAVdBVV95cUxPemFUY2dTNGNxblJrb19fWmJNMDYwVG1JWjB0WTA3WmVqaFp1cTl1SUo3TFUyMXhaVXFJejU5Zk9JYlBRa0ZnWkpQUDRyUFA0RFpVZGZnTW8?oc=5",
    "tags": [
     "সংবাদ"
    ],
@@ -796,19 +900,6 @@
    "cat": "other"
   },
   {
-   "title": "ব্যাংক এশিয়ায় সিনিয়র ম্যানেজার নিয়োগ, কর্মস্থল ঢাকা",
-   "org": "Jagonews24",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-21",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB0bkJHalo4VWVIbGJnN2Y2N0hVakdZbFFjVFBlNEFTQWd2aVdLeE5VVmhiOHNNZnRISXd1NE1Db0sxQWNZVDg5RkhGTFJJQTNhQ01qWVVJOEF6ckpDRmc?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "bank"
-  },
-  {
    "title": "গ্রিন ইউনিভার্সিটির ক্যারিয়ার এক্সপো ২০২৬ অনুষ্ঠিত",
    "org": "Channel i Online",
    "loc": "বাংলাদেশ",
@@ -816,6 +907,19 @@
    "src": "নিয়োগ সংবাদ",
    "date": "2026-11-21",
    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1HSEhCcUhoY1dlUHV6S2NiTXgzQmptdjZmbzhFMDNfWl9EeGQzMTJPT0hzWTVORUdnUXpVWFltaF9aSHVDRnk5WWJHQW1sSXpEdy1PVkZESi15cmRHMXRfOFdsS0hRejBoT0lMSHV0UGFNMjRURzc3bTBB?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "৩ লাখ টাকা বেতনে চাকরি দেবে প্ল্যান ইন্টারন্যাশনাল, কর্মস্থল কক্সবাজার",
+   "org": "Dhaka Mail",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-21",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1Ya1lIYk5XSEdPLUExcDBib2FWYndBTGtwNmg4elo1S1VtMGVienJ4THJBVXprSjdveDU5b1VobU8zMHktUzhfblJ3aVY1dkJRVUHSAVdBVV95cUxPemFUY2dTNGNxblJrb19fWmJNMDYwVG1JWjB0WTA3WmVqaFp1cTl1SUo3TFUyMXhaVXFJejU5Zk9JYlBRa0ZnWkpQUDRyUFA0RFpVZGZnTW8?oc=5",
    "tags": [
     "সংবাদ"
    ],
@@ -848,17 +952,30 @@
    "cat": "other"
   },
   {
-   "title": "মাইক্রোফাইন্যান্স বিভাগে চাকরি দেবে সাজেদা ফাউন্ডেশন",
-   "org": "Dhaka Mail",
+   "title": "আইএফআইসি ব্যাংকে নিয়োগ, স্নাতক পাসে কর্মস্থল ঢাকা",
+   "org": "Jagonews24",
    "loc": "বাংলাদেশ",
    "type": "bd",
    "src": "নিয়োগ সংবাদ",
    "date": "2026-11-20",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1MZ0hZR29GdFFyRHRvU1JSdHdpakFfZjNBNklBc3lGcXB3T3hzTDI5eFlUTXBCZ2RFS00wQ0ZaUXQwU3hnb0hYRG42bFV5bV9sYVHSAVdBVV95cUxQQXg4LTJPNEVaQkpQVnNseUltTG1SR290QXNnc2FoUGloeWxGbTk3S3ZpVmwzbjhFdFQwTk9jNzFFRk1WTEVUTHdMNzNUUHVUbmNoYkJ6TWc?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5fTFJGT25ydDkyOFRpLXYyek9sR05CUXc4T2lwcTE5VDRqbDdfZ21iVTh1dkV5eUxxT21fZkFlR0xJY2hxejkyc0E4bWhCeHRfZ1NlcWVPaWxyNmZyV2lwT19B?oc=5",
    "tags": [
     "সংবাদ"
    ],
    "cat": "bank"
+  },
+  {
+   "title": "চাকরি দিচ্ছে ব্র্যাক এনজিও, বেতন ছাড়াও আছে পিএফ-গ্র্যাচুইটি",
+   "org": "Channel 24",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-20",
+   "url": "https://news.google.com/rss/articles/CBMivgVBVV95cUxQc1ZJS3NoOEp5VGZxZDZVM2JGaHhhQU1XX0ZVZTlTQzNvWC00ZW1pWmJVdFRpT0EzOFd6bXBSWjhNaXVxWERRa0pySV9tUXZPVW1OS0wwQzJqaDhvdWxITzZGY3VKTnAxeDlCQXJHcDdHZVRjU2RGR1QxUmh5UHZPNTkwMGFUTFdyUUp3VVRuM29IYXprWW81WERCN28teHNrYUxWLWl4M0dvbEVscHZtUlVGQVlsWnFjeHozT19PY1ktWUY5Q29Tb0xIZi0ycTFVSGlxb0k0NG1kSlhyODY0YTd3YklzWUhRQXdFS3ZlX251ZXlaQTc3S1p3NnJpaWM1ZDFRdzRWYVhfbWxfb0FRODVkN0s4djAwa1RLZGJYMVF0aDNTa0hwMmVyYmpZZUNndzRQWUtvQVJfYS1kMHJoeC11UnloUVJBaVlhUDdLeFdPcFNENzVwYkF1N0MxOEZtUXBqcUlhcC02MXJjZ25KVDBvbE9uTW1qLXVXRW5yU0tvSjRBekcwZ3I3NElDejI0V3VyQTB6d1Bkb01NWTZ2dWRtZTRQclNRTzdjMHl1eWFhX2NkM3FIaHA5OXdabnM0QTVEU1o4TGJNTS1mTFN1RzRYajJmRjR2UXVVQ3p2RzBWQVVSekw5czkxV0ptOXk0MXhyYXB4SnY1b01EcTg5YWxsOWZCMVNHenR3M1k0aXlTeFJJOHpDMElhTGR5UWR4TW1xMHJuN2dzYWE3aUcxOG5fcmFDSWNDZ0VXS25mWEpOTHYyUEhBMlJpc1BqMXlEcl9oLWd0Q1VTcm5ybWJsRWYybUN2RUpLc096dlNZTTR5cHlNOVdKdEZBcUwzenNJTWszckxqejhMbVdwS294ZGpmdlhpSFFDc3ZmaVZuSkEtZ2JnMlZUMHJsd1U0QkZWMjJQY1BxMVM2RUZDYlE?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "ngo"
   },
   {
    "title": "কোন বিষয়ে পড়লে চাকরির সুযোগ বেশি?",
@@ -872,58 +989,6 @@
     "সংবাদ"
    ],
    "cat": "other"
-  },
-  {
-   "title": "ঢাকায় সরকারি চাকরির সুযোগ, ৫৪ পদে নিয়োগ দেবে কর অঞ্চল-১০",
-   "org": "Jugantor",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-19",
-   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1rRHpVdkVubWJPVVdnb182b3RlTEttdFZPVEVYWmcyaGZJQmU0WW9wZHJ1UGpPUnhvOEYxVUVDOEpMdlI3cnZFTnFTaFFiVTV4SVVZ?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "govt"
-  },
-  {
-   "title": "সরকারি চাকরির সুযোগ পল্লী উন্নয়ন একাডেমি, বগুড়ায়; অষ্টম থেকে স্নাতকে আবেদন",
-   "org": "প্রথম আলো",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-19",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4zLVREU0RrVEtJMG1VNDVzS1drMjNRSFNQSDVlN20wWGNWaXRfUVh5MGRiVVVZMkxtZlNCN1JkM3BBdS1sRmdrNm9WcVF6dlNZU2FibWtuNDR3RjdGS2hJMnhRNVdKQdIBc0FVX3lxTE13RVNIRnBnTUVoMm5oVzdsY3lMUmwxVE1FYmg5WW1jMGJyTjVZUzVvdkMyRGtibkFFY1lXWmpXd1VEVmNRMUV1Y3JiVTZSdGdJWjdUNkNQU0NSbW5OM1hUeEV3aDJiNXlINkpVSXpteXdVcDA?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "govt"
-  },
-  {
-   "title": "ব্র্যাক নিয়োগ বিজ্ঞপ্তি ২০২৬, আবেদন শেষ ২৮ নভেম্বর",
-   "org": "24updatenews",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-19",
-   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1MRDAweVdiN21OdEJNYnpMdTBwS0lkb2x4NnY3OUtHMTJGenZkbFpCeEpPbjNiRFJfLURGV0tBTFY0U0ZqWDExekVjU29nX0NKTm0wWldn?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "ngo"
-  },
-  {
-   "title": "ব্র্যাক এনজিওতে চাকরি, পাবেন প্রভিডেন্ট ফান্ড, স্বাস্থ্য ও জীবন বিমা",
-   "org": "Dhaka Mail",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-19",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1obERGTGFUcTJfejllSVB1REtKSFRNSW53eEMwemdGMDRmVzI3ejZRZFRZbXJSUlZpR1A2UWd2LXpDWFE1Zm0zc19palZHT2JTNUHSAVdBVV95cUxQYkl6VjdQdzY2eUl6anJ5ZDJqQ25xb1RqSmoyUHFqdV84VjhyTUlQY0NGUDVSSGNUb2pwNDZOU19vS0lDaXpYZ19vcUxsaGhRaHM5U2tyRVk?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "ngo"
   },
   {
    "title": "নিয়োগ দেবে ব্র্যাক এনজিও, প্রভিডেন্ট ফান্ডসহ রয়েছে স্বাস্থ্য ও জীবন বিমা",
@@ -952,6 +1017,19 @@
    "cat": "other"
   },
   {
+   "title": "ব্র্যাক নিয়োগ বিজ্ঞপ্তি ২০২৬, আবেদন শেষ ২৮ নভেম্বর",
+   "org": "24updatenews",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-19",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1MRDAweVdiN21OdEJNYnpMdTBwS0lkb2x4NnY3OUtHMTJGenZkbFpCeEpPbjNiRFJfLURGV0tBTFY0U0ZqWDExekVjU29nX0NKTm0wWldn?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "ngo"
+  },
+  {
    "title": "নিউইয়র্কে নতুন অভিবাসীদের কম্পিউটার ও চাকরির প্রশিক্ষণের উদ্যোগ নিয়েছে বাংলাদেশি কমিউনিটি",
    "org": "RTV News",
    "loc": "বাংলাদেশ",
@@ -976,6 +1054,19 @@
     "সংবাদ"
    ],
    "cat": "other"
+  },
+  {
+   "title": "সরকারি চাকরির সুযোগ পল্লী উন্নয়ন একাডেমি, বগুড়ায়; অষ্টম থেকে স্নাতকে আবেদন",
+   "org": "প্রথম আলো",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-18",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE4zLVREU0RrVEtJMG1VNDVzS1drMjNRSFNQSDVlN20wWGNWaXRfUVh5MGRiVVVZMkxtZlNCN1JkM3BBdS1sRmdrNm9WcVF6dlNZU2FibWtuNDR3RjdGS2hJMnhRNVdKQdIBc0FVX3lxTE13RVNIRnBnTUVoMm5oVzdsY3lMUmwxVE1FYmg5WW1jMGJyTjVZUzVvdkMyRGtibkFFY1lXWmpXd1VEVmNRMUV1Y3JiVTZSdGdJWjdUNkNQU0NSbW5OM1hUeEV3aDJiNXlINkpVSXpteXdVcDA?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "govt"
   },
   {
    "title": "পুলিশে বড় নিয়োগের প্রস্তুতি: ৪০০০ এসআইয়ের বিজ্ঞপ্তি কবে, সুবিধা কী কী",
@@ -1030,32 +1121,6 @@
    "cat": "bank"
   },
   {
-   "title": "প্ল্যান ইন্টারন্যাশনালে চাকরি, বেতন ছাড়াও রয়েছে অন্যান্য সুবিধা",
-   "org": "dhakapost.com",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-18",
-   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBWSk1BUi1NbFIxdlBIU0lSRnJTZjBoVHhqdVlBWUdDYnV5a3hQU1JHRWVySWNscWdremxaQXJvSmFKUWFlZDhzc1pvM284TTJHVjBBZzhiMA?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "লাখ টাকা বেতনে চাকরি দেবে প্ল্যান ইন্টারন্যাশনাল",
-   "org": "Dhaka Mail",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-18",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9qMkhPT3VmZ3dOeF9xZE1VSEpJZWU5ck5fTnBVQXhLcTgzT2VsZktodkZFYjRueldKaFppZE4yV1VKMjJuSTN0TTlnbHdaZy1zMlHSAVdBVV95cUxORkpVM2t4amphMkxSZXZxeGo1TElLWC15THpXTUlhNUY3STdEZHJuamM1ZDJEZDVOcXg4Qi1udWFzX3AxWlJlNW1YQ0ZVYUQ0eW1peXl2VEk?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "other"
-  },
-  {
    "title": "দেশে আড়াই লাখ শিক্ষকের পদ শূন্য, শিগগিরই নিয়োগ বিজ্ঞপ্তি: শিক্ষামন্ত্রী",
    "org": "বাংলা টেলিগ্রাফ",
    "loc": "বাংলাদেশ",
@@ -1082,17 +1147,30 @@
    "cat": "edu"
   },
   {
-   "title": "এনটিআরসিএ’র বিধিমালা ও পরিপত্র সংশোধনের পর শিক্ষক নিবন্ধন বিজ্ঞপ্তি",
-   "org": "Dainik Shiksha",
+   "title": "১৮তম নিবন্ধনধারীদের সুপারিশ নাকি ৯ম শিক্ষক নিয়োগ, কোনটি আগে?",
+   "org": "https://edutimes.net/",
    "loc": "বাংলাদেশ",
    "type": "bd",
    "src": "নিয়োগ সংবাদ",
    "date": "2026-11-18",
-   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPZWQ2QktZNW5UR29LSDRpSFFYd2RXS3JHSGhDdEFIS3lhN0ZjR2RfZDZIZGVUS0x3UDdUekYwNk4za0M1QXJldDJWNWRlTURkQkNYdmM1V1FRX24tSm9UOEI3djlyRG1VXzNSelcyS1RNb01XYjVUcDZ3NEF4RTJubWZKTFgzUnNJNW9iaVZCdEV4S3JscTBvQmljV3VVVHBfNnRGbXM0dGZaNVF2RGlIemRSTUZuLWQ0U0VPSEZhVmdUTnY5YUJjT1BaZlM5SktWeEtKeHlVQUpZV2tQWnZhYXp0WV9jNWc?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0xTERORFJ3eksxNHVWZWVTdWNETmFmY0VtR1QxZm5HcmQ3TXBEdHJVWHhaR3BvVkFFNTY4ZW16YnNzRktGenh0end0R18yeU5P?oc=5",
    "tags": [
     "সংবাদ"
    ],
-   "cat": "govt"
+   "cat": "edu"
+  },
+  {
+   "title": "চাঁদপুর বিজ্ঞান ও প্রযুক্তি বিশ্ববিদ্যালয়ে ৯ থেকে ২০ গ্রেডে চাকরির সুযোগ",
+   "org": "প্রথম আলো",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-18",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB0ZEQxSlp0R2tPWXY1RHJYQ1hBaVMtRjd2b1duWTJJeDZZZTE0Qkl5clFCSXJvLWl3ZWFSTlhUdVNJWWtGMXZuNWhmY3JRN0RXT3RkcnE2ZVZ3SGpmV01LQzAxWVBQUdIBc0FVX3lxTE9KVUxGTFREOEVUcFhjY3hEX292QXM1RTF2Rm0zakRiajZkVWVVYm1GOUZpdktuYUlCOTg5NnV5MF96R3F2d2g2NlY1ZDItWHhpb1hIZkpvR0N0SW40XzExcE1YdzUtcEhUTXpyNWhJYU0xaFE?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "other"
   },
   {
    "title": "মেঘনা গ্রুপে নিয়োগ, আবেদন করুন আজই",
@@ -1121,6 +1199,19 @@
    "cat": "other"
   },
   {
+   "title": "আইডিএলসি ফাইন্যান্সে নিয়োগ, ফ্রেশার প্রার্থীদের আবেদনের সুযোগ",
+   "org": "Ekushey Sangbad",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-18",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1FSmExMmNNald3ZzY0dmFwbXJLekxDeWlwSE9XVWMyQ2Y4MU5ObGl1R3U2eGtuZ1FSVDVRclcyQmxWTVNncGlXTE5BdzFfSmhBSGxGY09YZWpNTHZrQ2VhTg?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "bank"
+  },
+  {
    "title": "প্ল্যান ইন্টারন্যাশনালে নিয়োগ, বেতন ১ লাখ ৮২ হাজার টাকা",
    "org": "Ekushey Sangbad",
    "loc": "বাংলাদেশ",
@@ -1145,6 +1236,19 @@
     "সংবাদ"
    ],
    "cat": "bank"
+  },
+  {
+   "title": "লাখ টাকা বেতনে চাকরি দেবে প্ল্যান ইন্টারন্যাশনাল",
+   "org": "Dhaka Mail",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-18",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9qMkhPT3VmZ3dOeF9xZE1VSEpJZWU5ck5fTnBVQXhLcTgzT2VsZktodkZFYjRueldKaFppZE4yV1VKMjJuSTN0TTlnbHdaZy1zMlHSAVdBVV95cUxORkpVM2t4amphMkxSZXZxeGo1TElLWC15THpXTUlhNUY3STdEZHJuamM1ZDJEZDVOcXg4Qi1udWFzX3AxWlJlNW1YQ0ZVYUQ0eW1peXl2VEk?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "other"
   },
   {
    "title": "১০০ ফ্রেশারকে চাকরি দেবে পল্লী বিকাশ কেন্দ্র, বেতন ২৫,৬৮০",
@@ -1186,19 +1290,6 @@
    "cat": "bank"
   },
   {
-   "title": "এনজিও ফোরামে ২০ জন Data Enumerator পদে নিয়োগ, কর্মস্থল, কক্সবাজার",
-   "org": "UkhiyaNews.Com",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-17",
-   "url": "https://news.google.com/rss/articles/CBMiwgJBVV95cUxNX0JhcTV5SmU0Qk84OGFRZ0RhU3VFdWlJeU1RRFo3MVFBVmJlblk0TzFqSWNhaE5SeEg0Yl9RZjRRSTFWUnYzMkVnQkZXWjEzOEpGeDl4bkt6TEpCNVk4dFkxUUE4Nk9DeE0tSmpZSmRYUFFHa2lvbjJ4clh0ZHpmMkRzd3U0OWZoN3htUEdqVUdtRGllWmtJbXc4Q1FqR3BDWXp0aXM4TllaaWxFRGlReFRSX0dnT1p2aC1VVUhWbWpKYlNISTdIUy0xYndOV1VVWHJ3dU5tLUFveEdONzZESlN5ZjNDRm9TTlNMRFY0TVBQbEptUVYxUVFXc0FUakEzSjZhYXpBYzUybVAzRGowUkg5ZVkyUHN1QnJ2R2FnSWJJNXdwRGk1X1otWGQxVERuV2FsVzBYS0cwMllnUFZ6dGt3?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "ngo"
-  },
-  {
    "title": "মাসকট স্কুল এন্ড কলেজে নিয়োগ বিজ্ঞপ্তি",
    "org": "Dainik Shiksha",
    "loc": "বাংলাদেশ",
@@ -1225,8 +1316,21 @@
    "cat": "other"
   },
   {
+   "title": "রাজশাহী বিশ্ববিদ্যালয়ে চাকরি, পদ ১৮",
+   "org": "প্রথম আলো",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-17",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5Mbk14cnMyN1phLU1GbVR6c0pxWHZxb0pYdjV3ajM4VVZWTzk3VGlfSE5PTXBNR292ODdqZlpIUmNEd1NDUVhuUjUyZ0pIcHBUdnFfQ18wVWpWRGtKck5nallOSU8xd9IBc0FVX3lxTE9CQUpjbkVELWhQMUFzTTdoT3B0MEN4dXpvRkJTYkdYN29qOWJjTDhBREZHQ3hhaTVwZ3h3X0FRVDJFRUprc1hKajBJeTlmRWE3WE9GVE1CM2x5ODBoSmxxc1dZSGk5MWRWbmJrSEZqNm5OaTg?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "other"
+  },
+  {
    "title": "রাজশাহী বিশ্ববিদ্যালয়ে ১৮ পদে চাকরির সুযোগ",
-   "org": "Samakal",
+   "org": "SAMAKAL",
    "loc": "বাংলাদেশ",
    "type": "bd",
    "src": "নিয়োগ সংবাদ",
@@ -1236,19 +1340,6 @@
     "সংবাদ"
    ],
    "cat": "edu"
-  },
-  {
-   "title": "এসিআই মটরসে জনবল নিয়োগ, থাকছে না বয়সসীমা",
-   "org": "Jagonews24",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-17",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1iZEtrOWF5UU96di1VR1RGZlJQX1RPZThwSkV5YkFhOUo5NzJMUHZJWnhNajdNTjhSZXJJVHNUX05sTDkxY19tWWVSUzBDTDYyN0lWdzFseFJZS2o4YXc?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "other"
   },
   {
    "title": "জনবল নিয়োগ দেবে মেঘনা গ্রুপ, কর্মস্থল ঢাকা",
@@ -1275,19 +1366,6 @@
     "সংবাদ"
    ],
    "cat": "edu"
-  },
-  {
-   "title": "বাংলাদেশি পণ্য আমদানি ও কর্মী নিয়োগে ৪ দেশের প্রতি রাষ্ট্রপতির আহ্বান",
-   "org": "Channel i Online",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-17",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNOExqbUlXRnF3OWJ1NF80eW9oMDItYlJ6ZTlQR3hxMUFVQ3B1LVlDdUVlRXcxME9Rekk0Nk5udTBUdE9SeTA0SERIWDVxYmU5MXVfXzJjdFlmMWVOWVlfaElaUEtZOGR2NVExNmxwM05YRU1YTEdLMURWZ3BQTURlcmV2cDR4X2pRSkF2cEtxRzV6SU1hVnNZ?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "other"
   },
   {
    "title": "মীনা বাজারে ম্যানেজার নিয়োগ, ঢাকায় কাজের সুযোগ",
@@ -1329,6 +1407,19 @@
    "cat": "govt"
   },
   {
+   "title": "দিনাজপুরে সরকারি চাকরিতে নিয়োগ, আবেদন করতে পারবেন ৩ জেলার বাসিন্দারা",
+   "org": "Banglar Alo News",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-16",
+   "url": "https://news.google.com/rss/articles/CBMikAZBVV95cUxPbFVjYkxJeDRSNTVqcE9LU1RvWkxiWGFZdkM5dVpfQkFta2pJN09oY3E5Vk1VSGc0RlFYa1QwVk9idFFtMXRfbElrTnEwOFcxQkFJNC1ubjRjR1MxalBBb2tGLVlPNG1oZzRKNGdjd0FybFE0NXY5aVhXYlZYeVp4MEVLTzB0QUxYY25OcXk4WFBrR0hvWU9iMHA4NjRNZTZxY3hGM0dOY1FjMDZ6WkU2ZDloMjNqaWdqTmwyY0hEZTg0N2N6Z01tTDJPYzZGOXJsNTBKTF9VbVR5V09ycWx4VU9ockg0NWUtMUp3d1VJM3NNVnhtYTRVZncxd1RRNlkwY3lhTFRrdmhyYnVaVHNBeHlRWUJCQzI0RldyN3JzbllfVDdhWHdIVkNYZGVsUVhFTTZGbk9WaElvbkVUSVd0c3l3SkpQMUpyUE9Uc0xCQnJuODAzc05BcnlxTUdBaWRKTkludGZvV3NFMTRFNDQ2cXdndGZVdHNyTEFXSVZGcG5SWFlJS3QzSkVPN28taGFvQi10YXpTNVlGeE9DUWRJT19ucE1tQ3M0eXBBclF4dl9YYWl0N00ta0g5dkVPQ1FLOTZoVU1RMGh1cS1OQm5qaDNrWmsyaWlaRzNuU2w2VzdUUWw0U0oyWGRPYnZvNjFWWFNmdklsUm80cF9sU1hsZG9KaGllT0Q5N1ljcEhPWXRVY21yQUNwTlJxMjZvR2oybnNSaEpqa2VVR3B0ZGZOS0gzQmg4S2x4WFpUVDZwZW8zS1dVdkhyR01LTFkwSml0Y2oyWFkxRjNZcjdJVXRjVi1sdGIyaS1RQnJoZjhpR3JNOXlrakk3V1J6eFJWemVFVzY1Ql9PWlM4NGZsclRxcnIwb2hxSkMzcXJhVmttVjJ2Q084UXRfQnZLOFpsNy1wc0dMbWpWTFRYcnpILVhvT1FPMmsyaU92aUwyN1ZBczN3UGpoRlM5akdSbjR3WjNKTFNJVmRnWjg3WnFGZW41enk1cGdpUTJNUHhoOGEwcFY1QnVJR0pxUDJhWGNwQmp1?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "govt"
+  },
+  {
    "title": "চট্টগ্রাম ইস্পাহানি পাবলিক স্কুল এন্ড কলেজে শিক্ষক পদে চাকরি",
    "org": "Dainik Shiksha",
    "loc": "বাংলাদেশ",
@@ -1355,6 +1446,19 @@
    "cat": "edu"
   },
   {
+   "title": "ইবিতে ১৮ পদে শিক্ষক নিয়োগ বিজ্ঞপ্তি, আবেদন শেষ ৩০ নভেম্বর | চাকরি | বাংলা এডিশন",
+   "org": "Bangla Edition",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-16",
+   "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5aQ05PV2tObEtXMlVlZ1ZnWkwwVDhscVB1YmZtSk5adVJTZzh4U2tCUGdUVjZjaUZid1h3WHh4Z3dzNG4zYTJPN3FzTFRTeExoVWtBbXBtWGxMaXBKZktDVVZ3?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "edu"
+  },
+  {
    "title": "ঘরে বসেই বিদেশি প্রতিষ্ঠানে চাকরি! কাজ খুঁজবেন যেসব ওয়েবসাইটে",
    "org": "Jugantor",
    "loc": "বাংলাদেশ",
@@ -1366,6 +1470,19 @@
     "সংবাদ"
    ],
    "cat": "other"
+  },
+  {
+   "title": "শিক্ষা মন্ত্রণালয়ের অধীন ব্যানবেইসে ২৭৩ জনের চাকরি, আবেদন শেষ ২৬ নভেম্বর",
+   "org": "প্রথম আলো",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-15",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBkV2htSWtoOTlLZzBobjdhY1gzWFVIcHRKYnQ2dlVhdUQybDhBZk1OeHIzbF82NGc4RGxNM0hEaXNwRkJVbS1KVWF4STBNakxzcHNwUkduVEd6Rmg3ekFreHpnNlNLZ9IBc0FVX3lxTFB4RVRNMGtkUWhoR0EyS21fQUJjZEozTTJHRnQxRzc5dkF2RlBLYjdtV2pJUThIQTI5cEU0TmRhNndxN3FDR3owbFRHRWs3WklteEF3VGI2WXctemp6OFFjVzNabTVlOE4zWWhnT3BKTk5BN0E?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "edu"
   },
   {
    "title": "দিনাজপুরে সরকারি চাকরি, আবেদন ফি ১১২ টাকা",
@@ -1394,26 +1511,13 @@
    "cat": "bank"
   },
   {
-   "title": "ব্যাংক এশিয়ায় ইনসেনটিভ ও যাতায়াত ভাতাসহ চাকরি, আবেদন ২২ নভেম্বর পর্যন্ত",
-   "org": "প্রথম আলো",
+   "title": "ব্রাঞ্চ ম্যানেজার পদে জনবল নেবে ব্র্যাক",
+   "org": "Jugantor",
    "loc": "বাংলাদেশ",
    "type": "bd",
    "src": "নিয়োগ সংবাদ",
    "date": "2026-11-15",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA3cEQ0YU1lX05DWmp5Z25hVzItNWtFdVdYZGFiOVNTb1owS1JUT2FVdWJUbUdTTnZxZXF4enBsNTMtcnJxaHo1S2NtLVI1R0QxcVVSek85VFI4MEc1Z2FuYlM2cmVYUdIBc0FVX3lxTE1MT0lVN1l6TkFGVHFadVJjV1gtdkIzSWY3WUE2SmhBRzZzdUxMdkJxUE9XTGhIMngxQzgta0duTWFFeHJFYmhSN3hkeGF4MlJ6SGFqSW1PbHpONDFHWjNhVS1HdUFoNENiUy1pVHRMbHJiTFE?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "bank"
-  },
-  {
-   "title": "মাইক্রোফিনান্স প্রোগ্রামে ব্রাঞ্চ ম্যানেজার পদে চাকরি দেবে ব্র্যাক",
-   "org": "Dhaka Mail",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-15",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBGRkowR0oxbHJ0ZEdyNEZlNEl1eDdobHI0UDJmSi1RWE5CT1B5a0RsU2Rld05Bb3BLLTZ0RVJQY21Jem5pb0hveHJMSGJDQi1Ub1HSAVdBVV95cUxNTWJPbEc2VmtNblJielp1RU1JeHVGVVlPYVduR1ZUem5BVUlIaU9HZ0tWTFA2VWQ5QWJaUmJEVGNWN0ZZM2dGMm9BbzA4MVRvS2REa1JWRjQ?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1BNDNmSlhFQjVXcGZUanFRWDJoamN6YzFrQ09UMm9faFp3amZhQnJRSnF0NVVxSy1IRzVJNUR2QUx5cUNnTk9FQ3lFLUNkMnFDdkJN?oc=5",
    "tags": [
     "সংবাদ"
    ],
@@ -1459,6 +1563,32 @@
    "cat": "edu"
   },
   {
+   "title": "সজীব গ্রুপের নিয়োগ বিজ্ঞপ্তি, থাকছে না বয়সসীমা",
+   "org": "Jagonews24",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-15",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE11ckhTc09IbEhGc05FaDJfZzNsclBzdVVUQ2JPbGloVk5JLTVKcGtZa2tZMW43ZHFvQ1lFU3NHMk1IUXdnakNiV3dSYjVaNjFzSXVQS1VfdWpwVWpvWUE?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "হাজী মিছির আলী ডিগ্রী কলেজে নিয়ােগ বিজ্ঞপ্তি",
+   "org": "Dainik Shiksha",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-15",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPU1hwcmUyc1Q1b2VXVDBrQUZGY2g5NENNWVVnekFXS3dUb3FXa05XbXFnaTlGU1c1NzJaMHN3X0tSamIyeWhWRW56VnpJYUVNUUhOY2o5eXRHOUp6MnRpdnpZODFBcDUwNDF5OGk2QXRBVzdhODVyNGNQZWxFamZUR3FwdHUybVVtNDYxUjhNVlliaEFhV0tHUUt3aDR0Zw?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "edu"
+  },
+  {
    "title": "চাকরির বাজারের উপযোগী বিশ্ববিদ্যালয়ের শিক্ষা নিশ্চিতের আহ্বান রাষ্ট্রপতির",
    "org": "Channel i Online",
    "loc": "বাংলাদেশ",
@@ -1470,6 +1600,32 @@
     "সংবাদ"
    ],
    "cat": "edu"
+  },
+  {
+   "title": "মাইক্রোফিনান্স প্রোগ্রামে ব্রাঞ্চ ম্যানেজার পদে চাকরি দেবে ব্র্যাক",
+   "org": "Dhaka Mail",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-15",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBGRkowR0oxbHJ0ZEdyNEZlNEl1eDdobHI0UDJmSi1RWE5CT1B5a0RsU2Rld05Bb3BLLTZ0RVJQY21Jem5pb0hveHJMSGJDQi1Ub1HSAVdBVV95cUxNTWJPbEc2VmtNblJielp1RU1JeHVGVVlPYVduR1ZUem5BVUlIaU9HZ0tWTFA2VWQ5QWJaUmJEVGNWN0ZZM2dGMm9BbzA4MVRvS2REa1JWRjQ?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "ngo"
+  },
+  {
+   "title": "পেট্রোবাংলায় ৭৫৩ পদে নিয়োগ, আবেদনের সময় বাড়ল",
+   "org": "প্রথম আলো",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-14",
+   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBCdk5pMEFRSEgwdGdOZlVvNHhqcjBkVjlBYW0tYnMyQ3NYOWdxcjBySDNZY1YzdXJkZ3M0cDd3ZkRUWVdnU1VqQkpXdFZVYy1ZTV9rejh2ck9nY1BkZHFyMWtITlBfZ9IBc0FVX3lxTFBPMlQ5QjFURXF4blQ3NXlrV05vWW1sdnRTeVhHbzZCVWZTenBPcUYzcjcxZnljdnVIRk5vVWNyRy1PeDQ4UW9Ga3diTmNTeklCRTRsM1V0TENaLWJNU3NvcnQwSFFLbDNXYVQ0R0ZHbDV5enM?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "other"
   },
   {
    "title": "৬৭ জনের সরকারি চাকরি, অষ্টম শ্রেণি পাসেই আবেদনের সুযোগ",
@@ -1485,19 +1641,6 @@
    "cat": "govt"
   },
   {
-   "title": "ব্র্যাকের নিয়োগ বিজ্ঞপ্তি, ব্র্যাঞ্চ ম্যানেজার পদে চাকরির সুযোগ",
-   "org": "Jagonews24",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-14",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0wVTRobU9VSXJHRnZUUmMyNUM0dElURGdjRGcwUmw0VGV4UzBQbThZR21fQlZiM2cxbVRvUEIzTGpoek9GREZkOTBxd0w3RjI2QWd2NVV2ZG50QVJqaGc?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "ngo"
-  },
-  {
    "title": "ব্যাংক এশিয়া পিএলসি নিয়োগ বিজ্ঞপ্তি",
    "org": "nagorik tv",
    "loc": "বাংলাদেশ",
@@ -1505,19 +1648,6 @@
    "src": "নিয়োগ সংবাদ",
    "date": "2026-11-14",
    "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTFBXaUk1UmIxeGFhZm9pX05pVUtYNU1VZm11M2VYSUxpaHd0YmFwSUxrQmlaZWdCV3FUZTFvR3doX0g?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "bank"
-  },
-  {
-   "title": "বেঙ্গল কমার্শিয়াল ব্যাংকে চাকরি, স্নাতক পাসে আবেদন",
-   "org": "প্রথম আলো",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-14",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5oS0E1VC1KalMzeHlmUmdFRkxRcm04aThJV3lSWEdNQkE1WEZRMUNTVGpSWG81ZDJheTFxVlpuLV9UeDZITzlvRmJVMzNvMFNfS0ZFU0NweDNtRS1zbnRsZkJhRDFrd9IBc0FVX3lxTE80TWdpb0ZpQjdYSjdvMTgzbVl0SEhpX2VNaHBrZUNNNGJqN3hRWmtCY0s1dlRZMDd0VjFKcHRtM1RxRFJoa0N5UnBUazdscG9LbWF2aTZTYXZlaUFEcnFkbjRHb1dFNVBjeFBOME5SdHNLQ00?oc=5",
    "tags": [
     "সংবাদ"
    ],
@@ -1537,17 +1667,43 @@
    "cat": "ngo"
   },
   {
-   "title": "৭৫ ফ্রেশারকে চাকরি দেবে দিশা এনজিও, থাকছে বিবাহ ভাতা ও আবাসন সুবিধা",
-   "org": "Dhaka Mail",
+   "title": "ব্র্যাকের নিয়োগ বিজ্ঞপ্তি, ব্র্যাঞ্চ ম্যানেজার পদে চাকরির সুযোগ",
+   "org": "Jagonews24",
    "loc": "বাংলাদেশ",
    "type": "bd",
    "src": "নিয়োগ সংবাদ",
    "date": "2026-11-14",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE44WUd4VVBsdnQwaFVNVzUwLVJvXzZRZ0dWMjhpcUtLS1FDSDhtOVhoOWZTNjI3b3VJOEY2eDlCb1NUMldtWnRHN01fMFdILV80bHfSAVdBVV95cUxNOGdaZWpjc0d4eVNoVVgtM0FSTE9sd0JqbXZ6cmVzNnJaVDk2UTRNVnN1NV8wSmR5bVlsRFBiMU81S2NNVGl0WGx1enJZTGxlUWdXcnFvNnM?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0wVTRobU9VSXJHRnZUUmMyNUM0dElURGdjRGcwUmw0VGV4UzBQbThZR21fQlZiM2cxbVRvUEIzTGpoek9GREZkOTBxd0w3RjI2QWd2NVV2ZG50QVJqaGc?oc=5",
    "tags": [
     "সংবাদ"
    ],
    "cat": "ngo"
+  },
+  {
+   "title": "ব্র্যাক একাডেমিতে চাকরির সুযোগ, অনলাইনে আবেদন",
+   "org": "Channel 24",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-14",
+   "url": "https://news.google.com/rss/articles/CBMivgRBVV95cUxQOXM1NDlJdEI5eXlmbjdaa0E0dVN5aTdnaVJpRkRPTnF4V1AwbHBJY2l5aW1aZ0lCWjFQOVlEQTYyS2xzVG9sLWNjdGV2eHVjSGZMZGhwOTJxTFI4VTNIWGdSZzBGSlg1MnFuRUFQTmtMeVVwSHA1M1ZOVWFXUUV0ZEFsbWV2VERidUVZa0RhZENVZkNuNUo0UTE2SkxRQ0VnVlBYanJLc1I0bGE2TlNmWEJuMXZoQUVGSFFWeVI0UDN6VFRIVllKNXlwTUsydkwxd2JSWHpWNWVNbVR0cGh2NVk5SnZYbksyQkgzbDR5WU9YNW5SZHZ0dGFKWTZEc2ZpZE1kQ2hBRkhCR044YW1fUl9hbTdTM05fcGg1bmtLNWRMdWVHTF9GaVNfUFlOVDZvNXJEOWJGVXQ1ZkluZzFtY2NRNjVxZzNrelVPU0pyYTRDVkVnLUFWN0N0Xzc0MnRCTXFzUDFIZ1d2RVVzbi1YNWluRnV1LW02bjA0cFU2OERrT1hSVkFYbnNvNDVfcEVsLXAzcnl0UGdqRmd4MnRMeGc0UXRvZHRCcFRwc1Jwb0JNZUJiaG1VX3JWVHdfRGVPSzZfNUpTSWhUbGdkcllESkpXUDUzYUVVdllNRDYyZms3RllxSWpxU3pTNUJHTU9hSXNacHUxWC1FU1BSdE1JNFQtODlKaHJzeU1PU3M4QnpRejB6ZVd3U0JKLWlGUXlJTlc5RmJidnZKa2VWc2N4N0tEcmFSaWNJMDJSbDRR?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "ngo"
+  },
+  {
+   "title": "ব্র্যাক ব্যাংকে ব্র্যাঞ্চ ম্যানেজার নিয়োগ, লাগবে স্নাতক পাস",
+   "org": "Jugantor",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-14",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBrOTFMbUlGYkVablFocllZd3VRajhrWWwxY2J1WGFrREE4VGNad21UNlJDQTdrMXVZSmtzdVFoLXNfSUxEUHhnSGlNbGFuUy04NnZj?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "bank"
   },
   {
    "title": "৩ জেলায় শিক্ষক নিয়োগ দেবে ব্র্যাক একাডেমি",
@@ -1563,17 +1719,17 @@
    "cat": "ngo"
   },
   {
-   "title": "বাংলাদেশ শিক্ষাতথ্য ও পরিসংখ্যান ব্যুরো নিয়োগ ২০২৬ BANBEIS Job Circular 2026",
-   "org": "শিক্ষক বাতায়ন",
+   "title": "৭৫ ফ্রেশারকে চাকরি দেবে দিশা এনজিও, থাকছে বিবাহ ভাতা ও আবাসন সুবিধা",
+   "org": "Dhaka Mail",
    "loc": "বাংলাদেশ",
    "type": "bd",
    "src": "নিয়োগ সংবাদ",
    "date": "2026-11-14",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5LVzNMclR1b09IM29CN0xlbVFpV3V5NGlrVWFRc0daeDFVZGtuOWRZZnJRZEh2Qy11b2FaZ0xkYm5ZWjgxdFFJbW5iZTZmYVpBakstLTFmNEJrbkU?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE44WUd4VVBsdnQwaFVNVzUwLVJvXzZRZ0dWMjhpcUtLS1FDSDhtOVhoOWZTNjI3b3VJOEY2eDlCb1NUMldtWnRHN01fMFdILV80bHfSAVdBVV95cUxNOGdaZWpjc0d4eVNoVVgtM0FSTE9sd0JqbXZ6cmVzNnJaVDk2UTRNVnN1NV8wSmR5bVlsRFBiMU81S2NNVGl0WGx1enJZTGxlUWdXcnFvNnM?oc=5",
    "tags": [
     "সংবাদ"
    ],
-   "cat": "edu"
+   "cat": "ngo"
   },
   {
    "title": "অরবিট স্ট্যান্ডার্ড স্কুল এন্ড কলেজ চট্টগ্রামে শিক্ষক নিয়োগ",
@@ -1583,58 +1739,6 @@
    "src": "নিয়োগ সংবাদ",
    "date": "2026-11-14",
    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNVB6bUNmbXRwOGZMY255OWw2STY3YTctQkRUZ2JlWEF4QVNKWDRHUDJhNlpFQVp5R3dPb1VlMGtWZlBfQ2d1TFBlcWNFNzdGY2VLRTI3NmNUbVRBRzRnZ0xyajVUekIyRkRXZ3R4dlkxcE9zQXY0cGUtX3hHaURYZW9XOGtCQXpBWjdWSm5admFOeG9YaDBVZThaSk0tYzBOZ0ZuZnp4UUE2SU9JVVVmVkZn?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "edu"
-  },
-  {
-   "title": "ধুনট মহিলা কলেজে পুনঃনিয়োগ বিজ্ঞপ্তি",
-   "org": "Dainik Shiksha",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-14",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWGNXckJpa2d6eUtGamZwb21jdXZrb2NpT1pwdHBZbXhWQXVRWnROWGluSmJsSzZOdXd0U0VhQXZ4R3JzZ010SjNwTWpWT3I4RGlMN1RoZmdyTEJXWG9lX2R4bEJ0UlA4QTM2NHQ0YkFONUswX1Q2cmM5WEZnemtWc0pJNUxLTzh1NXVMR1lJWDg?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "edu"
-  },
-  {
-   "title": "সিনিয়র ম্যানেজার নিয়োগ দেবে ব্র্যাক ইউনিভার্সিটি",
-   "org": "Jagonews24",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-14",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1JdTNuYkxVUEp5bkZuOGdhZDZsZWVLWWpYaDY4Qy1Ed1ZFZEM0RjhZT2VJSE1IQmgxTVZSWF9aOE1iYzhwUWxhaEFkc2FmZXhUS1dmeTRKaE9KTU11U2c?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "ngo"
-  },
-  {
-   "title": "ডিবিএল গ্রুপে অ্যাসিস্ট্যান্ট ম্যানেজার নিয়োগ, কর্মস্থল ঢাকা",
-   "org": "Jagonews24",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-14",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5uU3ZBZVJsQkdCN2R1ZjkyaDRfMnd2Sm9fLTZpQTVKSG0temQwS2FiRV95VzNjRzNwaHFmYkQtNk41UFhWcUFGUkpJdjV2aGhPTzV3MEdjSENEMXp5b1E?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "রাজশাহী বিশ্ববিদ্যালয়ে ৪১ পদে চাকরি, আবেদন ১ ডিসেম্বর পর্যন্ত",
-   "org": "duaa-news.com",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-14",
-   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE55Q0RQUGZNVVQxVDVHNEM4dUdIOENhVl9mWDFkRGhpNlMwRDVZajY3d2JtcllNTFZlVG1ONGtTOXR6Q3RUXy04Y2dzNFpqMHd6?oc=5",
    "tags": [
     "সংবাদ"
    ],
@@ -1667,6 +1771,19 @@
    "cat": "govt"
   },
   {
+   "title": "শূন্য পদ ৫ লাখ ২১ হাজার, নিয়োগ নিয়ে বড় পরিকল্পনা",
+   "org": "কালের কণ্ঠ",
+   "loc": "বাংলাদেশ",
+   "type": "bd",
+   "src": "নিয়োগ সংবাদ",
+   "date": "2026-11-13",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1EZFV5SlFKR01WMnBBM24tTjNSbnl2UmdDVVBuSTdaZE41N09xTVdaZXZBR0x6RlV0UWxuTnJ4aF81NnJITGQyaFJQVDNBclY2WE9DXzh5WXdNeXA1UzFKRW1KTS1JeHhEWUE?oc=5",
+   "tags": [
+    "সংবাদ"
+   ],
+   "cat": "other"
+  },
+  {
    "title": "অভিজ্ঞদের পাশাপাশি সদ্য স্নাতকদেরও চাকরির সুযোগ ব্র্যাক ব্যাংকে",
    "org": "প্রথম আলো",
    "loc": "বাংলাদেশ",
@@ -1680,702 +1797,791 @@
    "cat": "bank"
   },
   {
-   "title": "বাংলাদেশ নৌবাহিনী স্কুল ও কলেজ চট্টগ্রামে নিয়োগ, আবেদন ২৫ নভেম্বর পর্যন্ত",
-   "org": "Dainik Shiksha",
+   "title": "২২ জন শিক্ষক নিয়োগ দেবে বেগম রোকেয়া বিশ্ববিদ্যালয়",
+   "org": "karatoa.com.bd",
    "loc": "বাংলাদেশ",
    "type": "bd",
    "src": "নিয়োগ সংবাদ",
    "date": "2026-11-13",
-   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQM21TQU5NVjM2Z1hTYlZZZGhVOU1EUENnMEJDTGFMNlRTTEVPQkNDUWVBMzBKR1J2QVV4S2szeHVmcUZrdFZrZEpfbTF0TnRKaVpybTIyTnQwV2FnUS1SVFVMQUhnTXRNQzZPV3lwUF9oZE5aVmRuakdxRk5IdW50d19WRmQwZmxFNmNHRlpEdnd0VzdBaGJlUEh3Z25Ga3BsWDZpSUZkRm41RDFFeE45Q293UUY4bzlPSFFDZ3ZQeEUxUWRET0pGSnZXUQ?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "govt"
-  },
-  {
-   "title": "সরকারি চাকরির সুযোগ, আবেদন ফি ১১২ টাকা",
-   "org": "Jagonews24",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-12",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBaR2ozY0VKZFg4dHgwbVpOZDNHSVJxWjRZVTFGYVlXVnFLYmtNZ0pfaDlITTZYRUltdDQ2bFlseFlGZUZvUnZqenRpWlU5RXBORmkweS1WS3Y1WVZHMXc?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "govt"
-  },
-  {
-   "title": "হবিগঞ্জ পৌরসভায় ১৫তম থেকে ২০তম গ্রেডে চাকরির সুযোগ",
-   "org": "প্রথম আলো",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-12",
-   "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9RZ2ZIVHJvX3N4cTBka3otcWRiTzlxNndpdWRDS2txTUtuOTZFVVdNaU5GQ25oeGY0SGJlcXg0ZXFGS0RhUmluWE10YmRSSDRuaC1Wdm16Qk9URGtMZ191cVBLS3J1d9IBc0FVX3lxTE5aOEJlWFlMUnAyR2NaYzkxQWl6YmY2WUFoLVllSDBlS1I5YU1NMEs1alo0d2cxb1I2blFKZno0bUlyRzZCVzNsNkZqejUxR2VBSXNDSlBmdGF0SHM4Ql9ZLVU4NG9YZWJMVl84dmhJZVg5Ym8?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "govt"
-  },
-  {
-   "title": "ব্র্যাক ব্যাংকে নিয়োগ, ফ্রেশার প্রার্থীদের আবেদনের সুযোগ",
-   "org": "Jagonews24",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-12",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5yQnVRc243QUg1aDR4S3BiQl92Y0oycEY0Umlqa0dqejRPSEJlc014T2pqQXR1UUZOMkc1MVpKelNsMkpnRmh1Q0JUOVpHNjZNejFwYU9LZXNiVE1pdkE?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "bank"
-  },
-  {
-   "title": "২২ জন শিক্ষক নিয়োগ দেবে বেগম রোকেয়া বিশ্ববিদ্যালয়",
-   "org": "Jagonews24",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-12",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE93YzlOczZ5TW5qbTdGV0YyR3k1WEhzejlCU1pyc0Fsb2tEbXA1TkQ2dkdneUp0VzkyOUJDclRMeE14OHJ5NV80VEJVcll6SFBVUkNkdEotUzBvbkpWenc?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBlZm5ucURKM0lRVklEb3FPMGlxSVJGYW1IcUtSVHV6eHpfZW8xbjMwOHRTcHB2dm0yeGRCU3NXMEZVWGZJR3YzTEdnTVVCaklYWFdEZjl3?oc=5",
    "tags": [
     "সংবাদ"
    ],
    "cat": "edu"
   },
   {
-   "title": "৪২ কর্মকর্তা-কর্মচারী নিয়োগ দেবে বেগম রোকেয়া বিশ্ববিদ্যালয়",
-   "org": "Jagonews24",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-12",
-   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE91S0xHdXJZNVFUMXZWZlBiRjI1b2tTd3FaT3dsZGU1bmJhTWhlcUJ1cmJsSjF6VGRGR2JzZk5oUzBpVldQS0JMWU5abXFxWmpkbjAzWHNrZDRZekhsa3c?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "edu"
-  },
-  {
-   "title": "বাংলাদেশ সশস্ত্র বাহিনী বোর্ডে ২ পদে ৬ জনকে নিয়োগ",
-   "org": "Dhaka Mail",
-   "loc": "বাংলাদেশ",
-   "type": "bd",
-   "src": "নিয়োগ সংবাদ",
-   "date": "2026-11-12",
-   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBVT3BWYTdHN3ZHNHdsR3h6R2Nid2JoajBWU3FudkJqVmY1XzJCRmluX29ZUUlybXp6VHIzWTQ3MWNsRDVtMDFFcmY0WVd6SlZmR2fSAVdBVV95cUxPR3R1bUhfTUtkRTZiWlFlSUpXZU4tQzM4R0NTdTJ3cmVvRXZfSU1LeEhSdldfdkNYSGs4eVk0WmtUVnBoWktkekRacXVtNmNLM2lPTXpacVE?oc=5",
-   "tags": [
-    "সংবাদ"
-   ],
-   "cat": "govt"
-  },
-  {
-   "title": "Senior Steuerfachangestellte (m/w/d) Euskirchen",
-   "org": "VRT Partnerschaft mbB Wirtschaftsprüfer Steuerberater Rechtsanwälte",
-   "loc": "Euskirchen, Nordrhein-Westfalen, Deutschland",
+   "title": "Pflichtpraktikum Influencer Marketing (w/m/d)",
+   "org": "rsa Media GmbH",
+   "loc": "Berlin",
    "type": "abroad",
    "src": "Arbeitnow",
    "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/vrt-partnerschaft-mbb-wirtschaftsprufer-steuerberater-rechtsanwalte/senior-steuerfachangestellte-euskirchen-402615",
+   "url": "https://www.arbeitnow.com/jobs/companies/rsa-media-gmbh/pflichtpraktikum-influencer-marketing-berlin-90958",
    "tags": [
-    "Steuerberatung"
+    "Social Media Manager"
    ],
    "cat": "other"
   },
   {
-   "title": "Werkstudent (m/w/d) – Finance & Beratung (unternehmerisch, leistungsbasiert)",
-   "org": "Kevin Kehr",
-   "loc": "Homeoffice",
+   "title": "Trainee (m/w/d) Influencer Marketing",
+   "org": "rsa Media GmbH",
+   "loc": "Berlin",
    "type": "abroad",
    "src": "Arbeitnow",
    "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/kevin-kehr/remote-werkstudent-finance-beratung-unternehmerisch-leistungsbasiert-hamburg-272597",
+   "url": "https://www.arbeitnow.com/jobs/companies/rsa-media-gmbh/trainee-influencer-marketing-berlin-375586",
    "tags": [
-    "Remote"
+    "Social Media Manager"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Mitarbeiter Kundenservice (m/w/d)",
+   "org": "WTE Charkos GmbH",
+   "loc": "Hamburg",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/wte-charkos-gmbh/mitarbeiter-kundenservice-hamburg-354592",
+   "tags": [
+    "Customer Service"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Founders Associate Werkstudent (m/w/d) | 17 €/Std.",
+   "org": "AXRO GmbH",
+   "loc": "Hamburg",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/axro-gmbh/founders-associate-werkstudent-17-eur-std-hamburg-268590",
+   "tags": [
+    "Business Operations"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Fachplaner HLS (m/w/d)",
+   "org": "Jager und Partner Ingenieurgesellschaft mbH",
+   "loc": "Osnabrück",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/jager-und-partner-ingenieurgesellschaft-mbh/fachplaner-hls-osnabruck-222158",
+   "tags": [
+    "Building",
+    "Supply",
+    "Safety Services Engineering"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "IT Support 1st & 2nd Level (m/w/d)",
+   "org": "hubside - Die Recruitingwerkstatt",
+   "loc": "Munich",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/hubside-die-recruitingwerkstatt/it-support-1st-2nd-level-munich-491174",
+   "tags": [
+    "Helpdesk"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Junior Recruiting Manager / Personalberater (m/w/d)",
+   "org": "Dragon & Gries GmbH & Co. KG",
+   "loc": "Aachen",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/dragon-gries-gmbh-co-kg/junior-recruiting-manager-personalberater-aachen-461286",
+   "tags": [
+    "Recruitment and Selection"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "(Senior) Recruiting Manager / Personalberater (m/w/d)",
+   "org": "Dragon & Gries GmbH & Co. KG",
+   "loc": "Aachen",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/dragon-gries-gmbh-co-kg/senior-recruiting-manager-personalberater-aachen-412078",
+   "tags": [
+    "Recruitment and Selection"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Berufseinsteiger:in Recruiting & Personalberatung",
+   "org": "Dragon & Gries GmbH & Co. KG",
+   "loc": "Aachen",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/dragon-gries-gmbh-co-kg/berufseinsteigerin-recruiting-personalberatung-aachen-288791",
+   "tags": [
+    "Recruitment and Selection"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "AI Online Growth Marketing Manager (m/w/d) für Tax SaaS Startup",
+   "org": "Boring.legal GmbH",
+   "loc": "Berlin",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/boringlegal-gmbh/ai-online-growth-marketing-manager-fur-tax-saas-startup-berlin-241773",
+   "tags": [
+    "Online Marketing"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Spezialist für Microsoft Copilot & Künstliche Intelligenz (m/w/d)",
+   "org": "G&H IT Service GmbH I G&H Gruppe",
+   "loc": "Viernheim",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/gh-it-service-gmbh-i-gh-gruppe/spezialist-fur-microsoft-copilot-kunstliche-intelligenz-viernheim-246653",
+   "tags": [
+    "Consulting",
+    "Engineering"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Senior Creative Strategist (Meta & TikTok Ads) - all genders",
+   "org": "ADBAKER",
+   "loc": "Cologne",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/adbaker/senior-creative-strategist-meta-tiktok-ads-all-genders-cologne-102902",
+   "tags": [
+    "Online Marketing"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Product Marketing",
+   "org": "Bling",
+   "loc": "Berlin",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/bling/product-marketing-berlin-97637",
+   "tags": [
+    "Product Management"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "IT-Systemadministrator / IT-Systemtechniker (m/w/d)",
+   "org": "G&H IT Service GmbH I G&H Gruppe",
+   "loc": "Viernheim",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/gh-it-service-gmbh-i-gh-gruppe/it-systemadministrator-it-systemtechniker-viernheim-499013",
+   "tags": [
+    "System and Network Administration"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Praktikant:in New Business (all genders)",
+   "org": "Mediaplus Germany GmbH & Co. KG",
+   "loc": "Munich",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/mediaplus-germany-gmbh-co-kg/praktikantin-new-business-all-genders-munich-292090",
+   "tags": [
+    "Business Development"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Business development Intern in hyper-scale startup",
+   "org": "Vicoland",
+   "loc": "Frankfurt am Main",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/vicoland/business-development-intern-in-hyper-scale-startup-frankfurt-am-main-442390",
+   "tags": [
+    "Business Development"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Director Business and Digital Product Development (m/w/d): win business and drive platform building",
+   "org": "Vicoland",
+   "loc": "Berlin",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/vicoland/director-business-and-digital-product-development-win-business-and-drive-platform-building-berlin-335901",
+   "tags": [
+    "Business Development"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Business Development Manager in a disruptive scale-up: be a changemaker and learn to build a company",
+   "org": "Vicoland",
+   "loc": "Frankfurt am Main",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/vicoland/business-development-manager-in-a-disruptive-scale-up-be-a-changemaker-and-learn-to-build-a-company-frankfurt-am-main-462937",
+   "tags": [
+    "Business Development"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Business Development Director (m/w/d) - excel as entrepreneur through strategy, sales, and AI",
+   "org": "Vicoland",
+   "loc": "Berlin",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/vicoland/business-development-director-excel-as-entrepreneur-through-strategy-sales-and-ai-berlin-61211",
+   "tags": [
+    "Business Development"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Mid-Senior Full-Stack AI Product Engineer",
+   "org": "Spatial Commerce Ltd",
+   "loc": "Berlin",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/spatial-commerce-ltd/mid-senior-full-stack-ai-product-engineer-berlin-352833",
+   "tags": [
+    "Software Development"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Fachassistent:in für Digitalisierung und IT-Prozesse / FAIT-Spezialist:in (m/w/d)",
+   "org": "Dierkes Partner",
+   "loc": "Hamburg",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/dierkes-partner/fachassistentin-fur-digitalisierung-und-it-prozesse-fait-spezialistin-hamburg-427548",
+   "tags": [
+    "Process Management"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Senior Sales Consultant - Vollzeit (German Speaking)",
+   "org": "Swiss Life Select",
+   "loc": "Freiburg",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/swiss-life-select/senior-sales-consultant-vollzeit-german-speaking-freiburg-75291",
+   "tags": [
+    "Finance",
+    "high school or equivalent"
    ],
    "cat": "bank"
   },
   {
-   "title": "Fachinformatiker für Systemintegration (m/w/d)",
-   "org": "ANGEHEUERT GmbH",
-   "loc": "Frankfurt am Main, Hessen, Deutschland",
+   "title": "Teamleiter (m/w/d) im Finanzvertrieb (German Speaking)",
+   "org": "XpertsOne",
+   "loc": "Celle",
    "type": "abroad",
    "src": "Arbeitnow",
    "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/angeheuert-gmbh/fachinformatiker-fur-systemintegration-frankfurt-am-main-18520",
-   "tags": [],
+   "url": "https://www.arbeitnow.com/jobs/companies/xpertsone/teamleiter-im-finanzvertrieb-german-speaking-celle-407264",
+   "tags": [
+    "Finance",
+    "vocational"
+   ],
+   "cat": "bank"
+  },
+  {
+   "title": "Mitverkaufende Verkaufsleitung (m/w/d)",
+   "org": "Autohaus Walter Mulfinger GmbH",
+   "loc": "Michelfeld",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/autohaus-walter-mulfinger-gmbh/mitverkaufende-verkaufsleitung-michelfeld-183963",
+   "tags": [
+    "Management",
+    "Team Leader"
+   ],
    "cat": "other"
   },
   {
-   "title": "Software Sales Consultant (m/w/d)",
-   "org": "ANGEHEUERT GmbH",
-   "loc": "Homeoffice",
+   "title": "Softwareentwickler für interne Tools & Automatisierung (m/w/d)",
+   "org": "AdKochMarketing GmbH",
+   "loc": "Hamburg",
    "type": "abroad",
    "src": "Arbeitnow",
    "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/angeheuert-gmbh/remote-software-sales-consultant-deutschlandweit-416323",
+   "url": "https://www.arbeitnow.com/jobs/companies/adkochmarketing-gmbh/softwareentwickler-fur-interne-tools-automatisierung-hamburg-421340",
    "tags": [
-    "Remote"
+    "Software Development"
    ],
    "cat": "it"
   },
   {
-   "title": "Senior Product Manager - Machine Learning (m/f/d)",
-   "org": "Voize",
-   "loc": "Berlin",
+   "title": "Venture Development Manager (AI Transformation)",
+   "org": "Excelling Ventures GmbH",
+   "loc": "Munich",
    "type": "abroad",
    "src": "Arbeitnow",
    "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/voize/senior-product-manager-machine-learning-berlin-61694",
+   "url": "https://www.arbeitnow.com/jobs/companies/excelling-ventures-gmbh/venture-development-manager-ai-transformation-munich-213075",
    "tags": [
-    "Product"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Senior Fullstack Engineer (m/f/d) - AI Health tech",
-   "org": "Voize",
-   "loc": "Berlin",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/voize/senior-fullstack-engineer-ai-health-tech-berlin-333848",
-   "tags": [
-    "Tech"
+    "Data Scientist"
    ],
    "cat": "it"
   },
   {
-   "title": "Talent Acquisition Specialist",
-   "org": "Pergolux",
-   "loc": "Berlin | Global Team",
+   "title": "KI- & Automatisierungsentwickler (m/w/d)",
+   "org": "AdKochMarketing GmbH",
+   "loc": "Hamburg",
    "type": "abroad",
    "src": "Arbeitnow",
    "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/pergolux/talent-acquisition-specialist-berlin-354233",
+   "url": "https://www.arbeitnow.com/jobs/companies/adkochmarketing-gmbh/ki-automatisierungsentwickler-hamburg-30594",
    "tags": [
-    "People & Culture"
+    "Software Development"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Financial Controller (m/w/d)",
+   "org": "ThinkRED GmbH",
+   "loc": "Mainz",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/thinkred-gmbh/financial-controller-mainz-342019",
+   "tags": [
+    "Controlling"
    ],
    "cat": "other"
   },
   {
-   "title": "Strategic Account Executive DACH",
-   "org": "N8N",
+   "title": "Assistenz der Geschäftsführung",
+   "org": "Therapie Zentrum Augsburg",
+   "loc": "Augsburg",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/therapie-zentrum-augsburg/assistenz-der-geschaftsfuhrung-augsburg-368516",
+   "tags": [
+    "Business Operations"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Senior Consultant (m/w/d) SAP Business Intelligence & Data Analytics",
+   "org": "Wedobi Business Solutions GmbH",
    "loc": "Berlin",
    "type": "abroad",
    "src": "Arbeitnow",
    "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/n8n/strategic-account-executive-dach-berlin-245893",
+   "url": "https://www.arbeitnow.com/jobs/companies/wedobi-business-solutions-gmbh/senior-consultant-sap-business-intelligence-data-analytics-berlin-165768",
+   "tags": [
+    "Remote",
+    "Business Intelligence"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Event Coordinator - Paderborn (Working Student/Freelancer Part-Time)",
+   "org": "Feverup",
+   "loc": "Paderborn, North Rhine-Westphalia",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/feverup/event-coordinator-paderborn-working-student-freelancer-part-time-paderborn-north-rhine-westphalia-23114",
+   "tags": [
+    "FOs (DACH)"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Event Coordinator - Osnabrück (Working Student/Freelancer Part-Time)",
+   "org": "Feverup",
+   "loc": "Osnabrück, Lower Saxony",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/feverup/event-coordinator-osnabruck-working-student-freelancer-part-time-osnabruck-lower-saxony-55629",
+   "tags": [
+    "FOs (DACH)"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Partner Marketing Manager, DACH – Deutsche Telekom",
+   "org": "Horizon3Ai",
+   "loc": "Germany",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/horizon3ai/partner-marketing-manager-dach-deutsche-telekom-germany-185718",
+   "tags": [
+    "Marketing"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Sales Manager (x/f/m)",
+   "org": "Doctolib",
+   "loc": "Hamburg",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/doctolib/sales-manager-hamburg-406970",
    "tags": [
     "Sales"
    ],
    "cat": "other"
   },
   {
-   "title": "Enterprise Sales Leader, DACH",
-   "org": "N8N",
+   "title": "Account Manager (x/f/m)",
+   "org": "Doctolib",
+   "loc": "Hamburg",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/doctolib/account-manager-hamburg-54916",
+   "tags": [
+    "Sales"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Integrated Marketing Manager - DACH",
+   "org": "Plaud",
+   "loc": "Germany",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/plaud/integrated-marketing-manager-dach-germany-293996",
+   "tags": [
+    "Americas & EMEA Business"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Junior Legal Counsel Germany (m/w/d)",
+   "org": "Qonto",
    "loc": "Berlin, Germany",
    "type": "abroad",
    "src": "Arbeitnow",
    "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/n8n/enterprise-sales-leader-dach-berlin-323015",
+   "url": "https://www.arbeitnow.com/jobs/companies/qonto/junior-legal-counsel-germany-berlin-198856",
    "tags": [
-    "Sales"
+    "Legal"
    ],
    "cat": "other"
   },
   {
-   "title": "General Ledger Manager, Accounting",
-   "org": "Fal Ai",
-   "loc": "Remote",
+   "title": "Quality Director",
+   "org": "Rohlik",
+   "loc": "Berlin, Germany",
    "type": "abroad",
    "src": "Arbeitnow",
    "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/fal-ai/remote-general-ledger-manager-accounting-21310",
+   "url": "https://www.arbeitnow.com/jobs/companies/rohlik/quality-director-berlin-199119",
    "tags": [
-    "Finance"
+    "Operations & Supply Chain"
    ],
-   "cat": "bank"
+   "cat": "other"
   },
   {
-   "title": "Research Engineer, Inference Foundation",
-   "org": "Mistral.ai",
-   "loc": "Munich",
+   "title": "Head of Applied Science",
+   "org": "Rohlik",
+   "loc": "München, Germany",
    "type": "abroad",
    "src": "Arbeitnow",
    "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/mistralai/research-engineer-inference-foundation-munich-349707",
+   "url": "https://www.arbeitnow.com/jobs/companies/rohlik/head-of-applied-science-munich-226331",
    "tags": [
-    "Science"
+    "IT"
    ],
-   "cat": "it"
+   "cat": "other"
   },
   {
-   "title": "AI GTM Engineer",
-   "org": "Almetra",
+   "title": "Head of Forward Deployed Engineering",
+   "org": "Lyceum",
    "loc": "Berlin",
    "type": "abroad",
    "src": "Arbeitnow",
    "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/almetra/ai-gtm-engineer-berlin-393665",
+   "url": "https://www.arbeitnow.com/jobs/companies/lyceum/head-of-forward-deployed-engineering-berlin-255628",
    "tags": [
-    "Commercial"
+    "Product & Customer"
    ],
    "cat": "it"
   },
   {
-   "title": "Accountant (Full-time / Part-time)",
-   "org": "Payrails",
+   "title": "Founding Product Designer",
+   "org": "3Ive",
+   "loc": "Remote Germany",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/3ive/remote-founding-product-designer-471103",
+   "tags": [
+    "Tech & Product"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Product Lead - Geförderte Weiterbildung (m/w/d)",
+   "org": "Stackfuel",
    "loc": "Berlin",
    "type": "abroad",
    "src": "Arbeitnow",
    "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/payrails/accountant-full-time-part-time-berlin-159151",
+   "url": "https://www.arbeitnow.com/jobs/companies/stackfuel/product-lead-geforderte-weiterbildung-berlin-205721",
    "tags": [
-    "Finance"
+    "Learning"
    ],
-   "cat": "bank"
+   "cat": "other"
   },
   {
-   "title": "People Partner",
-   "org": "Stealthrocketrystartup",
+   "title": "Data Learning Products Lead (m/w/d)",
+   "org": "Stackfuel",
+   "loc": "Berlin",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/stackfuel/data-learning-products-lead-berlin-153110",
+   "tags": [
+    "Learning"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "AI Learning Products Lead (w/m/d)",
+   "org": "Stackfuel",
+   "loc": "Berlin",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/stackfuel/ai-learning-products-lead-berlin-351931",
+   "tags": [
+    "Learning"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Enterprise Customer Success Manager",
+   "org": "Semperis",
    "loc": "Germany",
    "type": "abroad",
    "src": "Arbeitnow",
    "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/stealthrocketrystartup/people-partner-germany-354149",
+   "url": "https://www.arbeitnow.com/jobs/companies/semperis/enterprise-customer-success-manager-germany-292985",
    "tags": [
-    "Operations"
+    "Customer Success"
    ],
    "cat": "other"
   },
   {
-   "title": "Senior Product Manager – Devices (all genders)",
-   "org": "Tonies",
-   "loc": "Düsseldorf",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/tonies/senior-product-manager-devices-all-genders-dusseldorf-297231",
-   "tags": [
-    "CXO"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Industrial Architect (all genders)",
-   "org": "væridion",
-   "loc": "EDMO Manufacturing & Testing Facility",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/vaeridion/industrial-architect-all-genders-munich-160048",
-   "tags": [
-    "Engineering"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Head of Assembly (all genders)",
-   "org": "væridion",
-   "loc": "EDMO Manufacturing & Testing Facility",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/vaeridion/head-of-assembly-all-genders-munich-250240",
-   "tags": [
-    "Engineering"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "SVP Industrial (all genders)",
-   "org": "væridion",
-   "loc": "EDMO Manufacturing & Testing Facility",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/vaeridion/svp-industrial-all-genders-munich-126457",
-   "tags": [
-    "Engineering"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Working Student Embedded Software (all genders)",
-   "org": "væridion",
+   "title": "Finance Lead (f/m/d)",
+   "org": "Quantumdiamonds",
    "loc": "Munich HQ",
    "type": "abroad",
    "src": "Arbeitnow",
    "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/vaeridion/working-student-embedded-software-all-genders-munich-332664",
+   "url": "https://www.arbeitnow.com/jobs/companies/quantumdiamonds/finance-lead-munich-223712",
    "tags": [
-    "Engineering"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Azure Data Engineer with Databricks & PySpark",
-   "org": "Jobgether",
-   "loc": "Germany",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/jobgether/azure-data-engineer-with-databricks-pyspark-germany-463363",
-   "tags": [
-    "IT"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Architect – Customer Demos & Key Accounts – English, German, Korean",
-   "org": "Jobgether",
-   "loc": "Germany",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/jobgether/architect-customer-demos-key-accounts-english-german-korean-germany-31537",
-   "tags": [
-    "IT"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Account Executive",
-   "org": "Jobgether",
-   "loc": "Germany",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/jobgether/account-executive-germany-359395",
-   "tags": [
-    "Account Executive"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "(Senior) Accountant (w/m/d)",
-   "org": "Jobgether",
-   "loc": "Germany",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/jobgether/senior-accountant-germany-408263",
-   "tags": [
-    "Accounting"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Thrust Vector System Lead",
-   "org": "Hypersonica",
-   "loc": "Munich",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/hypersonica/thrust-vector-system-lead-munich-158689",
-   "tags": [
-    "AIT & Launch"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Senior Strategic Finance Associate",
-   "org": "Hypersonica",
-   "loc": "Munich",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/hypersonica/senior-strategic-finance-associate-munich-432121",
-   "tags": [
-    "Finance Operations"
+    "Business"
    ],
    "cat": "bank"
   },
   {
-   "title": "Senior Key Account Manager (m/w/d)",
-   "org": "Doonails",
-   "loc": "Deutschland",
+   "title": "Account Executive Mid-Market (f/m/d)",
+   "org": "remberg",
+   "loc": "Munich Office",
    "type": "abroad",
    "src": "Arbeitnow",
    "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/doonails/senior-key-account-manager-deutschland-491126",
-   "tags": [
-    "Retail"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Senior Buyer (m/w/d)",
-   "org": "Doonails",
-   "loc": "Deutschland",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/doonails/senior-buyer-deutschland-446011",
-   "tags": [
-    "Operations"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "(Senior) Commercial Customer Success Manager (d/f/m) - Dutch Speaking",
-   "org": "Vivenu",
-   "loc": "Düsseldorf",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/vivenu/senior-commercial-customer-success-manager-dutch-speaking-dusseldorf-202998",
-   "tags": [
-    "Customer Experience"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "(Senior) Account Executive - Software Sales (d/f/m)",
-   "org": "Vivenu",
-   "loc": "Düsseldorf",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/vivenu/senior-account-executive-software-sales-dusseldorf-169092",
-   "tags": [
-    "Sales"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Working Student - Reception / Office & Team Assistant (m/f/d)",
-   "org": "Interpath Advisory",
-   "loc": "Frankfurt am Main, Germany",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/interpath-advisory/working-student-reception-office-team-assistant-frankfurt-am-main-340273",
-   "tags": [
-    "Administrative",
-    "Financial Services",
-    "Corporate"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Senior Solution Engineer (m/w/d)",
-   "org": "Degura",
-   "loc": "Mitte, Germany",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/degura/senior-solution-engineer-mitte-23055",
-   "tags": [
-    "Engineering",
-    "Insurance"
-   ],
-   "cat": "bank"
-  },
-  {
-   "title": "Geschäftsführung (m/w/d) | E-Sport & Gaming",
-   "org": "InkuPlay UG (haftungsbeschränkt)",
-   "loc": "Berlin",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/inkuplay-ug-haftungsbeschrankt/geschaftsfuhrung-e-sport-gaming-berlin-8190",
-   "tags": [
-    "Remote",
-    "Directors",
-    "Chief Executives"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Head of Marketing & Communications (m/w/d)",
-   "org": "InkuPlay UG (haftungsbeschränkt)",
-   "loc": "Berlin",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/inkuplay-ug-haftungsbeschrankt/head-of-marketing-communications-berlin-223831",
-   "tags": [
-    "Remote",
-    "Marketing Manager"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Data Scientist",
-   "org": "Globaldimensionsllc",
-   "loc": "Stuttgart",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/globaldimensionsllc/data-scientist-stuttgart-285730",
-   "tags": [
-    "Program Management"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Infrastructure & Cybersecurity Manager and Project Manager (f/m/d)",
-   "org": "Phenogyag",
-   "loc": "Root, Lucerne, Switzerland or Bremen",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/phenogyag/infrastructure-cybersecurity-manager-and-project-manager-root-lucerne-switzerland-or-bremen-123530",
-   "tags": [
-    "IT"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Senior DevOps Engineer",
-   "org": "Catapult Sports",
-   "loc": "Cologne, North Rhine-Westphalia, Germany",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/catapult-sports/senior-devops-engineer-cologne-83911",
-   "tags": [],
-   "cat": "it"
-  },
-  {
-   "title": "Senior Software Engineer",
-   "org": "Catapult Sports",
-   "loc": "Köln, North Rhine-Westphalia, Germany",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/catapult-sports/senior-software-engineer-koln-462344",
-   "tags": [],
-   "cat": "it"
-  },
-  {
-   "title": "Data Engineer",
-   "org": "Liqid Lig",
-   "loc": "Berlin",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/liqid-lig/data-engineer-berlin-443594",
-   "tags": [
-    "Technology"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Marketing Manager - KI (F/M/*)",
-   "org": "Amber",
-   "loc": "Köln",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/amber/marketing-manager-ki-f-m-koln-363170",
-   "tags": [
-    "Marketing"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Head of Marketing (F/M/*)",
-   "org": "Amber",
-   "loc": "Köln",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/amber/head-of-marketing-f-m-koln-408493",
-   "tags": [
-    "Marketing"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "FP&A Analyst",
-   "org": "Parloa",
-   "loc": "Berlin",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/parloa/fpa-analyst-berlin-265680",
-   "tags": [
-    "Finance"
-   ],
-   "cat": "bank"
-  },
-  {
-   "title": "Solution Engineer (SRE)",
-   "org": "Deepsetai",
-   "loc": "Berlin",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/deepsetai/solution-engineer-sre-berlin-301743",
-   "tags": [
-    "Customer Engineering"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Working Student (m/f/d) Content Creation & Visual Storytelling | German Required",
-   "org": "Yoummday",
-   "loc": "Munich",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/yoummday/working-student-content-creation-visual-storytelling-german-required-munich-228160",
+   "url": "https://www.arbeitnow.com/jobs/companies/remberg/account-executive-mid-market-munich-373095",
    "tags": [
     "Sales"
    ],
    "cat": "other"
   },
   {
-   "title": "Intern (m/f/d) Brand & Communication | German Required",
-   "org": "Yoummday",
-   "loc": "Munich",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/yoummday/intern-brand-communication-german-required-munich-442002",
-   "tags": [
-    "Strategy"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Senior Consultant / Manager Business Strategy (m/f/d) | German Required",
-   "org": "Yoummday",
-   "loc": "Munich",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/yoummday/senior-consultant-manager-business-strategy-german-required-munich-294745",
-   "tags": [
-    "Strategy"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Junior Business Development Manager (M&A) (m/w/d)",
-   "org": "Lux Point Partners",
-   "loc": "Hanover",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/lux-point-partners/junior-business-development-manager-ma-hanover-327187",
-   "tags": [
-    "Mergers & Acquisitions"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Senior Brand & Communications Manager (m/w/d)",
-   "org": "getpress",
+   "title": "Product Compliance Manager (all genders)",
+   "org": "Sunday Natural",
    "loc": "Berlin",
    "type": "abroad",
    "src": "Arbeitnow",
    "date": "2026-11-26",
-   "url": "https://www.arbeitnow.com/jobs/companies/getpress/senior-brand-communications-manager-berlin-145800",
+   "url": "https://www.arbeitnow.com/jobs/companies/sunday-natural/product-compliance-manager-all-genders-berlin-360861",
+   "tags": [
+    "Product Development"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Site Reliability Engineer - AI Assisted Platform & Kubernetes (m/f/d)",
+   "org": "gridscale GmbH",
+   "loc": "Köln, Nordrhein-Westfalen, Deutschland",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/gridscale-gmbh/site-reliability-engineer-ai-assisted-platform-kubernetes-koln-373595",
+   "tags": [
+    "Development"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Senior Software Engineer- IAM & Billing (m/f/d)",
+   "org": "gridscale GmbH",
+   "loc": "Köln, Nordrhein-Westfalen, Deutschland",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/gridscale-gmbh/senior-software-engineer-iam-billing-koln-435518",
+   "tags": [
+    "Development"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Werkstudent - Mediengestalter/Grafikdesigner (m/w/d)",
+   "org": "Bäcker Görtz GmbH",
+   "loc": "Ludwigshafen, Rheinland-Pfalz, Deutschland",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/backer-gortz-gmbh/werkstudent-mediengestalter-grafikdesigner-ludwigshafen-338363",
+   "tags": [
+    "Verwaltung"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Praktikum - Mediengestalter/Grafikdesigner (m/w/d)",
+   "org": "Bäcker Görtz GmbH",
+   "loc": "Ludwigshafen, Rheinland-Pfalz, Deutschland",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/backer-gortz-gmbh/praktikum-mediengestalter-grafikdesigner-ludwigshafen-125118",
+   "tags": [
+    "Verwaltung"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Working Student Investment Management – Capital Markets (m/w/d)",
+   "org": "3e Capital Group",
+   "loc": "Düsseldorf",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/3e-capital-group/working-student-investment-management-capital-markets-dusseldorf-355493",
+   "tags": [
+    "Asset",
+    "Fund Management"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Aviation Data Engineer (Finance & Cost)",
+   "org": "Skailark",
+   "loc": "Munich",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/skailark/aviation-data-engineer-finance-cost-munich-346663",
+   "tags": [
+    "Data Processing",
+    "Data Engineer"
+   ],
+   "cat": "bank"
+  },
+  {
+   "title": "Verkaufsleitung Bäckerei",
+   "org": "Holzofenbaeckerei-Ecker",
+   "loc": "Schwäbisch Gmünd",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/holzofenbaeckerei-ecker/verkaufsleitung-backerei-schwabisch-gmund-200101",
+   "tags": [
+    "Management",
+    "Team Leader"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Praktikant:in / Werkstudent:in Corporate Development",
+   "org": "re-green",
+   "loc": "Frankfurt am Main",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/re-green/praktikantin-werkstudentin-corporate-development-frankfurt-am-main-269097",
+   "tags": [
+    "Business Development"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Business Analyst (m/w/d)",
+   "org": "Odoo DE GmbH",
+   "loc": "Munich",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/odoo-de-gmbh/business-analyst-munich-75076",
+   "tags": [
+    "SAP/ERP Consulting",
+    "Development"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Leiter IT (m/w/d)",
+   "org": "FlexIT Consulting GmbH",
+   "loc": "Kitzingen",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/flexit-consulting-gmbh/leiter-it-kitzingen-471500",
+   "tags": [
+    "System and Network Administration"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Werkstudent:in PR, Marketingkommunikation & Social Media (m/w/d)",
+   "org": "nanacom Kommunikationskollektiv GmbH",
+   "loc": "Munich",
+   "type": "abroad",
+   "src": "Arbeitnow",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/nanacom-kommunikationskollektiv-gmbh/werkstudentin-pr-marketingkommunikation-social-media-munich-10362",
    "tags": [
     "Public Relations",
     "Corporate Communication"
@@ -2383,166 +2589,631 @@
    "cat": "other"
   },
   {
-   "title": "Senior Consultant AI Enablement (m/w/d)",
-   "org": "Junto Education GmbH",
-   "loc": "Berlin",
+   "title": "Projektingenieur Vertrieb / Produktmanager (m/w/d)",
+   "org": "Lothar Walther",
+   "loc": "Königsbronn",
    "type": "abroad",
    "src": "Arbeitnow",
-   "date": "2026-11-25",
-   "url": "https://www.arbeitnow.com/jobs/companies/junto-education-gmbh/senior-consultant-ai-enablement-berlin-242966",
+   "date": "2026-11-26",
+   "url": "https://www.arbeitnow.com/jobs/companies/lothar-walther/projektingenieur-vertrieb-produktmanager-konigsbronn-304823",
    "tags": [
-    "Remote",
-    "Business Consulting"
+    "Product Management"
    ],
    "cat": "other"
   },
   {
-   "title": "Personalreferent (m/w/d)",
-   "org": "EuBiA",
-   "loc": "Düsseldorf",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-25",
-   "url": "https://www.arbeitnow.com/jobs/companies/eubia/personalreferent-dusseldorf-197348",
+   "title": "Incident Escalations Manager",
+   "org": "Ping Identity",
+   "loc": "UK",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/164354-incident-escalations-manager",
    "tags": [
-    "Personnel Specialist"
+    "Cybersecurity",
+    "Full-Time"
    ],
    "cat": "other"
   },
   {
-   "title": "(Senior) Account Executive (m/w/d) - im Bereich Technology",
-   "org": "Bursonglobalcareers",
-   "loc": "Frankfurt am Main, Hesse",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-25",
-   "url": "https://www.arbeitnow.com/jobs/companies/bursonglobalcareers/senior-account-executive-im-bereich-technology-frankfurt-am-main-hesse-270950",
+   "title": "Clinical Trial Manager",
+   "org": "Precision Medicine Group",
+   "loc": "Hungary, Poland, Romania, Serbia, Slovakia, Spain, UK",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/164353-clinical-trial-manager-5",
    "tags": [
-    "Technology & Entertainment - Burson"
+    "Healthcare & Medical",
+    "Full-Time"
    ],
    "cat": "other"
   },
   {
-   "title": "(Senior) Account Executive (m/w/d) - Health",
-   "org": "Bursonglobalcareers",
-   "loc": "Frankfurt am Main, Hesse",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-25",
-   "url": "https://www.arbeitnow.com/jobs/companies/bursonglobalcareers/senior-account-executive-health-frankfurt-am-main-hesse-93779",
+   "title": "Community Field Strategist- UK",
+   "org": "Huntress",
+   "loc": "UK",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/164352-community-field-strategist-uk-2",
    "tags": [
-    "Health & Wellness - Burson"
+    "Marketing & Sales",
+    "Full-Time"
    ],
    "cat": "other"
   },
   {
-   "title": "(Senior) Account Executive (m/w/d) - Corporate Communication",
-   "org": "Bursonglobalcareers",
-   "loc": "Frankfurt am Main, Hesse",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-25",
-   "url": "https://www.arbeitnow.com/jobs/companies/bursonglobalcareers/senior-account-executive-corporate-communication-frankfurt-am-main-hesse-242270",
+   "title": "Data Sales Director, South Korea",
+   "org": "ICEYE",
+   "loc": "South Korea",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/164351-data-sales-director-south-korea",
    "tags": [
-    "Corporate Affairs - Burson"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Forward Deployed Engineer (FDE) - Anthropic (m/f/d)",
-   "org": "Artefactlinkedin",
-   "loc": "Berlin, Berlin; Hamburg, Hamburg; München, Bavaria",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-25",
-   "url": "https://www.arbeitnow.com/jobs/companies/artefactlinkedin/forward-deployed-engineer-fde-anthropic-berlin-berlin-hamburg-hamburg-munchen-bavaria-372643",
-   "tags": [
-    "Data Engineering"
+    "Sales",
+    "Full-Time"
    ],
    "cat": "it"
   },
   {
-   "title": "Senior Security Engineer (Application & Platform Security)",
-   "org": "Fiskaly",
-   "loc": "Berlin, Berlin",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-25",
-   "url": "https://www.arbeitnow.com/jobs/companies/fiskaly/senior-security-engineer-application-platform-security-berlin-berlin-209883",
+   "title": "Enterprise Account Executive | New Logo | Italy",
+   "org": "Jamf",
+   "loc": "Italy",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/164350-enterprise-account-executive-new-logo-italy",
    "tags": [
-    "Engineering"
+    "Sales",
+    "Full-Time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Assistant VIP Relationship Manager",
+   "org": "OKX",
+   "loc": "Poland",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/164349-assistant-vip-relationship-manager",
+   "tags": [
+    "Customer Support & Success",
+    "Full-Time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Director, Sales Engineering (Southern Europe)",
+   "org": "Ping Identity",
+   "loc": "France",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/164348-director-sales-engineering-southern-europe",
+   "tags": [
+    "Sales",
+    "Full-Time"
    ],
    "cat": "it"
   },
   {
-   "title": "Forward Deployed Engineer (FDE) - Anthropic (m/f/d)",
-   "org": "Artefact",
-   "loc": "Berlin, Berlin; Hamburg, Hamburg; München, Bavaria",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-25",
-   "url": "https://www.arbeitnow.com/jobs/companies/artefact/forward-deployed-engineer-fde-anthropic-berlin-berlin-hamburg-hamburg-munchen-bavaria-482761",
+   "title": "Clinical Research Associate",
+   "org": "Precision Medicine Group",
+   "loc": "Australia",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/164347-clinical-research-associate-2",
    "tags": [
-    "Data Engineering"
+    "Healthcare & Medical",
+    "Full-Time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Cyber Incident Commander | NDA",
+   "org": "GT",
+   "loc": "Poland",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/164346-cyber-incident-commander-nda",
+   "tags": [
+    "Cybersecurity",
+    "Full-Time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Community Field Strategist - Ireland",
+   "org": "Huntress",
+   "loc": "Ireland",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/164345-community-field-strategist-ireland-2",
+   "tags": [
+    "Marketing & Sales",
+    "Full-Time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Personal Lines Account Manager",
+   "org": "IMA Financial Group",
+   "loc": "USA",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/164344-personal-lines-account-manager",
+   "tags": [
+    "Customer Support & Success",
+    "Full-Time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Director, Solutions Architect (Health Plans)",
+   "org": "Lantern",
+   "loc": "USA",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/164343-director-solutions-architect-health-plans",
+   "tags": [
+    "Business Development",
+    "Full-Time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Solutions Integration Architect - Workday",
+   "org": "Zip",
+   "loc": "USA",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/164342-solutions-integration-architect-workday",
+   "tags": [
+    "Software Engineering",
+    "Full-Time"
    ],
    "cat": "it"
   },
   {
-   "title": "Geschäftsleiter Markt - SumUp Bank (Managing Director, Front Office)",
-   "org": "SumUp",
-   "loc": "Berlin, Germany",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-25",
-   "url": "https://www.arbeitnow.com/jobs/companies/sumup/geschaftsleiter-markt-sumup-bank-managing-director-front-office-berlin-458722",
-   "tags": [],
+   "title": "Enterprise Account Director, New Business (API/CPaaS)- Banking",
+   "org": "Vonage",
+   "loc": "USA",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/164341-enterprise-account-director-new-business-api-cpaas-banking",
+   "tags": [
+    "Sales",
+    "Full-Time"
+   ],
    "cat": "bank"
   },
   {
-   "title": "Regional Sales Director, Core Enterprise – DACH",
-   "org": "Samsara",
-   "loc": "Dusseldorf, North Rhine-Westphalia, Germany",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-25",
-   "url": "https://www.arbeitnow.com/jobs/companies/samsara/regional-sales-director-core-enterprise-dach-dusseldorf-179114",
-   "tags": [],
-   "cat": "other"
-  },
-  {
-   "title": "Senior Backend Engineer(Go), Storage Platform",
-   "org": "Wolt - English",
-   "loc": "Berlin, Berlin, Germany",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-25",
-   "url": "https://www.arbeitnow.com/jobs/companies/wolt-english/senior-backend-engineergo-storage-platform-berlin-167221",
-   "tags": [],
-   "cat": "it"
-  },
-  {
-   "title": "Growth",
-   "org": "Augustus",
-   "loc": "Berlin",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-25",
-   "url": "https://www.arbeitnow.com/jobs/companies/augustus/growth-berlin-256109",
+   "title": "1201 - Program Manager",
+   "org": "GoFasti",
+   "loc": "LATAM",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/164340-1201-program-manager",
    "tags": [
-    "Growth"
+    "Project & Program Management",
+    "Contract"
    ],
    "cat": "other"
   },
   {
-   "title": "Fachberater:in & Trainer:in für digitale Buchhaltung & Kanzleiprozesse (m/w/d)",
-   "org": "Pennylane",
-   "loc": "Germany (remote)",
-   "type": "abroad",
-   "src": "Arbeitnow",
-   "date": "2026-11-25",
-   "url": "https://www.arbeitnow.com/jobs/companies/pennylane/remote-fachberaterin-trainerin-fur-digitale-buchhaltung-kanzleiprozesse-43343",
+   "title": "National Account Director, Enterprise Access",
+   "org": "Immunome, Inc.",
+   "loc": "USA",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/164339-national-account-director-enterprise-access",
    "tags": [
-    "Partner Success - Cabinets comptable"
+    "Sales",
+    "Full-Time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "National Real Estate Practice Leader",
+   "org": "IMA Financial Group",
+   "loc": "USA",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/164338-national-real-estate-practice-leader",
+   "tags": [
+    "Business Development",
+    "Full-Time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Director, Application & AI Security",
+   "org": "Lantern",
+   "loc": "USA",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/164337-director-application-ai-security",
+   "tags": [
+    "Cybersecurity",
+    "Full-Time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Enterprise Solution Engineer - South East",
+   "org": "Sigma Computing",
+   "loc": "USA",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/164336-enterprise-solution-engineer-south-east",
+   "tags": [
+    "Sales",
+    "Full-Time"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Support Operations Lead",
+   "org": "Zip",
+   "loc": "USA",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/164334-support-operations-lead-2",
+   "tags": [
+    "Customer Support & Success",
+    "Full-Time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Technical Product Manager",
+   "org": "Neo Financial",
+   "loc": "Canada",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/164332-technical-product-manager-6",
+   "tags": [
+    "Product & Operations",
+    "Full-Time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Product Manager - Growth (technical or ex-product engineer)",
+   "org": "Kovo",
+   "loc": "USA",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/164331-product-manager-growth-technical-or-ex-product-engineer",
+   "tags": [
+    "Product & Operations",
+    "Full-Time"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Social Media Specialist",
+   "org": "Pacific Legal Foundation",
+   "loc": "USA",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/164329-social-media-specialist",
+   "tags": [
+    "Marketing & Sales",
+    "Full-Time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Senior Forward Deployed Engineer — Data Engineering & AI",
+   "org": "Oowlish Technology",
+   "loc": "Brazil",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/164328-senior-forward-deployed-engineer-data-engineering-ai",
+   "tags": [
+    "Data Science & Analytics",
+    "Full-Time"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Account Executive - Pacific Northwest",
+   "org": "StackAdapt",
+   "loc": "USA",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/164327-account-executive-pacific-northwest",
+   "tags": [
+    "Sales",
+    "Full-Time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Staff Software Developer",
+   "org": "Neo Financial",
+   "loc": "Canada",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/164325-staff-software-developer-3",
+   "tags": [
+    "Software Engineering",
+    "Full-Time"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Backend Engineer - senior hire",
+   "org": "Kovo",
+   "loc": "USA",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/164324-backend-engineer-senior-hire",
+   "tags": [
+    "Software Engineering",
+    "Full-Time"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Senior Test Software Engineer",
+   "org": "Focus Consulting LLC",
+   "loc": "USA",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/164323-senior-test-software-engineer",
+   "tags": [
+    "QA & Testing",
+    "Full-Time"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Private Sector Partnerships Manager",
+   "org": "Pacific Legal Foundation",
+   "loc": "USA",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/164321-private-sector-partnerships-manager",
+   "tags": [
+    "Business Development",
+    "Full-Time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Full Stack Web Engineer (Python & React)",
+   "org": "Oowlish Technology",
+   "loc": "Argentina, Brazil, Mexico",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/164320-full-stack-web-engineer-python-react-2",
+   "tags": [
+    "Software Engineering",
+    "Full-Time"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Senior Data Engineer, Datacraft team",
+   "org": "Bloomreach",
+   "loc": "Czechia",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/157270-senior-data-engineer-datacraft-team",
+   "tags": [
+    "Software Engineering",
+    "Full-Time"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Strategic Sales Director, EMEA",
+   "org": "Cresta",
+   "loc": "UK",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/157268-strategic-sales-director-emea",
+   "tags": [
+    "Sales",
+    "Full-Time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Senior Data Analyst (Customer Success Operations)",
+   "org": "Docplanner",
+   "loc": "Spain",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/157257-senior-data-analyst-customer-success-operations",
+   "tags": [
+    "Data Science & Analytics",
+    "Full-Time"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Enterprise Sales Director - Majors, Retail",
+   "org": "Sierra",
+   "loc": "USA",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/157236-enterprise-sales-director-majors-retail",
+   "tags": [
+    "Sales",
+    "Full-Time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Head of Communications",
+   "org": "Tailscale",
+   "loc": "Canada",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/157250-head-of-communications-2",
+   "tags": [
+    "Marketing & Sales",
+    "Full-Time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Manager, Software Engineering - Developer Experience",
+   "org": "ClickUp",
+   "loc": "USA",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/157235-manager-software-engineering-developer-experience",
+   "tags": [
+    "Software Engineering",
+    "Full-Time"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Account Executive - Northern California",
+   "org": "Dutchie",
+   "loc": "USA",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/157234-account-executive-northern-california-2",
+   "tags": [
+    "Sales",
+    "Full-Time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Account Executive, Illinois",
+   "org": "Dutchie",
+   "loc": "USA",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/157233-account-executive-illinois",
+   "tags": [
+    "Sales",
+    "Full-Time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Director, Paid Marketing - Subscription (US Remote)",
+   "org": "DuckDuckGo",
+   "loc": "USA",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/157232-director-paid-marketing-subscription-us-remote",
+   "tags": [
+    "Marketing & Sales",
+    "Full-Time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Sr. Customer Success Manager - EMEA",
+   "org": "Chili Piper",
+   "loc": "EMEA",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/157224-sr-customer-success-manager-emea",
+   "tags": [
+    "Customer Support & Success",
+    "Full-Time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Major Account Executive, UK Public Sector",
+   "org": "GitLab",
+   "loc": "UK",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/157216-major-account-executive-uk-public-sector",
+   "tags": [
+    "Sales",
+    "Full-Time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Major Account Executive Netherlands",
+   "org": "GitLab",
+   "loc": "Netherlands",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/157215-major-account-executive-netherlands",
+   "tags": [
+    "Sales",
+    "Full-Time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Major Account Executive, France",
+   "org": "GitLab",
+   "loc": "France",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/157214-major-account-executive-france",
+   "tags": [
+    "Sales",
+    "Full-Time"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Product Expert",
+   "org": "RevenueCat",
+   "loc": "EMEA, LATAM, Canada, USA",
+   "type": "remote",
+   "src": "Jobicy",
+   "date": "2026-11-26",
+   "url": "https://jobicy.com/jobs/157210-product-expert",
+   "tags": [
+    "Sales",
+    "Full-Time"
    ],
    "cat": "other"
   },
@@ -2631,879 +3302,262 @@
    "cat": "other"
   },
   {
-   "title": "Customer Success Director",
-   "org": "DISQO",
-   "loc": "USA",
+   "title": "Regional Sales Manager (Automotive Software Sales)",
+   "org": "Keyloop",
+   "loc": "Canada Only",
    "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157180-customer-success-director-2",
+   "src": "RemoteOK",
+   "date": "2026-11-25",
+   "url": "https://remoteOK.com/remote-jobs/remote-regional-sales-manager-automotive-software-sales-keyloop-1138142",
    "tags": [
-    "Customer Support & Success",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Major Account Executive",
-   "org": "GitLab",
-   "loc": "Germany",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157212-major-account-executive",
-   "tags": [
-    "Sales",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "VP, Product",
-   "org": "Serve Robotics",
-   "loc": "USA",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157200-vp-product",
-   "tags": [
-    "Product & Operations",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Customer Success Architect",
-   "org": "GitLab",
-   "loc": "USA",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157199-customer-success-architect-3",
-   "tags": [
-    "Customer Support & Success",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Cloud Platform Engineer",
-   "org": "GitLab",
-   "loc": "Canada, USA",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157196-cloud-platform-engineer-2",
-   "tags": [
-    "DevOps & Infrastructure",
-    "Full-Time"
+    "sales"
    ],
    "cat": "it"
   },
   {
-   "title": "Candidate Experience Specialist, Contractor",
-   "org": "GitLab",
-   "loc": "USA",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157194-candidate-experience-specialist-contractor",
-   "tags": [
-    "HR & Recruiting",
-    "Contract"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Enterprise Account Executive, (San Francisco Bay Area remote)",
-   "org": "Astronomer",
-   "loc": "USA",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157190-enterprise-account-executive-san-francisco-bay-area-remote",
-   "tags": [
-    "Sales",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Senior Manager, Accounting",
-   "org": "Wrapbook",
-   "loc": "Canada, USA",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157189-senior-manager-accounting",
-   "tags": [
-    "Finance & Accounting",
-    "Full-Time"
-   ],
-   "cat": "bank"
-  },
-  {
-   "title": "Senior Product Manager II - Fraud & Identity",
-   "org": "Wrapbook",
-   "loc": "Canada, USA",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157188-senior-product-manager-ii-fraud-identity",
-   "tags": [
-    "Product & Operations",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Web Integrations Support Engineer",
-   "org": "Smartling",
-   "loc": "USA",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157187-web-integrations-support-engineer",
-   "tags": [
-    "Technical Support",
-    "Full-Time"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Senior SMB Digital Success Lead, Commercial",
-   "org": "Wrapbook",
-   "loc": "Canada, USA",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157185-senior-smb-digital-success-lead-commercial",
-   "tags": [
-    "Customer Support & Success",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Account Director, Private Sector (CEE & Central Asia)",
-   "org": "TRM Labs",
-   "loc": "Poland",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157176-account-director-private-sector-cee-central-asia",
-   "tags": [
-    "Sales",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "VP of Communications",
-   "org": "TRM Labs",
-   "loc": "UK, USA",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157172-vp-of-communications",
-   "tags": [
-    "Marketing & Sales",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Senior Field Marketing Manager - North",
-   "org": "Twilio",
-   "loc": "UK",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157169-senior-field-marketing-manager-north",
-   "tags": [
-    "Marketing & Sales",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Senior Software Engineer II, Applied AI",
-   "org": "Wrapbook",
-   "loc": "Canada, USA",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157182-senior-software-engineer-ii-applied-ai",
-   "tags": [
-    "Software Engineering",
-    "Full-Time"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Strategic Account Executive (DACH)",
-   "org": "Datadog",
-   "loc": "Austria, Germany, Poland",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157177-strategic-account-executive-dach",
-   "tags": [
-    "Sales",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Senior Field Marketing Manager - DACH",
-   "org": "Twilio",
-   "loc": "UK",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157166-senior-field-marketing-manager-dach",
-   "tags": [
-    "Marketing & Sales",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Manager, Customer Support",
-   "org": "Wrapbook",
-   "loc": "Canada, USA",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157186-manager-customer-support-3",
-   "tags": [
-    "Customer Support & Success",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Strategic Account Executive - Israel",
-   "org": "Datadog",
-   "loc": "Israel",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157179-strategic-account-executive-israel",
-   "tags": [
-    "Sales",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Account Director, Southern Europe - Public Sector",
-   "org": "TRM Labs",
-   "loc": "Italy",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157178-account-director-southern-europe-public-sector",
-   "tags": [
-    "Sales",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Senior Customer Success Manager - EMEA",
-   "org": "LaunchDarkly",
-   "loc": "EMEA",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157160-senior-customer-success-manager-emea",
-   "tags": [
-    "Customer Support & Success",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Senior Solutions Architect (Singapore)",
-   "org": "GitLab",
-   "loc": "Singapore",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157159-senior-solutions-architect-singapore",
-   "tags": [
-    "Sales",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Senior Clinical Project Manager",
-   "org": "Precision Medicine Group",
-   "loc": "China",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157158-senior-clinical-project-manager",
-   "tags": [
-    "Project & Program Management",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Senior Solutions Architect - Japan",
-   "org": "GitLab",
-   "loc": "Japan",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157157-senior-solutions-architect-japan",
-   "tags": [
-    "Sales",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Senior Solutions Architect",
-   "org": "GitLab",
-   "loc": "South Korea",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157154-senior-solutions-architect-3",
-   "tags": [
-    "Sales",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "CX Technology Lead",
-   "org": "Who Gives A Crap",
-   "loc": "Philippines",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157153-cx-technology-lead",
-   "tags": [
-    "Product & Operations",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Senior Professional Services Engineer, Japan",
-   "org": "GitLab",
-   "loc": "Japan",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157152-senior-professional-services-engineer-japan",
-   "tags": [
-    "DevOps & Infrastructure",
-    "Full-Time"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "CX Data Analytics and Insights Lead",
-   "org": "Who Gives A Crap",
-   "loc": "Philippines",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157151-cx-data-analytics-and-insights-lead",
-   "tags": [
-    "Data Science & Analytics",
-    "Full-Time"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Binance Acceleration Program - Product Data Analyst",
-   "org": "Binance",
-   "loc": "Singapore",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157147-binance-acceleration-program-product-data-analyst-2",
-   "tags": [
-    "Data Science & Analytics",
-    "Internship"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Backend Engineer, Java - Web 3 Wallet",
-   "org": "Binance",
-   "loc": "Hong Kong, Singapore",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157144-backend-engineer-java-web-3-wallet",
-   "tags": [
-    "Software Engineering",
-    "Full-Time"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Senior Business Value Engineer | Germany | Remote",
-   "org": "Grafana Labs",
-   "loc": "Germany",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157139-senior-business-value-engineer-germany-remote",
-   "tags": [
-    "Business Development",
-    "Full-Time"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Principal Technical Marketing Engineer | UK | Remote",
-   "org": "Grafana Labs",
-   "loc": "UK",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157135-principal-technical-marketing-engineer-uk-remote",
-   "tags": [
-    "Marketing & Sales",
-    "Full-Time"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Principal Technical Marketing Engineer | Sweden | Remote",
-   "org": "Grafana Labs",
-   "loc": "Sweden",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157134-principal-technical-marketing-engineer-sweden-remote",
-   "tags": [
-    "Marketing & Sales",
-    "Full-Time"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Principal Technical Marketing Engineer | Spain | Remote",
-   "org": "Grafana Labs",
-   "loc": "Spain",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157133-principal-technical-marketing-engineer-spain-remote",
-   "tags": [
-    "Marketing & Sales",
-    "Full-Time"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Principal Technical Marketing Engineer | Ireland | Remote",
-   "org": "Grafana Labs",
-   "loc": "Ireland",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157132-principal-technical-marketing-engineer-ireland-remote",
-   "tags": [
-    "Marketing & Sales",
-    "Full-Time"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Principal Technical Marketing Engineer | Germany | Remote",
-   "org": "Grafana Labs",
-   "loc": "Germany",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157131-principal-technical-marketing-engineer-germany-remote",
-   "tags": [
-    "Marketing & Sales",
-    "Full-Time"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Team Lead, Customer Support",
-   "org": "Keyfactor, Inc.",
-   "loc": "UK",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157128-team-lead-customer-support-2",
-   "tags": [
-    "Technical Support",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Customer Success Manager",
-   "org": "Bloomreach",
-   "loc": "UK",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157126-customer-success-manager-54",
-   "tags": [
-    "Customer Support & Success",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Regional Sales Director, DACH",
-   "org": "Keyfactor, Inc.",
-   "loc": "Germany",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157123-regional-sales-director-dach",
-   "tags": [
-    "Sales",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Sr. Associate Business Development Director I",
-   "org": "ICON plc",
-   "loc": "USA",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157111-sr-associate-business-development-director-i",
-   "tags": [
-    "Business Development",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Majors Account Executive - Key Customers | Bay Area | Remote",
-   "org": "Grafana Labs",
-   "loc": "USA",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157104-majors-account-executive-key-customers-bay-area-remote",
-   "tags": [
-    "Sales",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Senior Software Engineer - Infrastructure Security",
-   "org": "Quora",
-   "loc": "Canada, USA",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157102-senior-software-engineer-infrastructure-security-2",
-   "tags": [
-    "Cybersecurity",
-    "Full-Time"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Director of Product Design",
-   "org": "Help Scout",
-   "loc": "USA",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157100-director-of-product-design-3",
-   "tags": [
-    "Web, UI & UX Design",
-    "Full-Time"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Strategy Director (Temp)",
-   "org": "Instrument",
-   "loc": "USA",
-   "type": "remote",
-   "src": "Jobicy",
-   "date": "2026-11-26",
-   "url": "https://jobicy.com/jobs/157080-strategy-director-temp",
-   "tags": [
-    "Product & Operations",
-    "Contract"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Sr. Customer Success Manager I",
-   "org": "Lyra Health",
+   "title": "Enterprise Sales Executive",
+   "org": "Loadsmart",
    "loc": "US Only",
    "type": "remote",
    "src": "RemoteOK",
    "date": "2026-11-25",
-   "url": "https://remoteOK.com/remote-jobs/remote-sr-customer-success-manager-i-lyra-health-1138106",
-   "tags": [
-    "customer support"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Knowledge Engineer",
-   "org": "Jobgether",
-   "loc": "US Only",
-   "type": "remote",
-   "src": "RemoteOK",
-   "date": "2026-11-25",
-   "url": "https://remoteOK.com/remote-jobs/remote-knowledge-engineer-jobgether-1138105",
-   "tags": [
-    "customer support"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Intermediate Security Engineer, Security Incident Response Team (SIRT)",
-   "org": "GitLab",
-   "loc": "US Only",
-   "type": "remote",
-   "src": "RemoteOK",
-   "date": "2026-11-25",
-   "url": "https://remoteOK.com/remote-jobs/remote-intermediate-security-engineer-security-incident-response-team-sirt-gitlab-1138104",
-   "tags": [
-    "devops"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Senior Executive Assistant, Office of the CRO (EST / CST)",
-   "org": "GitLab",
-   "loc": "US Only",
-   "type": "remote",
-   "src": "RemoteOK",
-   "date": "2026-11-25",
-   "url": "https://remoteOK.com/remote-jobs/remote-senior-executive-assistant-office-of-the-cro-est-cst-gitlab-1138103",
-   "tags": [
-    "other"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Junior Talent Operations Specialist",
-   "org": "GitLab",
-   "loc": "US Only",
-   "type": "remote",
-   "src": "RemoteOK",
-   "date": "2026-11-25",
-   "url": "https://remoteOK.com/remote-jobs/remote-junior-talent-operations-specialist-gitlab-1138102",
-   "tags": [
-    "other"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "WordPress Theme & Plugin Developer",
-   "org": "Steward Web Development",
-   "loc": "Americas, LATAM, Canada, USA timezones",
-   "type": "remote",
-   "src": "Remotive",
-   "date": "2026-11-24",
-   "url": "https://remotive.com/remote-jobs/software-development/wordpress-theme-plugin-developer-2091179",
-   "tags": [
-    "Software Development",
-    "contract"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Senior Corporate Accountant - Tax",
-   "org": "Salesloft",
-   "loc": "US Only",
-   "type": "remote",
-   "src": "RemoteOK",
-   "date": "2026-11-24",
-   "url": "https://remoteOK.com/remote-jobs/remote-senior-corporate-accountant-tax-salesloft-1138099",
-   "tags": [
-    "finance"
-   ],
-   "cat": "bank"
-  },
-  {
-   "title": "Regional Vice President, Biddable",
-   "org": "Doximity",
-   "loc": "US Only",
-   "type": "remote",
-   "src": "RemoteOK",
-   "date": "2026-11-24",
-   "url": "https://remoteOK.com/remote-jobs/remote-regional-vice-president-biddable-doximity-1138097",
-   "tags": [
-    "product"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Security Engineer, Offensive Security",
-   "org": "Dropbox",
-   "loc": "North America",
-   "type": "remote",
-   "src": "RemoteOK",
-   "date": "2026-11-24",
-   "url": "https://remoteOK.com/remote-jobs/remote-security-engineer-offensive-security-dropbox-1138096",
-   "tags": [
-    "devops"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Principal Software Engineer",
-   "org": "Ping Identity",
-   "loc": "US Only",
-   "type": "remote",
-   "src": "RemoteOK",
-   "date": "2026-11-24",
-   "url": "https://remoteOK.com/remote-jobs/remote-principal-software-engineer-ping-identity-1138095",
-   "tags": [
-    "devops"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Senior Software Engineer, AI & Science Platform",
-   "org": "Reddit",
-   "loc": "US Only",
-   "type": "remote",
-   "src": "RemoteOK",
-   "date": "2026-11-24",
-   "url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-ai-science-platform-reddit-1138093",
-   "tags": [
-    "programming"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Staff Software Engineer, Control Plane",
-   "org": "Cribl",
-   "loc": "US Only",
-   "type": "remote",
-   "src": "RemoteOK",
-   "date": "2026-11-24",
-   "url": "https://remoteOK.com/remote-jobs/remote-staff-software-engineer-control-plane-cribl-1138092",
-   "tags": [
-    "programming"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Senior Web Engineer, Profile & Community",
-   "org": "Airbnb",
-   "loc": "US Only",
-   "type": "remote",
-   "src": "RemoteOK",
-   "date": "2026-11-24",
-   "url": "https://remoteOK.com/remote-jobs/remote-senior-web-engineer-profile-community-airbnb-1138091",
-   "tags": [
-    "programming"
-   ],
-   "cat": "it"
-  },
-  {
-   "title": "Associate, Payment Integrity",
-   "org": "Oscar Health",
-   "loc": "Worldwide",
-   "type": "remote",
-   "src": "RemoteOK",
-   "date": "2026-11-24",
-   "url": "https://remoteOK.com/remote-jobs/remote-associate-payment-integrity-oscar-health-1138090",
-   "tags": [
-    "programming"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "District Manager, Enterprise - Healthcare (Southeast)",
-   "org": "Everpure",
-   "loc": "US Only",
-   "type": "remote",
-   "src": "RemoteOK",
-   "date": "2026-11-24",
-   "url": "https://remoteOK.com/remote-jobs/remote-district-manager-enterprise-healthcare-southeast-everpure-1138089",
+   "url": "https://remoteOK.com/remote-jobs/remote-enterprise-sales-executive-loadsmart-1138141",
    "tags": [
     "sales"
    ],
    "cat": "other"
   },
   {
-   "title": "Senior Account Executive - SaaS Industrials",
-   "org": "Salsify",
+   "title": "English to Belarusian Review Lead for UI, Marketing & Product Content",
+   "org": "Welo Data",
+   "loc": "UK Only",
+   "type": "remote",
+   "src": "RemoteOK",
+   "date": "2026-11-25",
+   "url": "https://remoteOK.com/remote-jobs/remote-english-to-belarusian-review-lead-for-ui-marketing-product-content-welo-data-1138140",
+   "tags": [
+    "marketing"
+   ],
+   "cat": "it"
+  },
+  {
+   "title": "Enterprise Account Executive - Southeast",
+   "org": "agiloft",
    "loc": "US Only",
    "type": "remote",
    "src": "RemoteOK",
-   "date": "2026-11-24",
-   "url": "https://remoteOK.com/remote-jobs/remote-senior-account-executive-saas-industrials-salsify-1138088",
+   "date": "2026-11-25",
+   "url": "https://remoteOK.com/remote-jobs/remote-enterprise-account-executive-southeast-agiloft-1138139",
    "tags": [
     "sales"
    ],
    "cat": "other"
   },
   {
-   "title": "Partner Sales Manager (Hindi Speaking) - Singapore",
-   "org": "Dropbox",
-   "loc": "Asia",
-   "type": "remote",
-   "src": "RemoteOK",
-   "date": "2026-11-24",
-   "url": "https://remoteOK.com/remote-jobs/remote-partner-sales-manager-hindi-speaking-singapore-dropbox-1138087",
-   "tags": [
-    "sales"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Sr. Account Executive, AI & HPC",
-   "org": "Everpure",
+   "title": "Sr. Manager, Revenue Enablement",
+   "org": "Secure Code Warrior",
    "loc": "US Only",
    "type": "remote",
    "src": "RemoteOK",
-   "date": "2026-11-24",
-   "url": "https://remoteOK.com/remote-jobs/remote-sr-account-executive-ai-hpc-everpure-1138086",
-   "tags": [
-    "sales"
-   ],
-   "cat": "other"
-  },
-  {
-   "title": "Director, Product Marketing (Contractor)",
-   "org": "Glossier",
-   "loc": "US Only",
-   "type": "remote",
-   "src": "RemoteOK",
-   "date": "2026-11-24",
-   "url": "https://remoteOK.com/remote-jobs/remote-director-product-marketing-contractor-glossier-1138085",
+   "date": "2026-11-25",
+   "url": "https://remoteOK.com/remote-jobs/remote-sr-manager-revenue-enablement-secure-code-warrior-1138138",
    "tags": [
     "marketing"
    ],
    "cat": "other"
   },
   {
-   "title": "Portfolio Customer Success Manager",
-   "org": "LastPass",
+   "title": "Channel Manager, North America Midwest (with LATAM Partner Coverage)",
+   "org": "Secure Code Warrior",
+   "loc": "US Only",
+   "type": "remote",
+   "src": "RemoteOK",
+   "date": "2026-11-25",
+   "url": "https://remoteOK.com/remote-jobs/remote-channel-manager-north-america-midwest-with-latam-partner-coverage-secure-code-warrior-1138137",
+   "tags": [
+    "sales"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Regional Account Manager - Canada (Technical/Cybersecurity)",
+   "org": "zimperium",
    "loc": "Canada Only",
    "type": "remote",
    "src": "RemoteOK",
-   "date": "2026-11-24",
-   "url": "https://remoteOK.com/remote-jobs/remote-portfolio-customer-success-manager-lastpass-1138083",
+   "date": "2026-11-25",
+   "url": "https://remoteOK.com/remote-jobs/remote-regional-account-manager-canada-technical-cybersecurity-zimperium-1138136",
    "tags": [
-    "customer support"
+    "sales"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Account Manager",
+   "org": "Everbridge",
+   "loc": "UK Only",
+   "type": "remote",
+   "src": "RemoteOK",
+   "date": "2026-11-25",
+   "url": "https://remoteOK.com/remote-jobs/remote-account-manager-everbridge-1138135",
+   "tags": [
+    "sales"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Federal Account Executive",
+   "org": "Metabase",
+   "loc": "US Only",
+   "type": "remote",
+   "src": "RemoteOK",
+   "date": "2026-11-25",
+   "url": "https://remoteOK.com/remote-jobs/remote-federal-account-executive-metabase-1138134",
+   "tags": [
+    "sales"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "B2B Sales Representative (Legal Industry) Part-time | 21428",
+   "org": "Wing",
+   "loc": "US Only",
+   "type": "remote",
+   "src": "RemoteOK",
+   "date": "2026-11-25",
+   "url": "https://remoteOK.com/remote-jobs/remote-b2b-sales-representative-legal-industry-part-time-21428-wing-1138133",
+   "tags": [
+    "sales"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Account Executive I - 1096 (Remote)",
+   "org": "Lightcast",
+   "loc": "US Only",
+   "type": "remote",
+   "src": "RemoteOK",
+   "date": "2026-11-25",
+   "url": "https://remoteOK.com/remote-jobs/remote-account-executive-i-1096-remote-lightcast-1138132",
+   "tags": [
+    "sales"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Enterprise Account Executive - (Illinois, Wisconsin, Indiana and Michigan)",
+   "org": "Sonatype",
+   "loc": "US Only",
+   "type": "remote",
+   "src": "RemoteOK",
+   "date": "2026-11-25",
+   "url": "https://remoteOK.com/remote-jobs/remote-enterprise-account-executive-illinois-wisconsin-indiana-and-michigan-sonatype-1138131",
+   "tags": [
+    "sales"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "SEO Manager (Remote)",
+   "org": "Silverback Strategies",
+   "loc": "US Only",
+   "type": "remote",
+   "src": "RemoteOK",
+   "date": "2026-11-25",
+   "url": "https://remoteOK.com/remote-jobs/remote-seo-manager-remote-silverback-strategies-1138130",
+   "tags": [
+    "marketing"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Senior SEO Manager (Remote)",
+   "org": "Silverback Strategies",
+   "loc": "US Only",
+   "type": "remote",
+   "src": "RemoteOK",
+   "date": "2026-11-25",
+   "url": "https://remoteOK.com/remote-jobs/remote-senior-seo-manager-remote-silverback-strategies-1138129",
+   "tags": [
+    "marketing"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Senior Paid Media Manager (Remote)",
+   "org": "Silverback Strategies",
+   "loc": "US Only",
+   "type": "remote",
+   "src": "RemoteOK",
+   "date": "2026-11-25",
+   "url": "https://remoteOK.com/remote-jobs/remote-senior-paid-media-manager-remote-silverback-strategies-1138128",
+   "tags": [
+    "marketing"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Commercial Account Executive",
+   "org": "Apryse",
+   "loc": "Canada Only",
+   "type": "remote",
+   "src": "RemoteOK",
+   "date": "2026-11-25",
+   "url": "https://remoteOK.com/remote-jobs/remote-commercial-account-executive-apryse-1138127",
+   "tags": [
+    "sales"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Paid Media Specialist",
+   "org": "Kinsta",
+   "loc": "UK Only",
+   "type": "remote",
+   "src": "RemoteOK",
+   "date": "2026-11-25",
+   "url": "https://remoteOK.com/remote-jobs/remote-paid-media-specialist-kinsta-1138126",
+   "tags": [
+    "marketing"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Regional Vice President, Field Sales",
+   "org": "Saviynt",
+   "loc": "US Only",
+   "type": "remote",
+   "src": "RemoteOK",
+   "date": "2026-11-25",
+   "url": "https://remoteOK.com/remote-jobs/remote-regional-vice-president-field-sales-saviynt-1138125",
+   "tags": [
+    "sales"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "North America Alliance and Partnerships Director (Remote)",
+   "org": "Vendavo",
+   "loc": "US Only",
+   "type": "remote",
+   "src": "RemoteOK",
+   "date": "2026-11-25",
+   "url": "https://remoteOK.com/remote-jobs/remote-north-america-alliance-and-partnerships-director-remote-vendavo-1138124",
+   "tags": [
+    "marketing"
+   ],
+   "cat": "other"
+  },
+  {
+   "title": "Alliance Manager III, Public Sector (R-20221)",
+   "org": "Dun & Bradstreet",
+   "loc": "US Only",
+   "type": "remote",
+   "src": "RemoteOK",
+   "date": "2026-11-25",
+   "url": "https://remoteOK.com/remote-jobs/remote-alliance-manager-iii-public-sector-r-20221-dun-bradstreet-1138123",
+   "tags": [
+    "sales"
    ],
    "cat": "other"
   }
